@@ -1,0 +1,7 @@
+---
+title: "My First Post"
+date: 2025-01-01
+description: "My first blog post"
+---
+
+Hi Guys, welcome to my page. I'm so excited to share bits and pieces of my life with you. Grab some popcorn and enjoy!!

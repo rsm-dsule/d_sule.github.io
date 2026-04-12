@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Damilola Sule Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: resume.qmd
+        text: Resume
+      - href: blog.qmd
+        text: Blog
+      - href: projects.qmd
+        text: Projects
+      - href: sports.qmd
+        text: Sports & Analytics
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true

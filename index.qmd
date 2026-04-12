@@ -1,0 +1,54 @@
+---
+title: "Damilola Sule"
+image: "files/IMG_3165.jpeg"
+about:
+  template: jolla
+  links:
+    - icon: envelope
+      href: mailto:dsule@ucsd.edu
+    - icon: linkedin
+      href: https://www.linkedin.com/in/damilola-sule-a2798424a
+---
+
+## Hello!
+
+Welcome to my website! I’m Damilola Sule, a Business Analytics graduate student at the Rady School of Management at UC San Diego.
+
+I’m passionate about data, sports, and using analytics to solve real-world problems. As a student-athlete on the UCSD Women’s Basketball Team, I’ve developed strong discipline, teamwork, and leadership skills that carry over into my academic and professional work.
+
+## About Me
+
+I have a background in Cognitive Behavioral Neuroscience and am currently pursuing my Master’s in Business Analytics. My interests lie in data analysis, marketing analytics, and applying quantitative methods to decision-making.
+
+Through both academic work and hands-on experience, I’ve built skills in Python, SQL, R, and data visualization tools like Tableau and Power BI.
+
+## My Interests
+
+:::{.card-container}
+
+:::{.info-card}
+### Sports & Health
+I play basketball at UCSD and have a strong interest in sports performance, health, and wellness. Athletics has shaped my mindset around discipline, resilience, and teamwork.
+:::
+
+:::{.info-card}
+### Data & Analytics
+I enjoy working with data to uncover insights, build models, and support decision-making. I’m especially interested in pricing analytics, marketing analytics, and behavioral data.
+:::
+
+:::{.info-card}
+### Career Goals
+My goal is to build a career in analytics where I can combine technical skills with real-world impact — ideally in sports, tech, or business strategy.
+:::
+
+:::
+
+## Quick Links
+
+- [My LinkedIn](https://www.linkedin.com/in/damilola-sule-a2798424a)
+- [Email Me](mailto:dsule@ucsd.edu)
+- [View My Projects](projects.qmd)
+
+## A Favorite Quote
+
+> “Be Great Always”

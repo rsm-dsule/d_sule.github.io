@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Damilola Sule",
+    "section": "",
+    "text": "Welcome to my website! I’m Damilola Sule, a Business Analytics graduate student at the Rady School of Management at UC San Diego.\nI’m passionate about data, sports, and using analytics to solve real-world problems. As a student-athlete on the UCSD Women’s Basketball Team, I’ve developed strong discipline, teamwork, and leadership skills that carry over into my academic and professional work."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "My Resume",
+    "section": "",
+    "text": "Download PDF file."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "My First Post\n\n\nMy first blog post\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#hello",
+    "href": "index.html#hello",
+    "title": "Damilola Sule",
+    "section": "",
+    "text": "Welcome to my website! I’m Damilola Sule, a Business Analytics graduate student at the Rady School of Management at UC San Diego.\nI’m passionate about data, sports, and using analytics to solve real-world problems. As a student-athlete on the UCSD Women’s Basketball Team, I’ve developed strong discipline, teamwork, and leadership skills that carry over into my academic and professional work."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Damilola Sule",
+    "section": "About Me",
+    "text": "About Me\nI have a background in Cognitive Behavioral Neuroscience and am currently pursuing my Master’s in Business Analytics. My interests lie in data analysis, marketing analytics, and applying quantitative methods to decision-making.\nThrough both academic work and hands-on experience, I’ve built skills in Python, SQL, R, and data visualization tools like Tableau and Power BI."
+  },
+  {
+    "objectID": "index.html#my-interests",
+    "href": "index.html#my-interests",
+    "title": "Damilola Sule",
+    "section": "My Interests",
+    "text": "My Interests\n\n\nSports & Health\nI play basketball at UCSD and have a strong interest in sports performance, health, and wellness. Athletics has shaped my mindset around discipline, resilience, and teamwork.\n\n\nData & Analytics\nI enjoy working with data to uncover insights, build models, and support decision-making. I’m especially interested in pricing analytics, marketing analytics, and behavioral data.\n\n\nCareer Goals\nMy goal is to build a career in analytics where I can combine technical skills with real-world impact — ideally in sports, tech, or business strategy."
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "Damilola Sule",
+    "section": "Quick Links",
+    "text": "Quick Links\n\nMy LinkedIn\nEmail Me\nView My Projects"
+  },
+  {
+    "objectID": "index.html#a-favorite-quote",
+    "href": "index.html#a-favorite-quote",
+    "title": "Damilola Sule",
+    "section": "A Favorite Quote",
+    "text": "A Favorite Quote\n\n“Be Great Always”"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here are some projects that reflect my experience in analytics, data science, and research.\n\n\n\nTools: Python, APIs (Ticketmaster, Spotify), Kaggle\n\nCollected and analyzed event and artist data to identify pricing and demand patterns\nBuilt a regression model to estimate ticket prices based on popularity and timing\nDeveloped a pricing strategy that could generate ~$100K revenue and ~$44K profit\n\n\n\n\nTools: R, Statistical Modeling\n\nCleaned and analyzed social media data to evaluate user engagement trends\nBuilt regression models and performed hypothesis testing\nIdentified key drivers of user behavior and presented insights through visual reports\n\n\n\n\nTools: Data Processing, Behavioral Analysis\n\nConducted behavioral experiments using eye-tracking and auditory datasets\nCleaned and structured large datasets for analysis\nPresented findings to research teams to support experimental design decisions\n\n\n\n\n\n\nProgramming: Python, SQL, R, Java, JavaScript, MATLAB :contentReferenceoaicite:0\nTools: Tableau, Power BI, Google Analytics, Excel :contentReferenceoaicite:1\nTechniques: Regression, A/B Testing, Data Cleaning, ETL :contentReferenceoaicite:2\n\n\n\n\n\nImproving my data analysis and modeling skills\nExploring applications of analytics in sports and business\nBuilding projects that combine technical and strategic thinking"
+  },
+  {
+    "objectID": "projects.html#website-portfolio",
+    "href": "projects.html#website-portfolio",
+    "title": "Projects",
+    "section": "",
+    "text": "This Quarto website is one of my projects. I customized it with my own photo, personal details, and styling to make it more unique and engaging."
+  },
+  {
+    "objectID": "projects.html#academic-growth",
+    "href": "projects.html#academic-growth",
+    "title": "Projects",
+    "section": "",
+    "text": "Through my coursework, I am continuing to improve my understanding of research, writing, analysis, and communication."
+  },
+  {
+    "objectID": "projects.html#technical-skills",
+    "href": "projects.html#technical-skills",
+    "title": "Projects",
+    "section": "",
+    "text": "I am building experience with digital tools and learning how to present information in clear, creative, and professional ways."
+  },
+  {
+    "objectID": "posts/my-first-post/index.html",
+    "href": "posts/my-first-post/index.html",
+    "title": "My First Post",
+    "section": "",
+    "text": "Hi Guys, welcome to my page. I’m so excited to share bits and pieces of my life with you. Grab some popcorn and enjoy!!"
+  },
+  {
+    "objectID": "projects.html#pricing-analytics-house-of-blues-san-diego",
+    "href": "projects.html#pricing-analytics-house-of-blues-san-diego",
+    "title": "Projects",
+    "section": "",
+    "text": "Tools: Python, APIs (Ticketmaster, Spotify), Kaggle\n\nCollected and analyzed event and artist data to identify pricing and demand patterns\nBuilt a regression model to estimate ticket prices based on popularity and timing\nDeveloped a pricing strategy that could generate ~$100K revenue and ~$44K profit"
+  },
+  {
+    "objectID": "projects.html#social-media-analytics",
+    "href": "projects.html#social-media-analytics",
+    "title": "Projects",
+    "section": "",
+    "text": "Tools: R, Statistical Modeling\n\nCleaned and analyzed social media data to evaluate user engagement trends\nBuilt regression models and performed hypothesis testing\nIdentified key drivers of user behavior and presented insights through visual reports"
+  },
+  {
+    "objectID": "projects.html#research-ucsd-cognitive-development-lab",
+    "href": "projects.html#research-ucsd-cognitive-development-lab",
+    "title": "Projects",
+    "section": "",
+    "text": "Tools: Data Processing, Behavioral Analysis\n\nConducted behavioral experiments using eye-tracking and auditory datasets\nCleaned and structured large datasets for analysis\nPresented findings to research teams to support experimental design decisions"
+  },
+  {
+    "objectID": "projects.html#skills",
+    "href": "projects.html#skills",
+    "title": "Projects",
+    "section": "",
+    "text": "Programming: Python, SQL, R, Java, JavaScript, MATLAB :contentReferenceoaicite:0\nTools: Tableau, Power BI, Google Analytics, Excel :contentReferenceoaicite:1\nTechniques: Regression, A/B Testing, Data Cleaning, ETL :contentReferenceoaicite:2"
+  },
+  {
+    "objectID": "projects.html#what-im-currently-working-on",
+    "href": "projects.html#what-im-currently-working-on",
+    "title": "Projects",
+    "section": "",
+    "text": "Improving my data analysis and modeling skills\nExploring applications of analytics in sports and business\nBuilding projects that combine technical and strategic thinking"
+  },
+  {
+    "objectID": "sports.html",
+    "href": "sports.html",
+    "title": "Sports & Analytics",
+    "section": "",
+    "text": "I am a member of the UCSD Women’s Basketball Team. Being a student-athlete has shaped my mindset around discipline, consistency, and teamwork.\nBalancing academics and athletics has helped me develop strong time management skills and resilience.\n\n\n\nI am especially interested in how data and analytics can be applied to sports.\nThis includes: - Player performance analysis - Game strategy and decision-making - Injury prevention and health tracking - Fan engagement and sports business analytics\n\n\n\nMy background in analytics combined with my experience as an athlete gives me a unique perspective on how data can improve performance both on and off the court.\n\n\n\nI am interested in exploring opportunities where I can combine sports and analytics, whether in: - sports analytics - business strategy - or performance optimization"
+  },
+  {
+    "objectID": "sports.html#basketball",
+    "href": "sports.html#basketball",
+    "title": "Sports & Analytics",
+    "section": "",
+    "text": "I am a member of the UCSD Women’s Basketball Team. Being a student-athlete has shaped my mindset around discipline, consistency, and teamwork.\nBalancing academics and athletics has helped me develop strong time management skills and resilience."
+  },
+  {
+    "objectID": "sports.html#sports-data",
+    "href": "sports.html#sports-data",
+    "title": "Sports & Analytics",
+    "section": "",
+    "text": "I am especially interested in how data and analytics can be applied to sports.\nThis includes: - Player performance analysis - Game strategy and decision-making - Injury prevention and health tracking - Fan engagement and sports business analytics"
+  },
+  {
+    "objectID": "sports.html#why-this-interests-me",
+    "href": "sports.html#why-this-interests-me",
+    "title": "Sports & Analytics",
+    "section": "",
+    "text": "My background in analytics combined with my experience as an athlete gives me a unique perspective on how data can improve performance both on and off the court."
+  },
+  {
+    "objectID": "sports.html#future-goals",
+    "href": "sports.html#future-goals",
+    "title": "Sports & Analytics",
+    "section": "",
+    "text": "I am interested in exploring opportunities where I can combine sports and analytics, whether in: - sports analytics - business strategy - or performance optimization"
+  }
+]

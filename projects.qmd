@@ -1,0 +1,56 @@
+---
+title: "Projects"
+---
+
+# Projects
+
+Here are some projects that reflect my experience in analytics, data science, and research.
+
+:::{.card-container}
+
+:::{.project-card}
+## Pricing Analytics — House of Blues San Diego
+
+**Tools:** Python, APIs (Ticketmaster, Spotify), Kaggle
+
+- Collected and analyzed event and artist data to identify pricing and demand patterns
+- Built a regression model to estimate ticket prices based on popularity and timing
+- Developed a pricing strategy that could generate ~$100K revenue and ~$44K profit
+
+:::
+
+:::{.project-card}
+## Social Media Analytics
+
+**Tools:** R, Statistical Modeling
+
+- Cleaned and analyzed social media data to evaluate user engagement trends
+- Built regression models and performed hypothesis testing
+- Identified key drivers of user behavior and presented insights through visual reports
+
+:::
+
+:::{.project-card}
+## Research — UCSD Cognitive Development Lab
+
+**Tools:** Data Processing, Behavioral Analysis
+
+- Conducted behavioral experiments using eye-tracking and auditory datasets
+- Cleaned and structured large datasets for analysis
+- Presented findings to research teams to support experimental design decisions
+
+:::
+
+:::
+
+## Skills
+
+- **Programming:** Python, SQL, R, Java, JavaScript, MATLAB :contentReference[oaicite:0]{index=0}
+- **Tools:** Tableau, Power BI, Google Analytics, Excel :contentReference[oaicite:1]{index=1}
+- **Techniques:** Regression, A/B Testing, Data Cleaning, ETL :contentReference[oaicite:2]{index=2}
+
+## What I’m Currently Working On
+
+- Improving my data analysis and modeling skills
+- Exploring applications of analytics in sports and business
+- Building projects that combine technical and strategic thinking
