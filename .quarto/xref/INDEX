@@ -19,5 +19,8 @@
   },
   "sports.qmd": {
     "sports.html": "db19de7d"
+  },
+  "posts/ab-testing/index.qmd": {
+    "index.html": "175c5690"
   }
 }
