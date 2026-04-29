@@ -30,7 +30,7 @@ Since we don’t know the true values of $\pi_A$ and $\pi_B$, we estimate them u
 
 Our estimator for the difference in performance is $\hat\theta = \bar{X}_A - \bar{X}_B$. In other words, we are comparing the observed sign-up rates between the two groups.
 
-##
+## Setting Up the Problem
 This setup gives us a clear way to measure performance, but it also raises an important question: how well does our estimator actually behave in practice? To answer that, we start by simulating data where we know the true answer.
 
 ## Simulating Data
@@ -116,7 +116,7 @@ This illustrates the Law of Large Numbers in practice. Even though individual ob
 
 Now that we have an estimate of the difference in sign-up rates, the next question is how precise that estimate actually is. A point estimate like $\hat\theta$ is useful, but on its own it does not tell us how much uncertainty surrounds it. This is why we also want a standard error and, eventually, a confidence interval.
 
-One way to estimate this uncertainty is through the bootstrap. Instead of relying only on formulas, we can estimate this uncertainty directly from the data using a method called the bootstrap. Each time we resample, we recompute the statistic of interest. The standard deviation of those resampled statistics then serves as an estimate of the standard error. This is especially useful because it does not require us to rely entirely on a closed-form formula.
+Instead of relying only on formulas, we can estimate this uncertainty directly from the data using a method called the bootstrap. Each time we resample, we recompute the statistic of interest. The standard deviation of those resampled statistics then serves as an estimate of the standard error. This is especially useful because it does not require us to rely entirely on a closed-form formula.
 
 In this case, I repeatedly resample from the simulated CTA A and CTA B data, compute a bootstrap version of the estimator $\hat\theta^* = \bar{X}_A^* - \bar{X}_B^*$, and then use the spread of those bootstrap estimates to measure uncertainty.
 
