@@ -3,7 +3,8 @@
     "listing": "/blog.html",
     "items": [
       "/posts/ab-testing/index.html",
-      "/posts/my-first-post/index.html"
+      "/posts/my-first-post/index.html",
+      "/posts/casual-testing/index.html"
     ]
   }
 ]

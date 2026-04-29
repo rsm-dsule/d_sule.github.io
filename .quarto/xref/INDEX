@@ -22,5 +22,17 @@
   },
   "posts/ab-testing/index.qmd": {
     "index.html": "175c5690"
+  },
+  "hw2_questions.qmd": {
+    "hw2_questions.html": "32534747"
+  },
+  "posts/casual-testing/index.qmd": {
+    "index.html": "16f00445"
+  },
+  "posts/casual-testing/index1.qmd": {
+    "index1.html": "15667452"
+  },
+  "posts/casual-testing/indextest.qmd": {
+    "indextest.html": "ad7e92f1"
   }
 }

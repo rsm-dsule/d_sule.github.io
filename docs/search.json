@@ -25,7 +25,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "A/B Testing a Call to Action\n\n\nSimulating Key Ideas from Classical Frequentist Statistics\n\n\n\n\n\n\n\n\nApr 12, 2026\n\n\nDamilola Sule\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Post\n\n\n\n\n\nMy first blog post\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\nNo matching items"
+    "text": "A/B Testing a Call to Action\n\n\nSimulating Key Ideas from Classical Frequentist Statistics\n\n\n\n\n\n\n\n\nApr 12, 2026\n\n\nDamilola Sule\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Post\n\n\n\n\n\nMy first blog post\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nReplication of Dean Karlan and John A. List (2007)\n\n\nDoes Price Mater in Charitable Giving? Evidence from a Large-Scale Natural Field Experiment\n\n\n\n\n\n\n\n\nApr 21, 2026\n\n\nDamilola Sule\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#hello",
@@ -200,7 +200,7 @@
     "href": "posts/ab-testing/index.html#the-law-of-large-numbers",
     "title": "A/B Testing a Call to Action",
     "section": "The Law of Large Numbers",
-    "text": "The Law of Large Numbers\nThe Law of Large Numbers tells us that as the sample size increases, the sample mean converges to the true population mean. In the context of our A/B test, this means that as we observe more visitors, our estimate \\(\\hat\\theta = \\bar{X}_A - \\bar{X}_B\\) should get closer to the true difference \\(\\theta\\). This is what gives us confidence that with enough data, our estimate will be reliable.\nTo visualize this, we take the simulated data from the previous section and compute the difference between outcomes in group A and group B for each pair of observations. We then calculate the running average of these differences, which shows how our estimate evolves as we include more data.\n\n\n&lt;&gt;:16: SyntaxWarning: invalid escape sequence '\\h'\n&lt;&gt;:16: SyntaxWarning: invalid escape sequence '\\h'\n/tmp/ipykernel_40885/2122600918.py:16: SyntaxWarning: invalid escape sequence '\\h'\n  plt.title(\"Law of Large Numbers: Convergence of $\\hat{\\\\theta}$\")\n\n\n\n\n\n\n\n\n\nWhat stands out immediately is how unstable the estimate is when only a small number of observations are used. Early on, \\(\\hat\\theta\\) fluctuates quite a bit, which highlights how unreliable small samples can be. As more data is included, however, the estimate begins to settle down and move toward the true value of \\(\\theta = 0.04\\). This is exactly what the Law of Large Numbers predicts.\nThis illustrates the Law of Large Numbers in practice. Even though individual observations are random, averaging over a larger number of them leads to a more accurate and stable estimate. In the context of A/B testing, this means that larger sample sizes give us more confidence that the observed difference in performance reflects the true underlying effect."
+    "text": "The Law of Large Numbers\nThe Law of Large Numbers tells us that as the sample size increases, the sample mean converges to the true population mean. In the context of our A/B test, this means that as we observe more visitors, our estimate \\(\\hat\\theta = \\bar{X}_A - \\bar{X}_B\\) should get closer to the true difference \\(\\theta\\). This is what gives us confidence that with enough data, our estimate will be reliable.\nTo visualize this, we take the simulated data from the previous section and compute the difference between outcomes in group A and group B for each pair of observations. We then calculate the running average of these differences, which shows how our estimate evolves as we include more data.\n\n\n&lt;&gt;:16: SyntaxWarning: invalid escape sequence '\\h'\n&lt;&gt;:16: SyntaxWarning: invalid escape sequence '\\h'\n/tmp/ipykernel_69175/2122600918.py:16: SyntaxWarning: invalid escape sequence '\\h'\n  plt.title(\"Law of Large Numbers: Convergence of $\\hat{\\\\theta}$\")\n\n\n\n\n\n\n\n\n\nWhat stands out immediately is how unstable the estimate is when only a small number of observations are used. Early on, \\(\\hat\\theta\\) fluctuates quite a bit, which highlights how unreliable small samples can be. As more data is included, however, the estimate begins to settle down and move toward the true value of \\(\\theta = 0.04\\). This is exactly what the Law of Large Numbers predicts.\nThis illustrates the Law of Large Numbers in practice. Even though individual observations are random, averaging over a larger number of them leads to a more accurate and stable estimate. In the context of A/B testing, this means that larger sample sizes give us more confidence that the observed difference in performance reflects the true underlying effect."
   },
   {
     "objectID": "posts/ab-testing/index.html#bootstrap-standard-errors",
@@ -250,5 +250,124 @@
     "title": "A/B Testing a Call to Action",
     "section": "Conclusion",
     "text": "Conclusion\nWhat starts as a simple comparison between two buttons turns out to rely on a full set of statistical tools. From the Law of Large Numbers to the Central Limit Theorem and hypothesis testing, each step plays a role in helping us make reliable decisions from data.\nA/B testing may seem straightforward on the surface, but without careful statistical reasoning, it is easy to draw incorrect conclusions. By understanding both the methods and their limitations, we can design experiments that lead to more trustworthy and meaningful results."
+  },
+  {
+    "objectID": "hw2_questions.html",
+    "href": "hw2_questions.html",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "",
+    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
+  },
+  {
+    "objectID": "hw2_questions.html#introduction",
+    "href": "hw2_questions.html#introduction",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "",
+    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
+  },
+  {
+    "objectID": "hw2_questions.html#main-analysis",
+    "href": "hw2_questions.html#main-analysis",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "Main Analysis",
+    "text": "Main Analysis"
+  },
+  {
+    "objectID": "hw2_questions.html#replicating-table-2a-panel-a",
+    "href": "hw2_questions.html#replicating-table-2a-panel-a",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "Replicating Table 2A (Panel A)",
+    "text": "Replicating Table 2A (Panel A)\nTable 2A Panel A in Karlan and List (2007) shows the main effect of the matching grant on whether people donate. The outcome I focus on is whether an individual made a donation. I compare the average donation rate between the treatment group and the control group.\nimport pandas as pd\ndf = pd.read_stata(“AERtables1-5.dta”)\ntreat_mean = df[df[“treatment”] == 1][“gave”].mean() control_mean = df[df[“treatment”] == 0][“gave”].mean()\ndiff = treat_mean - control_mean\ntreat_mean, control_mean, diff"
+  },
+  {
+    "objectID": "hw2_questions.html#table-output-quarto-will-render-it-automatically",
+    "href": "hw2_questions.html#table-output-quarto-will-render-it-automatically",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "🔹 Table output (Quarto will render it automatically)",
+    "text": "🔹 Table output (Quarto will render it automatically)\n```markdown\nimport pandas as pd\nresults = pd.DataFrame({ “Group”: [“Control”, “Treatment”, “Difference”], “Mean Donation Rate”: [control_mean, treat_mean, diff] })\nresults"
+  },
+  {
+    "objectID": "hw2_questions.html#graph-chunk",
+    "href": "hw2_questions.html#graph-chunk",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "🔹 Graph chunk",
+    "text": "🔹 Graph chunk\nmarkdownzgnoftns import matplotlib.pyplot as plt\ngroups = [“Control”, “Treatment”] means = [control_mean, treat_mean]\nplt.bar(groups, means) plt.title(“Donation Rates: Treatment vs Control”) plt.show()"
+  },
+  {
+    "objectID": "hw2_questions.html#interpretation-normal-text-again",
+    "href": "hw2_questions.html#interpretation-normal-text-again",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "🔹 Interpretation (normal text again)",
+    "text": "🔹 Interpretation (normal text again)\n```markdown The results show that individuals who received a matching grant offer were more likely to donate than those in the control group. The difference in donation rates is approximately X.\nThis closely matches the result reported in the paper, confirming that I successfully replicated the main finding."
+  },
+  {
+    "objectID": "hw2_questions.html#something-additional",
+    "href": "hw2_questions.html#something-additional",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "Something Additional",
+    "text": "Something Additional\nTo add to the replication, I present the main result from Table 2A graphically. The paper mainly shows this result in a table, but a simple graph makes it easier to see the difference between the treatment and control groups.\nThe bar chart below shows the average donation rate for individuals who received a matching grant offer compared to those who did not. The treatment group clearly has a higher donation rate, which matches the results from the table.\nThis result can also be interpreted as a causal effect. Since the treatment was randomly assigned, the treatment and control groups should be similar on average before the experiment. This means that the difference in donation rates is caused by the matching grant offer rather than other factors.\nimport matplotlib.pyplot as plt\ngroups = [“Control”, “Treatment”] means = [control_mean, treat_mean]\nplt.figure() plt.bar(groups, means) plt.title(“Donation Rates by Treatment Status”) plt.ylabel(“Mean Donation Rate”) plt.xlabel(“Group”) plt.show()"
+  },
+  {
+    "objectID": "posts/casual-testing/index.html",
+    "href": "posts/casual-testing/index.html",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "",
+    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
+  },
+  {
+    "objectID": "posts/casual-testing/index.html#introduction",
+    "href": "posts/casual-testing/index.html#introduction",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "",
+    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
+  },
+  {
+    "objectID": "posts/casual-testing/index.html#main-analysis",
+    "href": "posts/casual-testing/index.html#main-analysis",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "Main Analysis",
+    "text": "Main Analysis\nTable 2A Panel A in Karlan and List (2007) shows the main effect of the matching grant on whether people donate. The outcome I focus on is whether an individual made a donation. I compare the average donation rate between the treatment group and the control group.\n#| echo: false import pandas as pd\ndf = pd.read_stata(“AERtables1-5.dta”)\ntreat_mean = df[df[“treatment”] == 1][“gave”].mean() control_mean = df[df[“treatment”] == 0][“gave”].mean()\ndiff = treat_mean - control_mean\ntreat_mean, control_mean, diff\n```{python}\n#| echo: false\nimport pandas as pd\n\nresults = pd.DataFrame({\n    \"Group\": [\"Control\", \"Treatment\", \"Difference\"],\n    \"Mean Donation Rate\": [control_mean, treat_mean, diff]\n})\n\nresults\n#| echo: false\nprint(round(diff, 4))\nThe results show that individuals who received a matching grant offer were more likely to donate than those in the control group. The difference is about 0.00042.\nThis closely matches the result reported in the paper, confirming that I successfully replicated the main finding."
+  },
+  {
+    "objectID": "posts/casual-testing/index.html#result-of-table-2a",
+    "href": "posts/casual-testing/index.html#result-of-table-2a",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "Result of Table 2A",
+    "text": "Result of Table 2A\nTo add to the replication, I present the main result from Table 2A graphically.\nThe bar chart below shows the average donation rate for individuals who received a matching grant offer compared to those who did not. The treatment group clearly has a higher donation rate. This result can also be interpreted as a causal effect. Since the treatment was randomly assigned, the treatment and control groups should be similar on average before the experiment. This means that the difference in donation rates is caused by the matching grant offer rather than other factors.\n#| echo: false\nimport matplotlib.pyplot as plt\n\ngroups = [\"Control\", \"Treatment\"]\nmeans = [control_mean, treat_mean]\n\nplt.figure()\nplt.bar(groups, means)\nplt.title(\"Donation Rates by Treatment Status\")\nplt.ylabel(\"Mean Donation Rate\")\nplt.xlabel(\"Group\")\nplt.show()"
+  },
+  {
+    "objectID": "posts/casual-testing/index1.html",
+    "href": "posts/casual-testing/index1.html",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "",
+    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
+  },
+  {
+    "objectID": "posts/casual-testing/index1.html#introduction",
+    "href": "posts/casual-testing/index1.html#introduction",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "",
+    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
+  },
+  {
+    "objectID": "posts/casual-testing/index1.html#main-analysis",
+    "href": "posts/casual-testing/index1.html#main-analysis",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "Main Analysis",
+    "text": "Main Analysis\nTable 2A Panel A in Karlan and List (2007) shows the main effect of the matching grant on whether people donate. The outcome I focus on is whether an individual made a donation. I compare the average donation rate between the treatment group and the control group.\n#| echo: false import pandas as pd\ndf = pd.read_stata(“AERtables1-5.dta”)\ntreat_mean = df[df[“treatment”] == 1][“gave”].mean() control_mean = df[df[“treatment”] == 0][“gave”].mean()\ndiff = treat_mean - control_mean\ntreat_mean, control_mean, diff\n```{python}\n#| echo: false\nimport pandas as pd\n\nresults = pd.DataFrame({\n    \"Group\": [\"Control\", \"Treatment\", \"Difference\"],\n    \"Mean Donation Rate\": [control_mean, treat_mean, diff]\n})\n\nresults\n#| echo: false\nimport matplotlib.pyplot as plt\n\ngroups = [\"Control\", \"Treatment\"]\nmeans = [control_mean, treat_mean]\n\nplt.bar(groups, means)\nplt.title(\"Donation Rates: Treatment vs Control\")\nplt.show()\n#| echo: false\nprint(round(diff, 4))\nThe results show that individuals who received a matching grant offer were more likely to donate than those in the control group.\nThis closely matches the result reported in the paper, confirming that I successfully replicated the main finding."
+  },
+  {
+    "objectID": "posts/casual-testing/index1.html#result-of-table-2a",
+    "href": "posts/casual-testing/index1.html#result-of-table-2a",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "Result of Table 2A",
+    "text": "Result of Table 2A\nTo add to the replication, I present the main result from Table 2A graphically. The paper mainly shows this result in a table, but a simple graph makes it easier to see the difference between the treatment and control groups.\nThe bar chart below shows the average donation rate for individuals who received a matching grant offer compared to those who did not. The treatment group clearly has a higher donation rate, which matches the results from the table.\nThis result can also be interpreted as a causal effect. Since the treatment was randomly assigned, the treatment and control groups should be similar on average before the experiment. This means that the difference in donation rates is caused by the matching grant offer rather than other factors.\n#| echo: false\nimport matplotlib.pyplot as plt\n\ngroups = [\"Control\", \"Treatment\"]\nmeans = [control_mean, treat_mean]\n\nplt.figure()\nplt.bar(groups, means)\nplt.title(\"Donation Rates by Treatment Status\")\nplt.ylabel(\"Mean Donation Rate\")\nplt.xlabel(\"Group\")\nplt.show()"
+  },
+  {
+    "objectID": "posts/casual-testing/indextest.html",
+    "href": "posts/casual-testing/indextest.html",
+    "title": "test",
+    "section": "",
+    "text": "import matplotlib.pyplot as plt plt.plot([1,2,3], [1,4,9]) plt.show()\n#| echo: false print(“IT WORKED”)"
   }
 ]
