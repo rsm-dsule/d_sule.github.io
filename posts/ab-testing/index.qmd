@@ -100,7 +100,8 @@ running_mean = np.cumsum(differences) / np.arange(1, len(differences) + 1)
 # Plot
 plt.figure()
 plt.plot(running_mean)
-plt.axhline(y=0.04, linestyle='--')
+plt.axhline(y=0.04, linestyle='--', label='True θ = 0.04')
+plt.legend()
 plt.xlabel("Number of Observations")
 plt.ylabel("Running Estimate of θ")
 plt.title("Law of Large Numbers: Convergence of $\hat{\\theta}$")
@@ -167,6 +168,17 @@ pd.DataFrame({
         ci_upper
     ]
 })
+
+import matplotlib.pyplot as plt
+
+plt.figure()
+plt.hist(bootstrap_thetas, bins=40, edgecolor='white')
+plt.axvline(x=theta_hat, linestyle='--', label=f'Observed θ̂ = {theta_hat:.4f}')
+plt.xlabel("Bootstrap Estimate of θ")
+plt.ylabel("Frequency")
+plt.title("Bootstrap Distribution of θ̂")
+plt.legend()
+plt.show()
 ```
 
 The bootstrap standard error and the analytical standard error should be very close to one another. That is a good sign, because it suggests that the resampling approach is producing a reasonable estimate of the variability in $\hat\theta$. In other words, both methods are telling a very similar story about how much uncertainty is attached to our estimate.
