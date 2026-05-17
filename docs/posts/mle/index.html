@@ -276,7 +276,7 @@ window.Quarto = {
 <section id="exploring-the-data" class="level2">
 <h2 class="anchored" data-anchor-id="exploring-the-data">Exploring the Data</h2>
 <p>Before building a model, I wanted to get a feel for the data itself. Blueprinty’s marketing team wants to show that customers using their software receive more patents, but a raw comparison between customers and non-customers might not tell the full story. If Blueprinty customers are older firms, or if they are concentrated in certain regions, then those differences could also explain why they receive more patents.</p>
-<div id="a8882ced" class="cell" data-execution_count="1">
+<div id="4d60323c" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -346,7 +346,7 @@ window.Quarto = {
 <section id="patent-counts-by-customer-status" class="level3">
 <h3 class="anchored" data-anchor-id="patent-counts-by-customer-status">Patent Counts by Customer Status</h3>
 <p>The first question is simple: do Blueprinty customers appear to receive more patents than non-customers?</p>
-<div id="9370321f" class="cell" data-execution_count="2">
+<div id="51e9814b" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>patent_means <span class="op">=</span> (</span>
@@ -394,7 +394,7 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<div id="1435b10b" class="cell" data-fig-height="4" data-fig-width="10" data-execution_count="3">
+<div id="d24cadf6" class="cell" data-fig-height="4" data-fig-width="10" data-execution_count="3">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -409,7 +409,7 @@ window.Quarto = {
 <section id="regional-differences-by-customer-status" class="level3">
 <h3 class="anchored" data-anchor-id="regional-differences-by-customer-status">Regional Differences by Customer Status</h3>
 <p>One concern is that Blueprinty customers may not be evenly distributed across regions. This matters because some regions may have stronger engineering industries, more patent focused firms or better innovation ecosystems.</p>
-<div id="727c299d" class="cell" data-fig-height="5" data-fig-width="8" data-execution_count="4">
+<div id="4c55b0d2" class="cell" data-fig-height="5" data-fig-width="8" data-execution_count="4">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -424,7 +424,7 @@ window.Quarto = {
 <section id="firm-age-by-customer-status" class="level3">
 <h3 class="anchored" data-anchor-id="firm-age-by-customer-status">Firm Age by Customer Status</h3>
 <p>Firm age is another important factor. Older firms may have more established research teams, more money, more experience with patent applications, and a longer history of innovation.</p>
-<div id="0040b3b9" class="cell" data-fig-height="4" data-fig-width="10" data-execution_count="5">
+<div id="58a038c6" class="cell" data-fig-height="4" data-fig-width="10" data-execution_count="5">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -476,7 +476,7 @@ e^{-n\lambda}
 <p>The log-likelihood is much easier to work with mathematically because products become sums. The Maximum Likelihood Estimate (MLE) is simply the value of ( ) that makes the observed patent counts most likely.</p>
 <section id="coding-the-log-likelihood-function" class="level3">
 <h3 class="anchored" data-anchor-id="coding-the-log-likelihood-function">Coding the Log-Likelihood Function</h3>
-<div id="979e8826" class="cell" data-execution_count="6">
+<div id="ee6bc5c4" class="cell" data-execution_count="6">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -490,7 +490,7 @@ e^{-n\lambda}
 <section id="visualizing-the-likelihood-surface" class="level3">
 <h3 class="anchored" data-anchor-id="visualizing-the-likelihood-surface">Visualizing the Likelihood Surface</h3>
 <p>Now that the log-likelihood function is defined, I can evaluate it across many possible values of ( ) and see which value produces the highest likelihood.</p>
-<div id="8e76f388" class="cell" data-fig-height="5" data-fig-width="8" data-execution_count="7">
+<div id="9e162f0a" class="cell" data-fig-height="5" data-fig-width="8" data-execution_count="7">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -513,7 +513,7 @@ e^{-n\lambda}
 <section id="finding-the-mle-numerically" class="level3">
 <h3 class="anchored" data-anchor-id="finding-the-mle-numerically">Finding the MLE Numerically</h3>
 <p>Even though we already know the analytical solution, it is useful to estimate the MLE numerically because later regression models will not have such simple closed-form solutions.</p>
-<div id="c57d7086" class="cell" data-execution_count="8">
+<div id="1a8e85bc" class="cell" data-execution_count="8">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.optimize <span class="im">import</span> minimize_scalar</span>
@@ -556,7 +556,7 @@ Y_i \sim \text{Poisson}(\lambda_i)
 <p>The term (X_i’) is a linear combination of the firm’s characteristics, such as age, region, and customer status. We use the exponential function because (X_i’) can be any real number, but (_i) must always be positive. Since exponentials are always positive, this keeps the predicted patent rate in a valid range.</p>
 <section id="building-the-design-matrix" class="level3">
 <h3 class="anchored" data-anchor-id="building-the-design-matrix">Building the Design Matrix</h3>
-<div id="d71acd82" class="cell" data-execution_count="9">
+<div id="61e3a90e" class="cell" data-execution_count="9">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
@@ -682,7 +682,7 @@ Y_i \sim \text{Poisson}(\lambda_i)
 </section>
 <section id="updating-the-log-likelihood-function" class="level3">
 <h3 class="anchored" data-anchor-id="updating-the-log-likelihood-function">Updating the Log-Likelihood Function</h3>
-<div id="adf5af62" class="cell" data-execution_count="10">
+<div id="6464286f" class="cell" data-execution_count="10">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> poisson_regression_loglikelihood(beta, Y, X):</span>
@@ -696,7 +696,7 @@ Y_i \sim \text{Poisson}(\lambda_i)
 </details>
 </div>
 <p>Since optimizers usually minimize functions, I define a negative log-likelihood:</p>
-<div id="b21cb336" class="cell" data-execution_count="11">
+<div id="b209303c" class="cell" data-execution_count="11">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> negative_poisson_regression_loglikelihood(beta, Y, X):</span>
@@ -706,7 +706,7 @@ Y_i \sim \text{Poisson}(\lambda_i)
 </section>
 <section id="estimating-the-model-with-mle" class="level3">
 <h3 class="anchored" data-anchor-id="estimating-the-model-with-mle">Estimating the Model with MLE</h3>
-<div id="17f7c1e4" class="cell" data-execution_count="12">
+<div id="d9958892" class="cell" data-execution_count="12">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.optimize <span class="im">import</span> minimize</span>
@@ -736,19 +736,19 @@ Y_i \sim \text{Poisson}(\lambda_i)
 <span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>mle_table</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stderr">
-<pre><code>/tmp/ipykernel_17730/3136988920.py:6: RuntimeWarning: overflow encountered in exp
+<pre><code>/tmp/ipykernel_19684/3136988920.py:6: RuntimeWarning: overflow encountered in exp
   lam = np.exp(X @ beta)
 /opt/base-uv/.venv/lib/python3.13/site-packages/scipy/stats/_discrete_distns.py:1003: RuntimeWarning: invalid value encountered in subtract
   Pk = special.xlogy(k, mu) - gamln(k + 1) - mu
 /opt/base-uv/.venv/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
   return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
-/tmp/ipykernel_17730/3136988920.py:6: RuntimeWarning: overflow encountered in exp
+/tmp/ipykernel_19684/3136988920.py:6: RuntimeWarning: overflow encountered in exp
   lam = np.exp(X @ beta)
 /opt/base-uv/.venv/lib/python3.13/site-packages/scipy/stats/_discrete_distns.py:1003: RuntimeWarning: invalid value encountered in subtract
   Pk = special.xlogy(k, mu) - gamln(k + 1) - mu
 /opt/base-uv/.venv/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
   return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
-/tmp/ipykernel_17730/3136988920.py:6: RuntimeWarning: overflow encountered in exp
+/tmp/ipykernel_19684/3136988920.py:6: RuntimeWarning: overflow encountered in exp
   lam = np.exp(X @ beta)
 /opt/base-uv/.venv/lib/python3.13/site-packages/scipy/stats/_discrete_distns.py:1003: RuntimeWarning: invalid value encountered in subtract
   Pk = special.xlogy(k, mu) - gamln(k + 1) - mu</code></pre>
@@ -825,7 +825,7 @@ Y_i \sim \text{Poisson}(\lambda_i)
 <section id="checking-the-results-with-statsmodels" class="level3">
 <h3 class="anchored" data-anchor-id="checking-the-results-with-statsmodels">Checking the Results with <code>statsmodels</code></h3>
 <p>To make sure my custom MLE code is working, I compare it to Python’s built-in Poisson regression model from <code>statsmodels</code>.</p>
-<div id="2d31b366" class="cell" data-execution_count="13">
+<div id="8ec6b42b" class="cell" data-execution_count="13">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>glm_poisson <span class="op">=</span> sm.GLM(</span>
@@ -940,7 +940,7 @@ Y_i \sim \text{Poisson}(\lambda_i)
 <p>The age coefficient and age-squared coefficient should be read together. Including both lets the relationship between firm age and patent output bend instead of forcing it to be a straight line. This is useful because older firms may have more experience and resources, but the effect of age may not increase forever at the same rate.</p>
 <p>The region coefficients compare each listed region to the omitted reference region. If a region coefficient is positive, firms in that region are predicted to have higher patent counts than similar firms in the reference region. If it is negative, they are predicted to have lower patent counts.</p>
 <p>The most important coefficient for Blueprinty is <code>iscustomer</code>. If this coefficient is positive, it means Blueprinty customers are predicted to receive more patents than non-customers, holding age and region constant. Since the model uses an exponential link, we can convert this coefficient into a percentage-style interpretation:</p>
-<div id="5cfb9585" class="cell" data-execution_count="14">
+<div id="d9c2155f" class="cell" data-execution_count="14">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>customer_coef <span class="op">=</span> glm_results.params[<span class="st">"iscustomer"</span>]</span>
@@ -971,7 +971,7 @@ Approximate percent difference: 23.07 %</code></pre>
 <p>Importantly, all other characteristics — age and region — are held fixed at their observed values. This lets us isolate the effect of customer status while keeping the firms otherwise unchanged.</p>
 <section id="constructing-the-counterfactual-datasets" class="level3">
 <h3 class="anchored" data-anchor-id="constructing-the-counterfactual-datasets">Constructing the Counterfactual Datasets</h3>
-<div id="00b0f01e" class="cell" data-execution_count="15">
+<div id="cd75d56d" class="cell" data-execution_count="15">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>X0 <span class="op">=</span> X.copy()</span>
@@ -988,7 +988,7 @@ Approximate percent difference: 23.07 %</code></pre>
 <section id="predicting-patent-counts-under-each-scenario" class="level3">
 <h3 class="anchored" data-anchor-id="predicting-patent-counts-under-each-scenario">Predicting Patent Counts Under Each Scenario</h3>
 <p>Using the fitted Poisson regression model, I can now predict the expected number of patents for every firm under both scenarios.</p>
-<div id="e4d1fb73" class="cell" data-execution_count="16">
+<div id="ddb52028" class="cell" data-execution_count="16">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Predicted patent counts under each counterfactual</span></span>
