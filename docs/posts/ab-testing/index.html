@@ -197,7 +197,7 @@ window.Quarto = {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#the-ab-test-as-a-statistical-problem" id="toc-the-ab-test-as-a-statistical-problem" class="nav-link" data-scroll-target="#the-ab-test-as-a-statistical-problem">The A/B Test as a Statistical Problem</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#setting-up-the-problem" id="toc-setting-up-the-problem" class="nav-link" data-scroll-target="#setting-up-the-problem">Setting Up the Problem</a></li>
   <li><a href="#simulating-data" id="toc-simulating-data" class="nav-link" data-scroll-target="#simulating-data">Simulating Data</a></li>
   <li><a href="#the-law-of-large-numbers" id="toc-the-law-of-large-numbers" class="nav-link" data-scroll-target="#the-law-of-large-numbers">The Law of Large Numbers</a></li>
   <li><a href="#bootstrap-standard-errors" id="toc-bootstrap-standard-errors" class="nav-link" data-scroll-target="#bootstrap-standard-errors">Bootstrap Standard Errors</a></li>
@@ -259,8 +259,8 @@ window.Quarto = {
 <p>Since we don’t know the true values of <span class="math inline">\(\pi_A\)</span> and <span class="math inline">\(\pi_B\)</span>, we estimate them using the data we collect. For each group, we calculate the sample mean of the outcomes. Because each observation is either 0 or 1, the sample mean is just the proportion of visitors who signed up. So we have <span class="math inline">\(\bar{X}_A = \hat\pi_A\)</span> and <span class="math inline">\(\bar{X}_B = \hat\pi_B\)</span>.</p>
 <p>Our estimator for the difference in performance is <span class="math inline">\(\hat\theta = \bar{X}_A - \bar{X}_B\)</span>. In other words, we are comparing the observed sign-up rates between the two groups.</p>
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<section id="setting-up-the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-the-problem">Setting Up the Problem</h2>
 <p>This setup gives us a clear way to measure performance, but it also raises an important question: how well does our estimator actually behave in practice? To answer that, we start by simulating data where we know the true answer.</p>
 </section>
 <section id="simulating-data" class="level2">
@@ -268,7 +268,7 @@ window.Quarto = {
 <p>In a real A/B test, we would not know the true values of <span class="math inline">\(\pi_A\)</span> and <span class="math inline">\(\pi_B\)</span>. Instead, we would only observe whether each visitor signs up and use that data to estimate these probabilities. For this exercise, however, we will set these values ourselves so that we know the true underlying difference. This allows us to evaluate how well our estimator performs when the true value is known.</p>
 <p>Suppose that <span class="math inline">\(\pi_A = 0.22\)</span> and <span class="math inline">\(\pi_B = 0.18\)</span>, so the true difference is <span class="math inline">\(\theta = 0.04\)</span>. This means that CTA A is, in reality, slightly more effective than CTA B.</p>
 <p>To represent this scenario, we simulate data from two Bernoulli distributions. Each observation represents a visitor, where a value of 1 indicates a sign-up and 0 indicates no sign-up. We generate 1,000 observations for each group and store the results for use in later sections.</p>
-<div id="c4b689dc" class="cell" data-execution_count="1">
+<div id="734872b2" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -341,11 +341,11 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="the-law-of-large-numbers">The Law of Large Numbers</h2>
 <p>The Law of Large Numbers tells us that as the sample size increases, the sample mean converges to the true population mean. In the context of our A/B test, this means that as we observe more visitors, our estimate <span class="math inline">\(\hat\theta = \bar{X}_A - \bar{X}_B\)</span> should get closer to the true difference <span class="math inline">\(\theta\)</span>. This is what gives us confidence that with enough data, our estimate will be reliable.</p>
 <p>To visualize this, we take the simulated data from the previous section and compute the difference between outcomes in group A and group B for each pair of observations. We then calculate the running average of these differences, which shows how our estimate evolves as we include more data.</p>
-<div id="d5ae241d" class="cell" data-execution_count="2">
+<div id="f79af8fb" class="cell" data-execution_count="2">
 <div class="cell-output cell-output-stderr">
-<pre><code>&lt;&gt;:16: SyntaxWarning: invalid escape sequence '\h'
-&lt;&gt;:16: SyntaxWarning: invalid escape sequence '\h'
-/tmp/ipykernel_69175/2122600918.py:16: SyntaxWarning: invalid escape sequence '\h'
+<pre><code>&lt;&gt;:17: SyntaxWarning: invalid escape sequence '\h'
+&lt;&gt;:17: SyntaxWarning: invalid escape sequence '\h'
+/tmp/ipykernel_93341/2588416131.py:17: SyntaxWarning: invalid escape sequence '\h'
   plt.title("Law of Large Numbers: Convergence of $\hat{\\theta}$")</code></pre>
 </div>
 <div class="cell-output cell-output-display">
@@ -362,9 +362,9 @@ window.Quarto = {
 <section id="bootstrap-standard-errors" class="level2">
 <h2 class="anchored" data-anchor-id="bootstrap-standard-errors">Bootstrap Standard Errors</h2>
 <p>Now that we have an estimate of the difference in sign-up rates, the next question is how precise that estimate actually is. A point estimate like <span class="math inline">\(\hat\theta\)</span> is useful, but on its own it does not tell us how much uncertainty surrounds it. This is why we also want a standard error and, eventually, a confidence interval.</p>
-<p>One way to estimate this uncertainty is through the bootstrap. Instead of relying only on formulas, we can estimate this uncertainty directly from the data using a method called the bootstrap. Each time we resample, we recompute the statistic of interest. The standard deviation of those resampled statistics then serves as an estimate of the standard error. This is especially useful because it does not require us to rely entirely on a closed-form formula.</p>
+<p>Instead of relying only on formulas, we can estimate this uncertainty directly from the data using a method called the bootstrap. Each time we resample, we recompute the statistic of interest. The standard deviation of those resampled statistics then serves as an estimate of the standard error. This is especially useful because it does not require us to rely entirely on a closed-form formula.</p>
 <p>In this case, I repeatedly resample from the simulated CTA A and CTA B data, compute a bootstrap version of the estimator <span class="math inline">\(\hat\theta^* = \bar{X}_A^* - \bar{X}_B^*\)</span>, and then use the spread of those bootstrap estimates to measure uncertainty.</p>
-<div id="b9cbeff7" class="cell" data-execution_count="3">
+<div id="3e1df761" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -410,48 +410,23 @@ window.Quarto = {
 <span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>        ci_lower,</span>
 <span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>        ci_upper</span>
 <span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>    ]</span>
-<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="3">
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>plt.figure()</span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>plt.hist(bootstrap_thetas, bins<span class="op">=</span><span class="dv">40</span>, edgecolor<span class="op">=</span><span class="st">'white'</span>)</span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a>plt.axvline(x<span class="op">=</span>theta_hat, linestyle<span class="op">=</span><span class="st">'--'</span>, label<span class="op">=</span><span class="ss">f'Observed θ̂ = </span><span class="sc">{</span>theta_hat<span class="sc">:.4f}</span><span class="ss">'</span>)</span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Bootstrap Estimate of θ"</span>)</span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Frequency"</span>)</span>
+<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Bootstrap Distribution of θ̂"</span>)</span>
+<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
 <div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Quantity</th>
-<th data-quarto-table-cell-role="th">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<th data-quarto-table-cell-role="th">0</th>
-<td>theta_hat</td>
-<td>0.038000</td>
-</tr>
-<tr class="even">
-<th data-quarto-table-cell-role="th">1</th>
-<td>Bootstrap SE</td>
-<td>0.017538</td>
-</tr>
-<tr class="odd">
-<th data-quarto-table-cell-role="th">2</th>
-<td>Analytical SE</td>
-<td>0.017767</td>
-</tr>
-<tr class="even">
-<th data-quarto-table-cell-role="th">3</th>
-<td>95% CI Lower</td>
-<td>0.003626</td>
-</tr>
-<tr class="odd">
-<th data-quarto-table-cell-role="th">4</th>
-<td>95% CI Upper</td>
-<td>0.072374</td>
-</tr>
-</tbody>
-</table>
-
+<figure class="figure">
+<p><img src="index_files/figure-html/cell-4-output-1.png" width="603" height="450" class="figure-img"></p>
+</figure>
 </div>
 </div>
 </div>
@@ -462,7 +437,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="the-central-limit-theorem">The Central Limit Theorem</h2>
 <p>The Central Limit Theorem (CLT) tells us that, regardless of the underlying distribution of the data, the sampling distribution of the sample mean becomes approximately Normal as the sample size increases. In the context of our A/B test, this means that the distribution of <span class="math inline">\(\hat\theta = \bar{X}_A - \bar{X}_B\)</span> will approach a Normal distribution as the number of observations grows.</p>
 <p>To demonstrate this, we simulate the sampling distribution of <span class="math inline">\(\hat\theta\)</span> for different sample sizes. For each value of <span class="math inline">\(n \in \{25, 50, 100, 500\}\)</span>, we repeatedly draw samples from the CTA A and CTA B distributions, compute <span class="math inline">\(\hat\theta\)</span>, and then visualize the distribution of these estimates.</p>
-<div id="734f1e5e" class="cell" data-execution_count="4">
+<div id="28867cce" class="cell" data-execution_count="4">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -482,7 +457,7 @@ window.Quarto = {
 <p>To test this, we standardize our estimator by computing the test statistic <span class="math inline">\(z = \frac{\hat\theta - 0}{SE(\hat\theta)}\)</span>. This step is important because it allows us to compare our observed result to a known reference distribution.</p>
 <p>The reasoning behind this standardization comes from the Central Limit Theorem. First, we know that for large samples, <span class="math inline">\(\hat\theta\)</span> is approximately Normally distributed. Under the null hypothesis, the mean of this distribution is 0. When we divide a Normally distributed variable by its standard deviation, we obtain a standard Normal distribution, <span class="math inline">\(N(0,1)\)</span>. This means that under <span class="math inline">\(H_0\)</span>, the test statistic <span class="math inline">\(z\)</span> follows an approximate standard Normal distribution. Once we know this, we can compute a p-value, which tells us how extreme our observed result is under the assumption that the null hypothesis is true.</p>
 <p>This procedure is often referred to as a “t-test,” but that name is slightly misleading in this context. The classical t-test assumes Normally distributed data and derives an exact t-distribution when the variance is estimated. Here, our data are Bernoulli, not Normal, so we do not get an exact t-distribution. Instead, we rely on the Central Limit Theorem to justify approximate Normality. Since we are also estimating the standard error from the data, what we are doing is closer to a z-test. In practice, for large samples, the t-distribution and the standard Normal distribution are very similar, so this distinction has little practical impact, but it is still important to understand the reasoning behind it.</p>
-<div id="29f0dec6" class="cell" data-execution_count="5">
+<div id="f8719cc6" class="cell" data-execution_count="5">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.stats <span class="im">import</span> norm</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -534,7 +509,7 @@ window.Quarto = {
 <p>To set this up, we combine the CTA A and CTA B data into a single dataset. For each observation, we define an outcome variable <span class="math inline">\(Y_i\)</span>, which equals 1 if the visitor signs up and 0 otherwise, and an indicator variable <span class="math inline">\(D_i\)</span>, which equals 1 if the visitor saw CTA A and 0 if they saw CTA B. We then estimate the regression model <span class="math inline">\(Y_i = \beta_0 + \beta_1 D_i + \varepsilon_i\)</span>.</p>
 <p>The coefficients in this regression have a clear interpretation. When <span class="math inline">\(D_i = 0\)</span>, the equation reduces to <span class="math inline">\(Y_i = \beta_0\)</span>, so <span class="math inline">\(\beta_0\)</span> represents the mean outcome for group B, which estimates <span class="math inline">\(\pi_B\)</span>. When <span class="math inline">\(D_i = 1\)</span>, the equation becomes <span class="math inline">\(Y_i = \beta_0 + \beta_1\)</span>, so <span class="math inline">\(\beta_0 + \beta_1\)</span> represents the mean outcome for group A, which estimates <span class="math inline">\(\pi_A\)</span>. This means that <span class="math inline">\(\beta_1 = \pi_A - \pi_B = \theta\)</span>, so the estimated coefficient <span class="math inline">\(\hat\beta_1\)</span> is exactly the same as <span class="math inline">\(\hat\theta = \bar{X}_A - \bar{X}_B\)</span>.</p>
 <p>We can now fit this regression using the simulated data.</p>
-<div id="252c7cb1" class="cell" data-execution_count="6">
+<div id="8b5cfd66" class="cell" data-execution_count="6">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -610,7 +585,7 @@ window.Quarto = {
 <p>In practice, A/B tests are often monitored as data comes in. Suppose that instead of waiting until all 1,000 visitors per group have been observed, we check the results every 100 visitors. At each step, we run a hypothesis test and stop early if we find a statistically significant result. While this might seem reasonable, it creates a serious problem from a statistical perspective.</p>
 <p>Under classical frequentist statistics, a single hypothesis test conducted at the <span class="math inline">\(\alpha = 0.05\)</span> level has a 5% chance of producing a false positive when the null hypothesis is true. However, if we repeatedly test the data as it accumulates, each additional test creates another opportunity to incorrectly reject <span class="math inline">\(H_0\)</span>. As a result, the overall probability of making at least one false rejection becomes much larger than 5%.</p>
 <p>To demonstrate this, I simulate a setting where the null hypothesis is actually true, meaning <span class="math inline">\(\pi_A = \pi_B = 0.20\)</span> and therefore <span class="math inline">\(\theta = 0\)</span>. I then repeatedly simulate experiments and check whether peeking at the data leads to false discoveries.</p>
-<div id="bfa98c77" class="cell" data-execution_count="7">
+<div id="c716c997" class="cell" data-execution_count="7">
 <div class="cell-output cell-output-display" data-execution_count="7">
 <pre><code>0.1864</code></pre>
 </div>

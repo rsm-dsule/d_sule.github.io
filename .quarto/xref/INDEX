@@ -34,5 +34,29 @@
   },
   "posts/casual-testing/indextest.qmd": {
     "indextest.html": "ad7e92f1"
+  },
+  "mgta495-quarto-website/resume.qmd": {
+    "resume.html": "f8d9357b"
+  },
+  "mgta495-quarto-website/projects/project1/index.qmd": {
+    "index.html": "6015f5ba"
+  },
+  "mgta495-quarto-website/projects/project3/index.qmd": {
+    "index.html": "5a99ec5a"
+  },
+  "mgta495-quarto-website/projects/project4/index.qmd": {
+    "index.html": "8e1a65aa"
+  },
+  "mgta495-quarto-website/projects/project2/index.qmd": {
+    "index.html": "b04e865e"
+  },
+  "mgta495-quarto-website/projects.qmd": {
+    "projects.html": "95faa4a0"
+  },
+  "mgta495-quarto-website/index.qmd": {
+    "index.html": "60fb1001"
+  },
+  "posts/mle/index.qmd": {
+    "index.html": "a80490fc"
   }
 }

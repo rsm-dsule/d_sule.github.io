@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-04-21">
 
-<title>Blog – Damilola Sule Website</title>
+<title>Replication of Card and Krueger (1994) – Damilola Sule Website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,29 +21,62 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ac077c1e730dfeb5e42400639d17284e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b678371c533e4a3479052e9903027f9e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ac077c1e730dfeb5e42400639d17284e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-b678371c533e4a3479052e9903027f9e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,35 +104,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -130,7 +138,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -140,7 +148,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Damilola Sule Website</span>
     </a>
   </div>
@@ -151,23 +159,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resume.html"> 
+    <a class="nav-link" href="../../../resume.html"> 
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./sports.html"> 
+    <a class="nav-link" href="../../../sports.html"> 
 <span class="menu-text">Sports &amp; Analytics</span></a>
   </li>  
 </ul>
@@ -181,22 +189,48 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#main-analysis" id="toc-main-analysis" class="nav-link" data-scroll-target="#main-analysis">Main Analysis</a>
+  <ul class="collapse">
+  <li><a href="#table-2-summary-statistics" id="toc-table-2-summary-statistics" class="nav-link" data-scroll-target="#table-2-summary-statistics">Table 2: Summary Statistics</a></li>
+  <li><a href="#table-3-the-difference-in-differences" id="toc-table-3-the-difference-in-differences" class="nav-link" data-scroll-target="#table-3-the-difference-in-differences">Table 3: The Difference-in-Differences</a></li>
+  <li><a href="#table-4-regression-version" id="toc-table-4-regression-version" class="nav-link" data-scroll-target="#table-4-regression-version">Table 4: Regression Version</a></li>
+  </ul></li>
+  <li><a href="#something-additional-visualizing-the-parallel-trends" id="toc-something-additional-visualizing-the-parallel-trends" class="nav-link" data-scroll-target="#something-additional-visualizing-the-parallel-trends">Something Additional: Visualizing the Parallel Trends</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
+<h1 class="title">Replication of Card and Krueger (1994)</h1>
+<p class="subtitle lead">Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Python</div>
+    <div class="quarto-category">Diff-in-Diff</div>
+    <div class="quarto-category">Causal Inference</div>
+    <div class="quarto-category">Labor Economics</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 21, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -206,124 +240,192 @@ window.Quarto = {
 </header>
 
 
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>n 1992, New Jersey raised its minimum wage from $4.25 to $5.05 per hour. Pennsylvania didn’t. Card and Krueger basically looked at this and thought — wait, this is a perfect natural experiment. NJ got the treatment, PA didn’t, and they’re right next to each other. If the minimum wage kills jobs, we should see it here.</p>
+<p>The textbook prediction is simple: force employers to pay more, they hire less. Card and Krueger wanted to actually test this by surveying 410 fast-food restaurants in both states before and after the NJ increase and comparing what happened to employment.</p>
+<p>Their result was pretty surprising — NJ employment didn’t fall. It actually went up slightly relative to PA. This post replicates their key findings using the original survey data.</p>
+<p>The method behind this is called difference-in-differences (DiD). Instead of just looking at what happened in NJ, we compare the change in NJ employment to the change in PA employment over the same period. That way any broader trends, like a recession hitting both states, get differenced out and we’re left with just the effect of the wage increase:</p>
+<p><span class="math display">\[\hat\delta = (\bar{E}_{NJ,\text{after}} - \bar{E}_{NJ,\text{before}}) - (\bar{E}_{PA,\text{after}} - \bar{E}_{PA,\text{before}})\]</span></p>
+<p>The one thing this relies on is the parallel trends assumption — that NJ and PA would have moved similarly if the minimum wage hadn’t changed.</p>
+</section>
+<section id="main-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="main-analysis">Main Analysis</h2>
+<section id="table-2-summary-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="table-2-summary-statistics">Table 2: Summary Statistics</h3>
+<p>Before looking at what changed, it’s worth checking that NJ and PA stores actually looked similar going in. If they were already very different before the policy, the comparison isn’t that useful. Table 2 shows means of key variables by state across both waves.</p>
+<div id="e7f9621c" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display" data-execution_count="2">
+<div>
 
 
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">PA</th>
+<th data-quarto-table-cell-role="th">NJ</th>
+<th data-quarto-table-cell-role="th">Difference (NJ - PA)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">FTE Employment (Wave 1)</th>
+<td>23.33</td>
+<td>20.44</td>
+<td>-2.89</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">FTE Employment (Wave 2)</th>
+<td>21.17</td>
+<td>21.03</td>
+<td>-0.14</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Starting Wage (Wave 1)</th>
+<td>4.63</td>
+<td>4.61</td>
+<td>-0.02</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Starting Wage (Wave 2)</th>
+<td>4.62</td>
+<td>5.08</td>
+<td>0.46</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Price of Full Meal (Wave 1)</th>
+<td>3.03</td>
+<td>3.35</td>
+<td>0.32</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">Hours Open/Day (Wave 1)</th>
+<td>14.53</td>
+<td>14.42</td>
+<td>-0.11</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<p>For the most part, the two states look pretty comparable in Wave 1 — similar starting wages, hours, and meal prices. The main pre-existing difference is that PA stores were slightly larger on average. By Wave 2, NJ wages jumped sharply as expected after the minimum wage hike, while PA wages barely moved.</p>
+</section>
+<section id="table-3-the-difference-in-differences" class="level3">
+<h3 class="anchored" data-anchor-id="table-3-the-difference-in-differences">Table 3: The Difference-in-Differences</h3>
+<p>The table shows average FTE employment before and after the increase, separately for PA, NJ, and the difference between them.</p>
+<div id="cc0169b0" class="cell" data-execution_count="3">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>t3 <span class="op">=</span> df.groupby(<span class="st">'STATE'</span>)[[<span class="st">'FTE'</span>,<span class="st">'FTE2'</span>,<span class="st">'dFTE'</span>]].mean()</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>t3.index <span class="op">=</span> [<span class="st">'PA'</span>,<span class="st">'NJ'</span>]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>t3 <span class="op">=</span> t3.T</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>t3[<span class="st">'NJ - PA'</span>] <span class="op">=</span> t3[<span class="st">'NJ'</span>] <span class="op">-</span> t3[<span class="st">'PA'</span>]</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>t3.index <span class="op">=</span> [<span class="st">'FTE before (Wave 1)'</span>, <span class="st">'FTE after (Wave 2)'</span>, <span class="st">'Change in FTE'</span>]</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>t3.<span class="bu">round</span>(<span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="3">
+<div>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1775977200000" data-listing-file-modified-sort="1777445387101" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3452">
-<div class="thumbnail"><a href="./posts/ab-testing/index.html" class="no-external">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">PA</th>
+<th data-quarto-table-cell-role="th">NJ</th>
+<th data-quarto-table-cell-role="th">NJ - PA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">FTE before (Wave 1)</th>
+<td>23.33</td>
+<td>20.44</td>
+<td>-2.89</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">FTE after (Wave 2)</th>
+<td>21.17</td>
+<td>21.03</td>
+<td>-0.14</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">Change in FTE</th>
+<td>-2.28</td>
+<td>0.47</td>
+<td>2.75</td>
+</tr>
+</tbody>
+</table>
 
-<p class="card-img-top"><img src="posts/ab-testing/index_files/figure-html/cell-3-output-2.png"  class="thumbnail-image card-img"/></p>
+</div>
+</div>
+</div>
+<p>The number to focus on is the bottom right — the difference-in-differences. NJ employment went up while PA employment went down, giving NJ a relative gain of about <strong>2.76 FTE</strong> employees, or around 13%. That’s the opposite of what you’d expect if higher minimum wages reduced hiring.</p>
+</section>
+<section id="table-4-regression-version" class="level3">
+<h3 class="anchored" data-anchor-id="table-4-regression-version">Table 4: Regression Version</h3>
+<p>You can also run this as a regression. If you regress the change in FTE employment on a dummy for being in NJ, the coefficient gives you the same DiD estimate — just with standard errors and a t-statistic attached.</p>
+<div id="d586a7f4" class="cell" data-execution_count="4">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>reg_df <span class="op">=</span> df[[<span class="st">'dFTE'</span>,<span class="st">'STATE'</span>,<span class="st">'WAGE_ST'</span>]].dropna()</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>model  <span class="op">=</span> smf.ols(<span class="st">'dFTE ~ STATE'</span>, data<span class="op">=</span>reg_df).fit()</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> model.summary2().tables[<span class="dv">1</span>].loc[[<span class="st">'STATE'</span>]]</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>result.index <span class="op">=</span> [<span class="st">'NJ dummy'</span>]</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>result.columns <span class="op">=</span> [<span class="st">'Estimate'</span>,<span class="st">'Std. Error'</span>,<span class="st">'t-statistic'</span>,<span class="st">'p-value'</span>,<span class="st">'CI Lower'</span>,<span class="st">'CI Upper'</span>]</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>result[[<span class="st">'Estimate'</span>,<span class="st">'Std. Error'</span>,<span class="st">'t-statistic'</span>,<span class="st">'p-value'</span>]].<span class="bu">round</span>(<span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="4">
+<div>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/ab-testing/index.html" class="no-external">A/B Testing a Call to Action</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/ab-testing/index.html" class="no-external">Simulating Key Ideas from Classical Frequentist Statistics</a>
-</div>
-<div class="delink listing-description"><a href="./posts/ab-testing/index.html" class="no-external">
-To see how A/B testing works in practice, consider a simple scenario. You run a website, and your main goal on the landing page is to get visitors to sign up for your…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/ab-testing/index.html" class="no-external">
-<div class="listing-date">
-Apr 12, 2026
-</div>
-<div class="listing-author">
-Damilola Sule
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1735718400000" data-listing-file-modified-sort="1775696850117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-<div class="thumbnail"><a href="./posts/my-first-post/index.html" class="no-external">
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Estimate</th>
+<th data-quarto-table-cell-role="th">Std. Error</th>
+<th data-quarto-table-cell-role="th">t-statistic</th>
+<th data-quarto-table-cell-role="th">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">NJ dummy</th>
+<td>2.36</td>
+<td>1.15</td>
+<td>2.06</td>
+<td>0.04</td>
+</tr>
+</tbody>
+</table>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/my-first-post/index.html" class="no-external">My First Post</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/my-first-post/index.html" class="no-external"></a>
-</div>
-<div class="delink listing-description"><a href="./posts/my-first-post/index.html" class="no-external">
-<p>My first blog post</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/my-first-post/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2025
-</div>
-</a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1779001200000" data-listing-file-modified-sort="1779036888628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3077">
-<div class="thumbnail"><a href="./posts/mle/index.html" class="no-external">
+</div>
+<p>TThe NJ coefficient comes out around <strong>2.33</strong>. It’s slightly lower than Table 3 because the regression drops stores missing wage data. The t-statistic is just under 2, which clears the standard significance threshold. So the positive employment effect isn’t just noise.</p>
+</section>
+</section>
+<section id="something-additional-visualizing-the-parallel-trends" class="level2">
+<h2 class="anchored" data-anchor-id="something-additional-visualizing-the-parallel-trends">Something Additional: Visualizing the Parallel Trends</h2>
+<p>One assumption for DiD is <strong>parallel trends</strong>. It’s the idea that NJ and PA would have had similar employment trajectories if the minimum wage hadn’t changed. We can’t fully test this with only two time periods, but we can visualize what actually happened to get a sense of whether the design is credible.</p>
+<div id="f019a8b4" class="cell" data-execution_count="5">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/cell-6-output-1.png" width="659" height="374" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The dashed line shows what NJ employment would have looked like if it had followed the same trend as PA — the counterfactual. The gap between the dashed line and the actual NJ outcome in Wave 2 is the DiD estimate. NJ employment held up while PA’s declined, producing a positive relative effect.</p>
+<p>This plot also gives us some informal reassurance about parallel trends: both states were moving in the same direction coming into the study (driven by the broader recession in the Mid-Atlantic states), which supports the assumption that they would have continued along similar paths without the policy change.</p>
+<hr>
+<p>Card and Krueger’s paper is one of the most cited and debated results in labor economics — not because the methods are complicated, but because the finding is so counterintuitive. The simple story is that wages went up in NJ and jobs didn’t disappear. Their work pushed economists to take a harder look at how labor markets actually work in practice, and diff-in-diff became one of the most widely used tools for evaluating policy changes across economics, public health, and beyond.</p>
 
-<p class="card-img-top"><img src="posts/mle/index_files/figure-html/cell-4-output-1.png"  class="thumbnail-image card-img"/></p>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/mle/index.html" class="no-external">Poisson Regression and Maximum Likelihood Estimation</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/mle/index.html" class="no-external">A Case Study of Blueprinty’s Software and Patent Awards</a>
-</div>
-<div class="delink listing-description"><a href="./posts/mle/index.html" class="no-external">
-Before getting into the math, here is a short overview of the Poisson distribution. I found this helpful because Poisson models are easier to understand once you connect the…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/mle/index.html" class="no-external">
-<div class="listing-date">
-May 17, 2026
-</div>
-<div class="listing-author">
-Damilola Sule
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1776754800000" data-listing-file-modified-sort="1777442386661" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="412">
-<div class="thumbnail"><a href="./posts/casual-testing/index.html" class="no-external">
+</section>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/casual-testing/index.html" class="no-external">Replication of Dean Karlan and John A. List (2007)</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/casual-testing/index.html" class="no-external">Does Price Mater in Charitable Giving? Evidence from a Large-Scale Natural Field Experiment</a>
-</div>
-<div class="delink listing-description"><a href="./posts/casual-testing/index.html" class="no-external">
-Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/casual-testing/index.html" class="no-external">
-<div class="listing-date">
-Apr 21, 2026
-</div>
-<div class="listing-author">
-Damilola Sule
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

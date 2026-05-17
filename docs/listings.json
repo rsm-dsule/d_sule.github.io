@@ -4,7 +4,17 @@
     "items": [
       "/posts/ab-testing/index.html",
       "/posts/my-first-post/index.html",
+      "/posts/mle/index.html",
       "/posts/casual-testing/index.html"
+    ]
+  },
+  {
+    "listing": "/mgta495-quarto-website/projects.html",
+    "items": [
+      "/mgta495-quarto-website/projects/project4/index.html",
+      "/mgta495-quarto-website/projects/project3/index.html",
+      "/mgta495-quarto-website/projects/project2/index.html",
+      "/mgta495-quarto-website/projects/project1/index.html"
     ]
   }
 ]
