@@ -58,5 +58,11 @@
   },
   "posts/mle/index.qmd": {
     "index.html": "a80490fc"
+  },
+  "posts/max-diff/index.qmd": {
+    "index.html": "eaaedfcd"
+  },
+  "shottracker/basketball-shot-analytics.qmd": {
+    "basketball-shot-analytics.html": "d50c7ddf"
   }
 }

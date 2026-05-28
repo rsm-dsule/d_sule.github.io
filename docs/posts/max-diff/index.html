@@ -1,0 +1,2216 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.13">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Damilola Sule">
+<meta name="dcterms.date" content="2026-05-28">
+
+<title>MaxDiff Analysis of MSBA Class Preferences – Damilola Sule Website</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ac077c1e730dfeb5e42400639d17284e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-b678371c533e4a3479052e9903027f9e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Damilola Sule Website</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resume.html"> 
+<span class="menu-text">Resume</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../sports.html"> 
+<span class="menu-text">Sports &amp; Analytics</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
+  <li><a href="#counts-analysis" id="toc-counts-analysis" class="nav-link" data-scroll-target="#counts-analysis">Counts Analysis</a></li>
+  <li><a href="#from-maxdiff-data-to-mnl-choices" id="toc-from-maxdiff-data-to-mnl-choices" class="nav-link" data-scroll-target="#from-maxdiff-data-to-mnl-choices">From MaxDiff Data to MNL Choices</a></li>
+  <li><a href="#mnl-via-maximum-likelihood" id="toc-mnl-via-maximum-likelihood" class="nav-link" data-scroll-target="#mnl-via-maximum-likelihood">MNL via Maximum Likelihood</a></li>
+  <li><a href="#mnl-via-bayesian-estimation" id="toc-mnl-via-bayesian-estimation" class="nav-link" data-scroll-target="#mnl-via-bayesian-estimation">MNL via Bayesian Estimation</a></li>
+  <li><a href="#comparing-the-three-methods" id="toc-comparing-the-three-methods" class="nav-link" data-scroll-target="#comparing-the-three-methods">Comparing the Three Methods</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">MaxDiff Analysis of MSBA Class Preferences</h1>
+<p class="subtitle lead">Counts, MLE, and Bayesian estimation of the MNL model</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Damilola Sule </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 28, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This assignment explores a survey method called <strong>MaxDiff</strong> (also known as <em>Best-Worst Scaling</em>), which is designed to measure how strongly people prefer certain items over others. Instead of asking respondents to rate items on a scale from 1–10, MaxDiff presents a small group of options at a time and asks people to choose the <em>best</em> and <em>worst</em> item from the set. In our case, each screen shows four UCSD Rady MSBA core classes, and respondents repeatedly pick the class they would most want to take and least want to take.</p>
+<p>The reason MaxDiff is useful is that humans are usually much better at making comparisons than assigning consistent numeric ratings. With rating scales, people interpret numbers differently — one person’s “8” might be another person’s “5.” Some people also avoid extreme ratings altogether. MaxDiff gets around this problem by forcing respondents to make trade-offs. Every choice gives information about relative preference, which tends to produce cleaner and more reliable data.</p>
+<p>For this assignment, the goal is to estimate student preferences for the 10 MSBA core classes using three different methods. The first approach is a simple <strong>counts analysis</strong>, where we calculate how often each class was chosen as “best” minus how often it was chosen as “worst.” The second approach uses a <strong>multinomial logit (MNL)</strong> model estimated with <strong>maximum likelihood</strong>, which gives a more formal statistical model of choice behavior. Finally, we estimate the same MNL model using a <strong>Bayesian</strong> approach with a Metropolis-Hastings MCMC sampler.</p>
+<p>Even though these methods are different, I expect them to produce similar overall rankings of the classes. The main differences should come from how they measure the strength of preferences and how they represent uncertainty. The counts analysis will probably give a quick intuitive summary, while the likelihood and Bayesian approaches should provide more statistically grounded estimates.</p>
+</section>
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The Data</h2>
+<p>The main dataset for this assignment is <code>maxdiff_design_and_choices.csv</code>, which contains the survey design and respondent choices from the MaxDiff study. Each row represents a single item shown on a particular survey screen. The columns include:</p>
+<ul>
+<li><code>Record ID</code>: anonymized respondent identifier</li>
+<li><code>Task</code>: the survey screen number for that respondent</li>
+<li><code>Position</code>: the location of the item on the screen (1–4)</li>
+<li><code>Item</code>: which of the 10 MSBA core classes was shown</li>
+<li><code>Response</code>: coded as <code>1</code> if the item was selected as “best,” <code>-1</code> if selected as “worst,” and <code>0</code> otherwise</li>
+</ul>
+<p>I also read in <code>maxdiff_item_labels.csv</code>, which maps the item numbers to the actual class names. This makes the results easier to interpret later in the analysis.</p>
+<p>Before estimating any models, I checked a few basic descriptives and validated the structure of the dataset. After filtering to the valid MaxDiff tasks, the dataset contains 85 respondents, with each respondent completing 8 tasks. Each task contains 4 items, and there are 10 total classes in the study.</p>
+<p>As a sanity check, I verified that every task contains exactly one “best” choice (<code>Response = 1</code>), exactly one “worst” choice (<code>Response = -1</code>), and the remaining two items coded as <code>0</code>. This is important because the multinomial logit model assumes the MaxDiff responses are structured correctly. I coded this check directly in R to confirm that the valid tasks satisfy these conditions.</p>
+<p>I also counted how many times each class appeared across the survey. Since MaxDiff experiments are typically designed to balance item exposure, the appearance counts for the 10 classes were all relatively similar. This helps ensure that no class has an unfair advantage simply because it appeared more often than the others.</p>
+</section>
+<section id="counts-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="counts-analysis">Counts Analysis</h2>
+<p>The simplest way to analyze MaxDiff data is with a <strong>counts analysis</strong>. The idea is to compare how often each class was selected as the “best” option versus how often it was selected as the “worst” option, relative to the number of times it appeared in the survey.</p>
+<p><span class="math display">\[
+\text{score}_j = \%\text{best}_j - \%\text{worst}_j
+\]</span></p>
+<p>A score close to +1 means a class was almost always selected as “best” when shown, while a score close to -1 means it was usually selected as “worst.” Scores near 0 suggest the class was either more neutral or more mixed across respondents.</p>
+<p>Compared to the later MNL models, the counts analysis is much simpler and easier to interpret. It does not estimate latent utilities or formally model uncertainty, but it provides a strong first look at the overall ranking structure in the data.</p>
+<p>To better understand the ranking of preferences across the 10 classes, I summarized the counts results in both a ranked table and a horizontal bar chart.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.2.1     ✔ readr     2.2.0
+✔ forcats   1.0.1     ✔ stringr   1.6.0
+✔ ggplot2   4.0.3     ✔ tibble    3.3.1
+✔ lubridate 1.9.5     ✔ tidyr     1.3.2
+✔ purrr     1.2.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Read data</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>choices_raw <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"maxdiff_design_and_choices.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 3910 Columns: 5
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): Record ID
+dbl (4): Task, Position, Item, Response
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>labels <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"maxdiff_item_labels.csv"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">Item =</span> <span class="st">`</span><span class="at">Item #</span><span class="st">`</span>,</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">item_label =</span> Item</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Item =</span> <span class="fu">as.numeric</span>(Item))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>New names:
+Rows: 10 Columns: 7
+── Column specification
+──────────────────────────────────────────────────────── Delimiter: "," chr
+(1): Item dbl (1): Item # lgl (5): ...3, ...4, ...5, ...6, ...7
+ℹ Use `spec()` to retrieve the full column specification for this data. ℹ
+Specify the column types or set `show_col_types = FALSE` to quiet this message.
+• `` -&gt; `...3`
+• `` -&gt; `...4`
+• `` -&gt; `...5`
+• `` -&gt; `...6`
+• `` -&gt; `...7`</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Keep only valid MaxDiff tasks</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># (4 rows per task, one best, one worst)</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>valid_tasks <span class="ot">&lt;-</span> choices_raw <span class="sc">%&gt;%</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(<span class="st">`</span><span class="at">Record ID</span><span class="st">`</span>, Task) <span class="sc">%&gt;%</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_rows =</span> <span class="fu">n</span>(),</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_best =</span> <span class="fu">sum</span>(Response <span class="sc">==</span> <span class="dv">1</span>),</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_worst =</span> <span class="fu">sum</span>(Response <span class="sc">==</span> <span class="sc">-</span><span class="dv">1</span>),</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>    n_rows <span class="sc">==</span> <span class="dv">4</span>,</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    n_best <span class="sc">==</span> <span class="dv">1</span>,</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>    n_worst <span class="sc">==</span> <span class="dv">1</span></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>choices <span class="ot">&lt;-</span> choices_raw <span class="sc">%&gt;%</span></span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">inner_join</span>(valid_tasks,</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>             <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"Record ID"</span>, <span class="st">"Task"</span>))</span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Counts analysis</span></span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>counts_results <span class="ot">&lt;-</span> choices <span class="sc">%&gt;%</span></span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Item) <span class="sc">%&gt;%</span></span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">times_shown =</span> <span class="fu">n</span>(),</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>    <span class="at">times_best =</span> <span class="fu">sum</span>(Response <span class="sc">==</span> <span class="dv">1</span>),</span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">times_worst =</span> <span class="fu">sum</span>(Response <span class="sc">==</span> <span class="sc">-</span><span class="dv">1</span>),</span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">pct_best =</span> times_best <span class="sc">/</span> times_shown,</span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">pct_worst =</span> times_worst <span class="sc">/</span> times_shown,</span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">score =</span> pct_best <span class="sc">-</span> pct_worst,</span>
+<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(labels, <span class="at">by =</span> <span class="st">"Item"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(score)) <span class="sc">%&gt;%</span></span>
+<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">rank =</span> <span class="fu">row_number</span>())</span>
+<span id="cb7-42"><a href="#cb7-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-43"><a href="#cb7-43" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb7-44"><a href="#cb7-44" aria-hidden="true" tabindex="-1"></a><span class="co"># Bootstrap confidence intervals</span></span>
+<span id="cb7-45"><a href="#cb7-45" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb7-46"><a href="#cb7-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-47"><a href="#cb7-47" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb7-48"><a href="#cb7-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-49"><a href="#cb7-49" aria-hidden="true" tabindex="-1"></a>respondents <span class="ot">&lt;-</span> <span class="fu">unique</span>(choices<span class="sc">$</span><span class="st">`</span><span class="at">Record ID</span><span class="st">`</span>)</span>
+<span id="cb7-50"><a href="#cb7-50" aria-hidden="true" tabindex="-1"></a>n_boot <span class="ot">&lt;-</span> <span class="dv">1000</span></span>
+<span id="cb7-51"><a href="#cb7-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-52"><a href="#cb7-52" aria-hidden="true" tabindex="-1"></a>bootstrap_results <span class="ot">&lt;-</span> <span class="fu">map_dfr</span>(<span class="dv">1</span><span class="sc">:</span>n_boot, <span class="cf">function</span>(b){</span>
+<span id="cb7-53"><a href="#cb7-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-54"><a href="#cb7-54" aria-hidden="true" tabindex="-1"></a>  sampled_ids <span class="ot">&lt;-</span> <span class="fu">sample</span>(</span>
+<span id="cb7-55"><a href="#cb7-55" aria-hidden="true" tabindex="-1"></a>    respondents,</span>
+<span id="cb7-56"><a href="#cb7-56" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="fu">length</span>(respondents),</span>
+<span id="cb7-57"><a href="#cb7-57" aria-hidden="true" tabindex="-1"></a>    <span class="at">replace =</span> <span class="cn">TRUE</span></span>
+<span id="cb7-58"><a href="#cb7-58" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb7-59"><a href="#cb7-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-60"><a href="#cb7-60" aria-hidden="true" tabindex="-1"></a>  boot_data <span class="ot">&lt;-</span> <span class="fu">map_dfr</span>(sampled_ids, <span class="cf">function</span>(id){</span>
+<span id="cb7-61"><a href="#cb7-61" aria-hidden="true" tabindex="-1"></a>    choices <span class="sc">%&gt;%</span></span>
+<span id="cb7-62"><a href="#cb7-62" aria-hidden="true" tabindex="-1"></a>      <span class="fu">filter</span>(<span class="st">`</span><span class="at">Record ID</span><span class="st">`</span> <span class="sc">==</span> id)</span>
+<span id="cb7-63"><a href="#cb7-63" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb7-64"><a href="#cb7-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-65"><a href="#cb7-65" aria-hidden="true" tabindex="-1"></a>  boot_scores <span class="ot">&lt;-</span> boot_data <span class="sc">%&gt;%</span></span>
+<span id="cb7-66"><a href="#cb7-66" aria-hidden="true" tabindex="-1"></a>    <span class="fu">group_by</span>(Item) <span class="sc">%&gt;%</span></span>
+<span id="cb7-67"><a href="#cb7-67" aria-hidden="true" tabindex="-1"></a>    <span class="fu">summarise</span>(</span>
+<span id="cb7-68"><a href="#cb7-68" aria-hidden="true" tabindex="-1"></a>      <span class="at">score =</span></span>
+<span id="cb7-69"><a href="#cb7-69" aria-hidden="true" tabindex="-1"></a>        <span class="fu">mean</span>(Response <span class="sc">==</span> <span class="dv">1</span>) <span class="sc">-</span></span>
+<span id="cb7-70"><a href="#cb7-70" aria-hidden="true" tabindex="-1"></a>        <span class="fu">mean</span>(Response <span class="sc">==</span> <span class="sc">-</span><span class="dv">1</span>),</span>
+<span id="cb7-71"><a href="#cb7-71" aria-hidden="true" tabindex="-1"></a>      <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb7-72"><a href="#cb7-72" aria-hidden="true" tabindex="-1"></a>    ) <span class="sc">%&gt;%</span></span>
+<span id="cb7-73"><a href="#cb7-73" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">iteration =</span> b)</span>
+<span id="cb7-74"><a href="#cb7-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-75"><a href="#cb7-75" aria-hidden="true" tabindex="-1"></a>  boot_scores</span>
+<span id="cb7-76"><a href="#cb7-76" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb7-77"><a href="#cb7-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-78"><a href="#cb7-78" aria-hidden="true" tabindex="-1"></a>ci_results <span class="ot">&lt;-</span> bootstrap_results <span class="sc">%&gt;%</span></span>
+<span id="cb7-79"><a href="#cb7-79" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(Item) <span class="sc">%&gt;%</span></span>
+<span id="cb7-80"><a href="#cb7-80" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb7-81"><a href="#cb7-81" aria-hidden="true" tabindex="-1"></a>    <span class="at">lower =</span> <span class="fu">quantile</span>(score, <span class="fl">0.025</span>),</span>
+<span id="cb7-82"><a href="#cb7-82" aria-hidden="true" tabindex="-1"></a>    <span class="at">upper =</span> <span class="fu">quantile</span>(score, <span class="fl">0.975</span>),</span>
+<span id="cb7-83"><a href="#cb7-83" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb7-84"><a href="#cb7-84" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb7-85"><a href="#cb7-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-86"><a href="#cb7-86" aria-hidden="true" tabindex="-1"></a>counts_results <span class="ot">&lt;-</span> counts_results <span class="sc">%&gt;%</span></span>
+<span id="cb7-87"><a href="#cb7-87" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(ci_results, <span class="at">by =</span> <span class="st">"Item"</span>)</span>
+<span id="cb7-88"><a href="#cb7-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-89"><a href="#cb7-89" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb7-90"><a href="#cb7-90" aria-hidden="true" tabindex="-1"></a><span class="co"># Ranked table</span></span>
+<span id="cb7-91"><a href="#cb7-91" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb7-92"><a href="#cb7-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-93"><a href="#cb7-93" aria-hidden="true" tabindex="-1"></a>counts_results <span class="sc">%&gt;%</span></span>
+<span id="cb7-94"><a href="#cb7-94" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(</span>
+<span id="cb7-95"><a href="#cb7-95" aria-hidden="true" tabindex="-1"></a>    rank,</span>
+<span id="cb7-96"><a href="#cb7-96" aria-hidden="true" tabindex="-1"></a>    Item,</span>
+<span id="cb7-97"><a href="#cb7-97" aria-hidden="true" tabindex="-1"></a>    item_label,</span>
+<span id="cb7-98"><a href="#cb7-98" aria-hidden="true" tabindex="-1"></a>    times_shown,</span>
+<span id="cb7-99"><a href="#cb7-99" aria-hidden="true" tabindex="-1"></a>    times_best,</span>
+<span id="cb7-100"><a href="#cb7-100" aria-hidden="true" tabindex="-1"></a>    times_worst,</span>
+<span id="cb7-101"><a href="#cb7-101" aria-hidden="true" tabindex="-1"></a>    pct_best,</span>
+<span id="cb7-102"><a href="#cb7-102" aria-hidden="true" tabindex="-1"></a>    pct_worst,</span>
+<span id="cb7-103"><a href="#cb7-103" aria-hidden="true" tabindex="-1"></a>    score</span>
+<span id="cb7-104"><a href="#cb7-104" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb7-105"><a href="#cb7-105" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb7-106"><a href="#cb7-106" aria-hidden="true" tabindex="-1"></a>    <span class="at">pct_best =</span> <span class="fu">round</span>(pct_best, <span class="dv">3</span>),</span>
+<span id="cb7-107"><a href="#cb7-107" aria-hidden="true" tabindex="-1"></a>    <span class="at">pct_worst =</span> <span class="fu">round</span>(pct_worst, <span class="dv">3</span>),</span>
+<span id="cb7-108"><a href="#cb7-108" aria-hidden="true" tabindex="-1"></a>    <span class="at">score =</span> <span class="fu">round</span>(score, <span class="dv">3</span>)</span>
+<span id="cb7-109"><a href="#cb7-109" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb7-110"><a href="#cb7-110" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(</span>
+<span id="cb7-111"><a href="#cb7-111" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Counts Analysis Ranking of MSBA Core Classes"</span>,</span>
+<span id="cb7-112"><a href="#cb7-112" aria-hidden="true" tabindex="-1"></a>    <span class="at">col.names =</span> <span class="fu">c</span>(</span>
+<span id="cb7-113"><a href="#cb7-113" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Rank"</span>,</span>
+<span id="cb7-114"><a href="#cb7-114" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Item"</span>,</span>
+<span id="cb7-115"><a href="#cb7-115" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Class"</span>,</span>
+<span id="cb7-116"><a href="#cb7-116" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Times Shown"</span>,</span>
+<span id="cb7-117"><a href="#cb7-117" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Times Best"</span>,</span>
+<span id="cb7-118"><a href="#cb7-118" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Times Worst"</span>,</span>
+<span id="cb7-119"><a href="#cb7-119" aria-hidden="true" tabindex="-1"></a>      <span class="st">"% Best"</span>,</span>
+<span id="cb7-120"><a href="#cb7-120" aria-hidden="true" tabindex="-1"></a>      <span class="st">"% Worst"</span>,</span>
+<span id="cb7-121"><a href="#cb7-121" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Score"</span></span>
+<span id="cb7-122"><a href="#cb7-122" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb7-123"><a href="#cb7-123" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Counts Analysis Ranking of MSBA Core Classes</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 50%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Rank</th>
+<th style="text-align: right;">Item</th>
+<th style="text-align: left;">Class</th>
+<th style="text-align: right;">Times Shown</th>
+<th style="text-align: right;">Times Best</th>
+<th style="text-align: right;">Times Worst</th>
+<th style="text-align: right;">% Best</th>
+<th style="text-align: right;">% Worst</th>
+<th style="text-align: right;">Score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">MGTA 495 Marketing Analytics (Spring with Yavorsky)</td>
+<td style="text-align: right;">274</td>
+<td style="text-align: right;">147</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0.536</td>
+<td style="text-align: right;">0.044</td>
+<td style="text-align: right;">0.493</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">MGTA 453 Business Analytics (Fall with August)</td>
+<td style="text-align: right;">270</td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">0.344</td>
+<td style="text-align: right;">0.204</td>
+<td style="text-align: right;">0.141</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">MGTA 455 Customer Analytics (Winter with Nijs)</td>
+<td style="text-align: right;">276</td>
+<td style="text-align: right;">104</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">0.377</td>
+<td style="text-align: right;">0.257</td>
+<td style="text-align: right;">0.120</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">MGTA 452 Large Data (Fall with Hansen)</td>
+<td style="text-align: right;">276</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">0.279</td>
+<td style="text-align: right;">0.217</td>
+<td style="text-align: right;">0.062</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">MGTA 454 Capstone Project (Spring with Advisor)</td>
+<td style="text-align: right;">272</td>
+<td style="text-align: right;">72</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">0.265</td>
+<td style="text-align: right;">0.254</td>
+<td style="text-align: right;">0.011</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">MGTA 464 SQL (Summer with Nijs)</td>
+<td style="text-align: right;">274</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">0.201</td>
+<td style="text-align: right;">0.204</td>
+<td style="text-align: right;">-0.004</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">MGTA 457 Biz. Intelligence Systems (Fall with Schibler)</td>
+<td style="text-align: right;">266</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">0.086</td>
+<td style="text-align: right;">0.207</td>
+<td style="text-align: right;">-0.120</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">MGTA 403 AI Math, Prog., &amp; Analytics (Summer with Nijs)</td>
+<td style="text-align: right;">273</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">0.121</td>
+<td style="text-align: right;">0.330</td>
+<td style="text-align: right;">-0.209</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">MGTA 451 Marketing/Finance/Operations (Summer with Wilbur/Buti/Shin)</td>
+<td style="text-align: right;">272</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">0.158</td>
+<td style="text-align: right;">0.371</td>
+<td style="text-align: right;">-0.213</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">MGTA 444 Analytics Consulting (Winter with Peterson)</td>
+<td style="text-align: right;">267</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">111</td>
+<td style="text-align: right;">0.124</td>
+<td style="text-align: right;">0.416</td>
+<td style="text-align: right;">-0.292</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>counts_results <span class="sc">%&gt;%</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">item_label =</span> <span class="fu">fct_reorder</span>(item_label, score)) <span class="sc">%&gt;%</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> score, <span class="at">y =</span> item_label)) <span class="sc">+</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">xmin =</span> lower, <span class="at">xmax =</span> upper),</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">width =</span> <span class="fl">0.2</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Counts Analysis MaxDiff Scores"</span>,</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Bars show score = % Best - % Worst with 95% bootstrap confidence intervals"</span>,</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Counts Score"</span>,</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Class"</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/counts-bar-chart-1.png" class="img-fluid figure-img" width="864"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The counts analysis provides a quick first look at student preferences across the 10 MSBA core classes. Classes with positive scores were selected as “best” more often than “worst,” while classes with negative scores were selected as “worst” more frequently.</p>
+<p>From the results, MGTA 495 (Marketing Analytics) and MGTA 453 (Business Analytics) appear to be among the most preferred classes because they received the strongest positive scores. In contrast, MGTA 444 (Analytics Consulting) and MGTA 403 (AI Math, Programming, &amp; Analytics) received more negative scores and were more commonly selected as the “worst” option.</p>
+<p>The confidence intervals also help show the uncertainty around the estimated scores. Some classes are clearly separated from the rest, while others have overlapping intervals, suggesting their rankings may not be meaningfully different. Overall, the counts analysis already reveals a fairly clear ranking structure before moving into the more formal multinomial logit models.</p>
+</section>
+<section id="from-maxdiff-data-to-mnl-choices" class="level2">
+<h2 class="anchored" data-anchor-id="from-maxdiff-data-to-mnl-choices">From MaxDiff Data to MNL Choices</h2>
+<p>To move from the simple counts analysis to a multinomial logit (MNL) model, the MaxDiff responses need to be translated into choice observations. The MNL framework models the probability that a respondent chooses one item over the others based on an underlying utility value assigned to each item.</p>
+<p>In the model, each class (j) receives a utility coefficient (_j). Higher values of (_j) correspond to classes that respondents generally prefer more. For a MaxDiff task containing four classes, the probability that a particular class is selected as the “best” option follows the standard soft-max form from the week 5 conjoint/MNL lecture:</p>
+<p><span class="math display">\[
+P(\text{best} = b) =
+\frac{\exp(\beta_b)}
+{\exp(\beta_a) + \exp(\beta_b) + \exp(\beta_c) + \exp(\beta_d)}
+\]</span></p>
+<p>After the “best” item is removed, the respondent then selects the “worst” option from the remaining three classes. In MaxDiff modeling, the worst choice can be treated as a choice among the remaining items with utilities flipped in sign. This gives:</p>
+<p><span class="math display">\[
+P(\text{worst} = c \mid \text{best} = b) =
+\frac{\exp(-\beta_c)}
+{\exp(-\beta_a) + \exp(-\beta_c) + \exp(-\beta_d)}
+\]</span></p>
+<p>This means that every MaxDiff task actually contributes <em>two</em> MNL observations: one for the best choice from the full set of four items, and one for the worst choice from the remaining three items.</p>
+<p>One important issue in the MNL model is <strong>identifiability</strong>. Because the soft-max probabilities do not change if the same constant is added to every utility coefficient, only relative differences in utility can be estimated. As a result, only (J - 1) coefficients are identified. Since there are 10 classes in this study, only 9 coefficients can be freely estimated. To solve this, I normalize the model by fixing one class as the reference level and setting:</p>
+<p><span class="math display">\[
+\beta_1 = 0
+\]</span></p>
+<p>The remaining coefficients (<em>2, , </em>{10}) are then interpreted relative to this baseline class.</p>
+<p>Before estimating the likelihood, I reshaped the MaxDiff data into a task-level structure that is easier to loop through in the MNL likelihood function. For each task, I stored:</p>
+<ul>
+<li>the four items shown on the screen</li>
+<li>which item was selected as “best”</li>
+<li>which item was selected as “worst”</li>
+</ul>
+<p>This structure makes it straightforward to iterate over tasks and compute the contribution of each best and worst choice to the overall log-likelihood.</p>
+</section>
+<section id="mnl-via-maximum-likelihood" class="level2">
+<h2 class="anchored" data-anchor-id="mnl-via-maximum-likelihood">MNL via Maximum Likelihood</h2>
+<p>Now that the MaxDiff data is organized at the task level, I can estimate the multinomial logit model using maximum likelihood. The idea is to find the values of the utility coefficients, (), that make the observed best and worst choices most likely.</p>
+<p>For each task, the log-likelihood includes two pieces: the probability of the item chosen as “best,” and the probability of the item chosen as “worst” after flipping the utilities and removing the best item.</p>
+<p><span class="math display">\[
+\ell(\boldsymbol{\beta}) =
+\sum_{\text{tasks}}
+\Big[
+\beta_{j^*_b}
+-
+\log \sum_{j \in \text{shown}} \exp(\beta_j)
+-
+\beta_{j^*_w}
+-
+\log \sum_{j \in \text{shown} \setminus \{j^*_b\}} \exp(-\beta_j)
+\Big]
+\]</span></p>
+<p>Here, (j^*_b) is the class picked as best and (j^*_w) is the class picked as worst. Since MNL utilities are only identified up to a constant, I set (_1 = 0) and estimate the remaining 9 coefficients.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Task-level data for likelihood</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>task_data <span class="ot">&lt;-</span> choices <span class="sc">%&gt;%</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(<span class="st">`</span><span class="at">Record ID</span><span class="st">`</span>, Task) <span class="sc">%&gt;%</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">shown_items =</span> <span class="fu">list</span>(Item),</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">best_item =</span> Item[Response <span class="sc">==</span> <span class="dv">1</span>],</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">worst_item =</span> Item[Response <span class="sc">==</span> <span class="sc">-</span><span class="dv">1</span>],</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Log-sum-exp helper for numerical stability</span></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>log_sum_exp <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>  m <span class="ot">&lt;-</span> <span class="fu">max</span>(x)</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>  m <span class="sc">+</span> <span class="fu">log</span>(<span class="fu">sum</span>(<span class="fu">exp</span>(x <span class="sc">-</span> m)))</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Log-likelihood function</span></span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a><span class="co"># beta_free has length 9</span></span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a><span class="co"># beta_1 is fixed at 0 for identification</span></span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>ll <span class="ot">&lt;-</span> <span class="cf">function</span>(beta_free, task_data) {</span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a>  beta <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">0</span>, beta_free)</span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>  total_ll <span class="ot">&lt;-</span> <span class="dv">0</span></span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">nrow</span>(task_data)) {</span>
+<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a>    shown <span class="ot">&lt;-</span> task_data<span class="sc">$</span>shown_items[[i]]</span>
+<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>    best <span class="ot">&lt;-</span> task_data<span class="sc">$</span>best_item[i]</span>
+<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a>    worst <span class="ot">&lt;-</span> task_data<span class="sc">$</span>worst_item[i]</span>
+<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a>    <span class="co"># best choice probability</span></span>
+<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a>    v_best <span class="ot">&lt;-</span> beta[shown]</span>
+<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a>    ll_best <span class="ot">&lt;-</span> beta[best] <span class="sc">-</span> <span class="fu">log_sum_exp</span>(v_best)</span>
+<span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a>    <span class="co"># worst choice probability</span></span>
+<span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a>    <span class="co"># remove the best item, then flip utilities</span></span>
+<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a>    remaining <span class="ot">&lt;-</span> shown[shown <span class="sc">!=</span> best]</span>
+<span id="cb9-51"><a href="#cb9-51" aria-hidden="true" tabindex="-1"></a>    v_worst <span class="ot">&lt;-</span> <span class="sc">-</span>beta[remaining]</span>
+<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a>    ll_worst <span class="ot">&lt;-</span> <span class="sc">-</span>beta[worst] <span class="sc">-</span> <span class="fu">log_sum_exp</span>(v_worst)</span>
+<span id="cb9-53"><a href="#cb9-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-54"><a href="#cb9-54" aria-hidden="true" tabindex="-1"></a>    total_ll <span class="ot">&lt;-</span> total_ll <span class="sc">+</span> ll_best <span class="sc">+</span> ll_worst</span>
+<span id="cb9-55"><a href="#cb9-55" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb9-56"><a href="#cb9-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-57"><a href="#cb9-57" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(total_ll)</span>
+<span id="cb9-58"><a href="#cb9-58" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb9-59"><a href="#cb9-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-60"><a href="#cb9-60" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb9-61"><a href="#cb9-61" aria-hidden="true" tabindex="-1"></a><span class="co"># Estimate MNL model using optim()</span></span>
+<span id="cb9-62"><a href="#cb9-62" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb9-63"><a href="#cb9-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-64"><a href="#cb9-64" aria-hidden="true" tabindex="-1"></a>out <span class="ot">&lt;-</span> <span class="fu">optim</span>(</span>
+<span id="cb9-65"><a href="#cb9-65" aria-hidden="true" tabindex="-1"></a>  <span class="at">par =</span> <span class="fu">rep</span>(<span class="dv">0</span>, <span class="dv">9</span>),</span>
+<span id="cb9-66"><a href="#cb9-66" aria-hidden="true" tabindex="-1"></a>  <span class="at">fn =</span> ll,</span>
+<span id="cb9-67"><a href="#cb9-67" aria-hidden="true" tabindex="-1"></a>  <span class="at">task_data =</span> task_data,</span>
+<span id="cb9-68"><a href="#cb9-68" aria-hidden="true" tabindex="-1"></a>  <span class="at">method =</span> <span class="st">"BFGS"</span>,</span>
+<span id="cb9-69"><a href="#cb9-69" aria-hidden="true" tabindex="-1"></a>  <span class="at">hessian =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb9-70"><a href="#cb9-70" aria-hidden="true" tabindex="-1"></a>  <span class="at">control =</span> <span class="fu">list</span>(<span class="at">fnscale =</span> <span class="sc">-</span><span class="dv">1</span>)</span>
+<span id="cb9-71"><a href="#cb9-71" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb9-72"><a href="#cb9-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-73"><a href="#cb9-73" aria-hidden="true" tabindex="-1"></a><span class="co"># Estimated betas</span></span>
+<span id="cb9-74"><a href="#cb9-74" aria-hidden="true" tabindex="-1"></a>beta_hat <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">0</span>, out<span class="sc">$</span>par)</span>
+<span id="cb9-75"><a href="#cb9-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-76"><a href="#cb9-76" aria-hidden="true" tabindex="-1"></a><span class="co"># Standard errors</span></span>
+<span id="cb9-77"><a href="#cb9-77" aria-hidden="true" tabindex="-1"></a>se_free <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(<span class="fu">diag</span>(<span class="fu">solve</span>(<span class="sc">-</span>out<span class="sc">$</span>hessian)))</span>
+<span id="cb9-78"><a href="#cb9-78" aria-hidden="true" tabindex="-1"></a>se_hat <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">NA</span>, se_free)</span>
+<span id="cb9-79"><a href="#cb9-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-80"><a href="#cb9-80" aria-hidden="true" tabindex="-1"></a><span class="co"># Shares of preference</span></span>
+<span id="cb9-81"><a href="#cb9-81" aria-hidden="true" tabindex="-1"></a>shares <span class="ot">&lt;-</span> <span class="fu">exp</span>(beta_hat) <span class="sc">/</span> <span class="fu">sum</span>(<span class="fu">exp</span>(beta_hat))</span>
+<span id="cb9-82"><a href="#cb9-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-83"><a href="#cb9-83" aria-hidden="true" tabindex="-1"></a><span class="co"># MLE results table</span></span>
+<span id="cb9-84"><a href="#cb9-84" aria-hidden="true" tabindex="-1"></a>mle_results <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb9-85"><a href="#cb9-85" aria-hidden="true" tabindex="-1"></a>  <span class="at">Item =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>,</span>
+<span id="cb9-86"><a href="#cb9-86" aria-hidden="true" tabindex="-1"></a>  <span class="at">beta_hat =</span> beta_hat,</span>
+<span id="cb9-87"><a href="#cb9-87" aria-hidden="true" tabindex="-1"></a>  <span class="at">se =</span> se_hat,</span>
+<span id="cb9-88"><a href="#cb9-88" aria-hidden="true" tabindex="-1"></a>  <span class="at">share =</span> shares</span>
+<span id="cb9-89"><a href="#cb9-89" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb9-90"><a href="#cb9-90" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(labels, <span class="at">by =</span> <span class="st">"Item"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb9-91"><a href="#cb9-91" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(share)) <span class="sc">%&gt;%</span></span>
+<span id="cb9-92"><a href="#cb9-92" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">rank_mle =</span> <span class="fu">row_number</span>())</span>
+<span id="cb9-93"><a href="#cb9-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-94"><a href="#cb9-94" aria-hidden="true" tabindex="-1"></a>mle_results <span class="sc">%&gt;%</span></span>
+<span id="cb9-95"><a href="#cb9-95" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(rank_mle, Item, item_label, beta_hat, se, share) <span class="sc">%&gt;%</span></span>
+<span id="cb9-96"><a href="#cb9-96" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb9-97"><a href="#cb9-97" aria-hidden="true" tabindex="-1"></a>    <span class="at">beta_hat =</span> <span class="fu">round</span>(beta_hat, <span class="dv">3</span>),</span>
+<span id="cb9-98"><a href="#cb9-98" aria-hidden="true" tabindex="-1"></a>    <span class="at">se =</span> <span class="fu">round</span>(se, <span class="dv">3</span>),</span>
+<span id="cb9-99"><a href="#cb9-99" aria-hidden="true" tabindex="-1"></a>    <span class="at">share =</span> <span class="fu">round</span>(share, <span class="dv">3</span>)</span>
+<span id="cb9-100"><a href="#cb9-100" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb9-101"><a href="#cb9-101" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(</span>
+<span id="cb9-102"><a href="#cb9-102" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"MNL Maximum Likelihood Estimates"</span>,</span>
+<span id="cb9-103"><a href="#cb9-103" aria-hidden="true" tabindex="-1"></a>    <span class="at">col.names =</span> <span class="fu">c</span>(</span>
+<span id="cb9-104"><a href="#cb9-104" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Rank"</span>,</span>
+<span id="cb9-105"><a href="#cb9-105" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Item"</span>,</span>
+<span id="cb9-106"><a href="#cb9-106" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Class"</span>,</span>
+<span id="cb9-107"><a href="#cb9-107" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Beta Estimate"</span>,</span>
+<span id="cb9-108"><a href="#cb9-108" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Standard Error"</span>,</span>
+<span id="cb9-109"><a href="#cb9-109" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Share of Preference"</span></span>
+<span id="cb9-110"><a href="#cb9-110" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb9-111"><a href="#cb9-111" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>MNL Maximum Likelihood Estimates</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 53%">
+<col style="width: 10%">
+<col style="width: 11%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Rank</th>
+<th style="text-align: right;">Item</th>
+<th style="text-align: left;">Class</th>
+<th style="text-align: right;">Beta Estimate</th>
+<th style="text-align: right;">Standard Error</th>
+<th style="text-align: right;">Share of Preference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">MGTA 495 Marketing Analytics (Spring with Yavorsky)</td>
+<td style="text-align: right;">1.630</td>
+<td style="text-align: right;">0.146</td>
+<td style="text-align: right;">0.284</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">MGTA 453 Business Analytics (Fall with August)</td>
+<td style="text-align: right;">0.744</td>
+<td style="text-align: right;">0.142</td>
+<td style="text-align: right;">0.117</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">MGTA 455 Customer Analytics (Winter with Nijs)</td>
+<td style="text-align: right;">0.656</td>
+<td style="text-align: right;">0.142</td>
+<td style="text-align: right;">0.107</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">MGTA 452 Large Data (Fall with Hansen)</td>
+<td style="text-align: right;">0.555</td>
+<td style="text-align: right;">0.140</td>
+<td style="text-align: right;">0.097</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">MGTA 454 Capstone Project (Spring with Advisor)</td>
+<td style="text-align: right;">0.443</td>
+<td style="text-align: right;">0.140</td>
+<td style="text-align: right;">0.087</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">MGTA 464 SQL (Summer with Nijs)</td>
+<td style="text-align: right;">0.438</td>
+<td style="text-align: right;">0.137</td>
+<td style="text-align: right;">0.086</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">MGTA 457 Biz. Intelligence Systems (Fall with Schibler)</td>
+<td style="text-align: right;">0.236</td>
+<td style="text-align: right;">0.137</td>
+<td style="text-align: right;">0.070</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">MGTA 403 AI Math, Prog., &amp; Analytics (Summer with Nijs)</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">0.056</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">MGTA 451 Marketing/Finance/Operations (Summer with Wilbur/Buti/Shin)</td>
+<td style="text-align: right;">-0.067</td>
+<td style="text-align: right;">0.139</td>
+<td style="text-align: right;">0.052</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">MGTA 444 Analytics Consulting (Winter with Peterson)</td>
+<td style="text-align: right;">-0.239</td>
+<td style="text-align: right;">0.141</td>
+<td style="text-align: right;">0.044</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>mle_results <span class="sc">%&gt;%</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">item_label =</span> <span class="fu">fct_reorder</span>(item_label, share)) <span class="sc">%&gt;%</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> share, <span class="at">y =</span> item_label)) <span class="sc">+</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"MNL Shares of Preference"</span>,</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Estimated using maximum likelihood"</span>,</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Share of Preference"</span>,</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Class"</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/mle-share-plot-1.png" class="img-fluid figure-img" width="864"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>comparison_results <span class="ot">&lt;-</span> counts_results <span class="sc">%&gt;%</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(Item, item_label, <span class="at">rank_counts =</span> rank, <span class="at">counts_score =</span> score) <span class="sc">%&gt;%</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    mle_results <span class="sc">%&gt;%</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>      <span class="fu">select</span>(Item, rank_mle, beta_hat, share),</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="st">"Item"</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(rank_mle)</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>comparison_results <span class="sc">%&gt;%</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">counts_score =</span> <span class="fu">round</span>(counts_score, <span class="dv">3</span>),</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">beta_hat =</span> <span class="fu">round</span>(beta_hat, <span class="dv">3</span>),</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">share =</span> <span class="fu">round</span>(share, <span class="dv">3</span>)</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Comparison of Counts Ranking and MLE Ranking"</span>,</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">col.names =</span> <span class="fu">c</span>(</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Item"</span>,</span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Class"</span>,</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Counts Rank"</span>,</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Counts Score"</span>,</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>      <span class="st">"MLE Rank"</span>,</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Beta Estimate"</span>,</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Share of Preference"</span></span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Comparison of Counts Ranking and MLE Ranking</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 48%">
+<col style="width: 8%">
+<col style="width: 9%">
+<col style="width: 6%">
+<col style="width: 9%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Item</th>
+<th style="text-align: left;">Class</th>
+<th style="text-align: right;">Counts Rank</th>
+<th style="text-align: right;">Counts Score</th>
+<th style="text-align: right;">MLE Rank</th>
+<th style="text-align: right;">Beta Estimate</th>
+<th style="text-align: right;">Share of Preference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">MGTA 495 Marketing Analytics (Spring with Yavorsky)</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.493</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1.630</td>
+<td style="text-align: right;">0.284</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">MGTA 453 Business Analytics (Fall with August)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.141</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.744</td>
+<td style="text-align: right;">0.117</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">MGTA 455 Customer Analytics (Winter with Nijs)</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0.120</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0.656</td>
+<td style="text-align: right;">0.107</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">MGTA 452 Large Data (Fall with Hansen)</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.062</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.555</td>
+<td style="text-align: right;">0.097</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">MGTA 454 Capstone Project (Spring with Advisor)</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0.011</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0.443</td>
+<td style="text-align: right;">0.087</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">MGTA 464 SQL (Summer with Nijs)</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">-0.004</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0.438</td>
+<td style="text-align: right;">0.086</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">MGTA 457 Biz. Intelligence Systems (Fall with Schibler)</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">-0.120</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.236</td>
+<td style="text-align: right;">0.070</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">MGTA 403 AI Math, Prog., &amp; Analytics (Summer with Nijs)</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">-0.209</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.056</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">MGTA 451 Marketing/Finance/Operations (Summer with Wilbur/Buti/Shin)</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-0.213</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-0.067</td>
+<td style="text-align: right;">0.052</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">MGTA 444 Analytics Consulting (Winter with Peterson)</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">-0.292</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">-0.239</td>
+<td style="text-align: right;">0.044</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>The MNL estimates tell a similar story to the counts analysis, but in a more formal model-based way. The raw () values are useful because they show each class’s estimated utility relative to the reference class, but the shares of preference are easier to interpret because they add up to 1 across all 10 classes.</p>
+<p>Overall, I expect the MLE ranking to be very close to the counts ranking. If there are small differences, they likely come from the fact that the MNL model uses the full choice structure of each task instead of only summarizing best and worst counts separately. In other words, the MNL model pays attention to which classes appeared together on each screen, while the counts analysis is more of a direct descriptive summary.</p>
+</section>
+<section id="mnl-via-bayesian-estimation" class="level2">
+<h2 class="anchored" data-anchor-id="mnl-via-bayesian-estimation">MNL via Bayesian Estimation</h2>
+<p>For the Bayesian version, I estimate the same MNL model, but instead of only finding one best-fitting value of (), I estimate a full posterior distribution. This lets me see both the likely value of each class utility and the uncertainty around it.</p>
+<p>Using Bayes’ rule, the posterior is:</p>
+<p><span class="math display">\[
+\pi(\boldsymbol{\beta} \mid \boldsymbol{y})
+\propto
+L(\boldsymbol{\beta}) \cdot \pi(\boldsymbol{\beta})
+\]</span></p>
+<p>I use a weakly informative normal prior:</p>
+<p><span class="math display">\[
+\boldsymbol{\beta} \sim N(\boldsymbol{0}, 10I)
+\]</span></p>
+<p>This prior keeps the estimates from becoming extreme, but it is still wide enough to let the data mostly drive the results.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Log posterior</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Uses the same ll() function from the MLE section</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>log_post <span class="ot">&lt;-</span> <span class="cf">function</span>(beta_free, task_data) {</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ll</span>(beta_free, task_data) <span class="sc">+</span></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">sum</span>(<span class="fu">dnorm</span>(beta_free, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="fu">sqrt</span>(<span class="dv">10</span>), <span class="at">log =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Random-walk Metropolis-Hastings sampler</span></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>mh <span class="ot">&lt;-</span> <span class="cf">function</span>(beta0, n_iter, step, task_data) {</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>  K <span class="ot">&lt;-</span> <span class="fu">length</span>(beta0)</span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>  draws <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="cn">NA</span>, <span class="at">nrow =</span> n_iter, <span class="at">ncol =</span> K)</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>  beta <span class="ot">&lt;-</span> beta0</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>  lp <span class="ot">&lt;-</span> <span class="fu">log_post</span>(beta, task_data)</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>  accept <span class="ot">&lt;-</span> <span class="dv">0</span></span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (t <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>n_iter) {</span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>    beta_star <span class="ot">&lt;-</span> beta <span class="sc">+</span> <span class="fu">rnorm</span>(K, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> step)</span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>    lp_star <span class="ot">&lt;-</span> <span class="fu">log_post</span>(beta_star, task_data)</span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="fu">log</span>(<span class="fu">runif</span>(<span class="dv">1</span>)) <span class="sc">&lt;</span> lp_star <span class="sc">-</span> lp) {</span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a>      beta <span class="ot">&lt;-</span> beta_star</span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a>      lp <span class="ot">&lt;-</span> lp_star</span>
+<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a>      accept <span class="ot">&lt;-</span> accept <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a>    draws[t, ] <span class="ot">&lt;-</span> beta</span>
+<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">list</span>(</span>
+<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">draws =</span> draws,</span>
+<span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">accept_rate =</span> accept <span class="sc">/</span> n_iter</span>
+<span id="cb12-44"><a href="#cb12-44" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb12-45"><a href="#cb12-45" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-47"><a href="#cb12-47" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb12-48"><a href="#cb12-48" aria-hidden="true" tabindex="-1"></a><span class="co"># Run sampler</span></span>
+<span id="cb12-49"><a href="#cb12-49" aria-hidden="true" tabindex="-1"></a><span class="co"># Tune step if needed</span></span>
+<span id="cb12-50"><a href="#cb12-50" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb12-51"><a href="#cb12-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-52"><a href="#cb12-52" aria-hidden="true" tabindex="-1"></a>bayes_out <span class="ot">&lt;-</span> <span class="fu">mh</span>(</span>
+<span id="cb12-53"><a href="#cb12-53" aria-hidden="true" tabindex="-1"></a>  <span class="at">beta0 =</span> out<span class="sc">$</span>par,</span>
+<span id="cb12-54"><a href="#cb12-54" aria-hidden="true" tabindex="-1"></a>  <span class="at">n_iter =</span> <span class="dv">20000</span>,</span>
+<span id="cb12-55"><a href="#cb12-55" aria-hidden="true" tabindex="-1"></a>  <span class="at">step =</span> <span class="fl">0.12</span>,</span>
+<span id="cb12-56"><a href="#cb12-56" aria-hidden="true" tabindex="-1"></a>  <span class="at">task_data =</span> task_data</span>
+<span id="cb12-57"><a href="#cb12-57" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb12-58"><a href="#cb12-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-59"><a href="#cb12-59" aria-hidden="true" tabindex="-1"></a>bayes_out<span class="sc">$</span>accept_rate</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.1285</code></pre>
+</div>
+</div>
+<p>The final acceptance rate should ideally be around 25% to 40%. If the acceptance rate is much lower than that, I would reduce the step size. If it is much higher, I would increase the step size. This tuning matters because a step size that is too small moves too slowly, while a step size that is too large gets rejected too often.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>draws_df <span class="ot">&lt;-</span> <span class="fu">as_tibble</span>(bayes_out<span class="sc">$</span>draws) <span class="sc">%&gt;%</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">set_names</span>(<span class="fu">paste0</span>(<span class="st">"beta_"</span>, <span class="dv">2</span><span class="sc">:</span><span class="dv">10</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">iteration =</span> <span class="fu">row_number</span>())</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: The `x` argument of `as_tibble.matrix()` must have unique column names if
+`.name_repair` is omitted as of tibble 2.0.0.
+ℹ Using compatibility `.name_repair`.</code></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>draws_df <span class="sc">%&gt;%</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(iteration, beta_2, beta_3, beta_4) <span class="sc">%&gt;%</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">starts_with</span>(<span class="st">"beta"</span>),</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">"parameter"</span>,</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">"value"</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> iteration, <span class="at">y =</span> value)) <span class="sc">+</span></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> parameter, <span class="at">scales =</span> <span class="st">"free_y"</span>) <span class="sc">+</span></span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Trace Plots for Selected Beta Parameters"</span>,</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Iteration"</span>,</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Beta Value"</span></span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/bayes-trace-plots-1.png" class="img-fluid figure-img" width="864"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The trace plots are used to check whether the sampler is mixing reasonably well. Ideally, the chains should look like a “fuzzy caterpillar” instead of showing a steady upward or downward drift. In this run, I use the first 25% of draws as burn-in and base the posterior summaries only on the remaining draws.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Burn-in</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>burn_in <span class="ot">&lt;-</span> <span class="fu">floor</span>(<span class="fl">0.25</span> <span class="sc">*</span> <span class="fu">nrow</span>(bayes_out<span class="sc">$</span>draws))</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>post_free <span class="ot">&lt;-</span> bayes_out<span class="sc">$</span>draws[(burn_in <span class="sc">+</span> <span class="dv">1</span>)<span class="sc">:</span><span class="fu">nrow</span>(bayes_out<span class="sc">$</span>draws), ]</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Add beta_1 = 0 back in</span></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>post_beta <span class="ot">&lt;-</span> <span class="fu">cbind</span>(<span class="at">beta_1 =</span> <span class="dv">0</span>, post_free)</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(post_beta) <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"beta_"</span>, <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Posterior beta summaries</span></span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a>beta_summary <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a>  <span class="at">Item =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>,</span>
+<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a>  <span class="at">post_mean_beta =</span> <span class="fu">colMeans</span>(post_beta),</span>
+<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a>  <span class="at">lower_beta =</span> <span class="fu">apply</span>(post_beta, <span class="dv">2</span>, quantile, <span class="fl">0.025</span>),</span>
+<span id="cb17-21"><a href="#cb17-21" aria-hidden="true" tabindex="-1"></a>  <span class="at">upper_beta =</span> <span class="fu">apply</span>(post_beta, <span class="dv">2</span>, quantile, <span class="fl">0.975</span>)</span>
+<span id="cb17-22"><a href="#cb17-22" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb17-23"><a href="#cb17-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-24"><a href="#cb17-24" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb17-25"><a href="#cb17-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Posterior shares for each draw</span></span>
+<span id="cb17-26"><a href="#cb17-26" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb17-27"><a href="#cb17-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-28"><a href="#cb17-28" aria-hidden="true" tabindex="-1"></a>post_shares <span class="ot">&lt;-</span> <span class="fu">exp</span>(post_beta) <span class="sc">/</span> <span class="fu">rowSums</span>(<span class="fu">exp</span>(post_beta))</span>
+<span id="cb17-29"><a href="#cb17-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-30"><a href="#cb17-30" aria-hidden="true" tabindex="-1"></a>share_summary <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb17-31"><a href="#cb17-31" aria-hidden="true" tabindex="-1"></a>  <span class="at">Item =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>,</span>
+<span id="cb17-32"><a href="#cb17-32" aria-hidden="true" tabindex="-1"></a>  <span class="at">post_mean_share =</span> <span class="fu">colMeans</span>(post_shares),</span>
+<span id="cb17-33"><a href="#cb17-33" aria-hidden="true" tabindex="-1"></a>  <span class="at">lower_share =</span> <span class="fu">apply</span>(post_shares, <span class="dv">2</span>, quantile, <span class="fl">0.025</span>),</span>
+<span id="cb17-34"><a href="#cb17-34" aria-hidden="true" tabindex="-1"></a>  <span class="at">upper_share =</span> <span class="fu">apply</span>(post_shares, <span class="dv">2</span>, quantile, <span class="fl">0.975</span>)</span>
+<span id="cb17-35"><a href="#cb17-35" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb17-36"><a href="#cb17-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-37"><a href="#cb17-37" aria-hidden="true" tabindex="-1"></a>bayes_results <span class="ot">&lt;-</span> beta_summary <span class="sc">%&gt;%</span></span>
+<span id="cb17-38"><a href="#cb17-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(share_summary, <span class="at">by =</span> <span class="st">"Item"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb17-39"><a href="#cb17-39" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(labels, <span class="at">by =</span> <span class="st">"Item"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb17-40"><a href="#cb17-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(post_mean_share)) <span class="sc">%&gt;%</span></span>
+<span id="cb17-41"><a href="#cb17-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">rank_bayes =</span> <span class="fu">row_number</span>())</span>
+<span id="cb17-42"><a href="#cb17-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-43"><a href="#cb17-43" aria-hidden="true" tabindex="-1"></a>bayes_results <span class="sc">%&gt;%</span></span>
+<span id="cb17-44"><a href="#cb17-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(</span>
+<span id="cb17-45"><a href="#cb17-45" aria-hidden="true" tabindex="-1"></a>    rank_bayes,</span>
+<span id="cb17-46"><a href="#cb17-46" aria-hidden="true" tabindex="-1"></a>    Item,</span>
+<span id="cb17-47"><a href="#cb17-47" aria-hidden="true" tabindex="-1"></a>    item_label,</span>
+<span id="cb17-48"><a href="#cb17-48" aria-hidden="true" tabindex="-1"></a>    post_mean_beta,</span>
+<span id="cb17-49"><a href="#cb17-49" aria-hidden="true" tabindex="-1"></a>    lower_beta,</span>
+<span id="cb17-50"><a href="#cb17-50" aria-hidden="true" tabindex="-1"></a>    upper_beta,</span>
+<span id="cb17-51"><a href="#cb17-51" aria-hidden="true" tabindex="-1"></a>    post_mean_share</span>
+<span id="cb17-52"><a href="#cb17-52" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb17-53"><a href="#cb17-53" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb17-54"><a href="#cb17-54" aria-hidden="true" tabindex="-1"></a>    <span class="at">post_mean_beta =</span> <span class="fu">round</span>(post_mean_beta, <span class="dv">3</span>),</span>
+<span id="cb17-55"><a href="#cb17-55" aria-hidden="true" tabindex="-1"></a>    <span class="at">lower_beta =</span> <span class="fu">round</span>(lower_beta, <span class="dv">3</span>),</span>
+<span id="cb17-56"><a href="#cb17-56" aria-hidden="true" tabindex="-1"></a>    <span class="at">upper_beta =</span> <span class="fu">round</span>(upper_beta, <span class="dv">3</span>),</span>
+<span id="cb17-57"><a href="#cb17-57" aria-hidden="true" tabindex="-1"></a>    <span class="at">post_mean_share =</span> <span class="fu">round</span>(post_mean_share, <span class="dv">3</span>)</span>
+<span id="cb17-58"><a href="#cb17-58" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb17-59"><a href="#cb17-59" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(</span>
+<span id="cb17-60"><a href="#cb17-60" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Bayesian MNL Posterior Estimates"</span>,</span>
+<span id="cb17-61"><a href="#cb17-61" aria-hidden="true" tabindex="-1"></a>    <span class="at">col.names =</span> <span class="fu">c</span>(</span>
+<span id="cb17-62"><a href="#cb17-62" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Rank"</span>,</span>
+<span id="cb17-63"><a href="#cb17-63" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Item"</span>,</span>
+<span id="cb17-64"><a href="#cb17-64" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Class"</span>,</span>
+<span id="cb17-65"><a href="#cb17-65" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Posterior Mean Beta"</span>,</span>
+<span id="cb17-66"><a href="#cb17-66" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Beta 2.5%"</span>,</span>
+<span id="cb17-67"><a href="#cb17-67" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Beta 97.5%"</span>,</span>
+<span id="cb17-68"><a href="#cb17-68" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Posterior Mean Share"</span></span>
+<span id="cb17-69"><a href="#cb17-69" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb17-70"><a href="#cb17-70" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Bayesian MNL Posterior Estimates</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 48%">
+<col style="width: 14%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Rank</th>
+<th style="text-align: right;">Item</th>
+<th style="text-align: left;">Class</th>
+<th style="text-align: right;">Posterior Mean Beta</th>
+<th style="text-align: right;">Beta 2.5%</th>
+<th style="text-align: right;">Beta 97.5%</th>
+<th style="text-align: right;">Posterior Mean Share</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">MGTA 495 Marketing Analytics (Spring with Yavorsky)</td>
+<td style="text-align: right;">1.640</td>
+<td style="text-align: right;">1.363</td>
+<td style="text-align: right;">1.917</td>
+<td style="text-align: right;">0.284</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">MGTA 453 Business Analytics (Fall with August)</td>
+<td style="text-align: right;">0.757</td>
+<td style="text-align: right;">0.494</td>
+<td style="text-align: right;">1.013</td>
+<td style="text-align: right;">0.117</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">MGTA 455 Customer Analytics (Winter with Nijs)</td>
+<td style="text-align: right;">0.672</td>
+<td style="text-align: right;">0.423</td>
+<td style="text-align: right;">0.969</td>
+<td style="text-align: right;">0.108</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">MGTA 452 Large Data (Fall with Hansen)</td>
+<td style="text-align: right;">0.560</td>
+<td style="text-align: right;">0.292</td>
+<td style="text-align: right;">0.822</td>
+<td style="text-align: right;">0.096</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">MGTA 454 Capstone Project (Spring with Advisor)</td>
+<td style="text-align: right;">0.452</td>
+<td style="text-align: right;">0.189</td>
+<td style="text-align: right;">0.732</td>
+<td style="text-align: right;">0.087</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">MGTA 464 SQL (Summer with Nijs)</td>
+<td style="text-align: right;">0.452</td>
+<td style="text-align: right;">0.195</td>
+<td style="text-align: right;">0.719</td>
+<td style="text-align: right;">0.087</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">MGTA 457 Biz. Intelligence Systems (Fall with Schibler)</td>
+<td style="text-align: right;">0.255</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.520</td>
+<td style="text-align: right;">0.071</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">MGTA 403 AI Math, Prog., &amp; Analytics (Summer with Nijs)</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.055</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">MGTA 451 Marketing/Finance/Operations (Summer with Wilbur/Buti/Shin)</td>
+<td style="text-align: right;">-0.070</td>
+<td style="text-align: right;">-0.339</td>
+<td style="text-align: right;">0.192</td>
+<td style="text-align: right;">0.051</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">MGTA 444 Analytics Consulting (Winter with Peterson)</td>
+<td style="text-align: right;">-0.231</td>
+<td style="text-align: right;">-0.542</td>
+<td style="text-align: right;">0.032</td>
+<td style="text-align: right;">0.044</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>bayes_results <span class="sc">%&gt;%</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">item_label =</span> <span class="fu">fct_reorder</span>(item_label, post_mean_share)) <span class="sc">%&gt;%</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> post_mean_share, <span class="at">y =</span> item_label)) <span class="sc">+</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">xmin =</span> lower_share, <span class="at">xmax =</span> upper_share),</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">width =</span> <span class="fl">0.2</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Bayesian MNL Shares of Preference"</span>,</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Posterior mean shares with 95% credible intervals"</span>,</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Posterior Mean Share"</span>,</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Class"</span></span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/bayes-share-plot-1.png" class="img-fluid figure-img" width="864"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>mle_bayes_comparison <span class="ot">&lt;-</span> mle_results <span class="sc">%&gt;%</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(Item, item_label, <span class="at">mle_beta =</span> beta_hat, <span class="at">mle_se =</span> se, <span class="at">mle_share =</span> share) <span class="sc">%&gt;%</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    bayes_results <span class="sc">%&gt;%</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>      <span class="fu">select</span>(Item, post_mean_beta, lower_beta, upper_beta, post_mean_share),</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="st">"Item"</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(mle_share))</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>mle_bayes_comparison <span class="sc">%&gt;%</span></span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">mle_beta =</span> <span class="fu">round</span>(mle_beta, <span class="dv">3</span>),</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">mle_se =</span> <span class="fu">round</span>(mle_se, <span class="dv">3</span>),</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">post_mean_beta =</span> <span class="fu">round</span>(post_mean_beta, <span class="dv">3</span>),</span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">lower_beta =</span> <span class="fu">round</span>(lower_beta, <span class="dv">3</span>),</span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">upper_beta =</span> <span class="fu">round</span>(upper_beta, <span class="dv">3</span>),</span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">mle_share =</span> <span class="fu">round</span>(mle_share, <span class="dv">3</span>),</span>
+<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">post_mean_share =</span> <span class="fu">round</span>(post_mean_share, <span class="dv">3</span>)</span>
+<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(</span>
+<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Comparison of MLE and Bayesian MNL Results"</span>,</span>
+<span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">col.names =</span> <span class="fu">c</span>(</span>
+<span id="cb19-23"><a href="#cb19-23" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Item"</span>,</span>
+<span id="cb19-24"><a href="#cb19-24" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Class"</span>,</span>
+<span id="cb19-25"><a href="#cb19-25" aria-hidden="true" tabindex="-1"></a>      <span class="st">"MLE Beta"</span>,</span>
+<span id="cb19-26"><a href="#cb19-26" aria-hidden="true" tabindex="-1"></a>      <span class="st">"MLE SE"</span>,</span>
+<span id="cb19-27"><a href="#cb19-27" aria-hidden="true" tabindex="-1"></a>      <span class="st">"MLE Share"</span>,</span>
+<span id="cb19-28"><a href="#cb19-28" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Posterior Mean Beta"</span>,</span>
+<span id="cb19-29"><a href="#cb19-29" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Beta 2.5%"</span>,</span>
+<span id="cb19-30"><a href="#cb19-30" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Beta 97.5%"</span>,</span>
+<span id="cb19-31"><a href="#cb19-31" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Posterior Mean Share"</span></span>
+<span id="cb19-32"><a href="#cb19-32" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb19-33"><a href="#cb19-33" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Comparison of MLE and Bayesian MNL Results</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 42%">
+<col style="width: 5%">
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 12%">
+<col style="width: 6%">
+<col style="width: 6%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Item</th>
+<th style="text-align: left;">Class</th>
+<th style="text-align: right;">MLE Beta</th>
+<th style="text-align: right;">MLE SE</th>
+<th style="text-align: right;">MLE Share</th>
+<th style="text-align: right;">Posterior Mean Beta</th>
+<th style="text-align: right;">Beta 2.5%</th>
+<th style="text-align: right;">Beta 97.5%</th>
+<th style="text-align: right;">Posterior Mean Share</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">MGTA 495 Marketing Analytics (Spring with Yavorsky)</td>
+<td style="text-align: right;">1.630</td>
+<td style="text-align: right;">0.146</td>
+<td style="text-align: right;">0.284</td>
+<td style="text-align: right;">1.640</td>
+<td style="text-align: right;">1.363</td>
+<td style="text-align: right;">1.917</td>
+<td style="text-align: right;">0.284</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">MGTA 453 Business Analytics (Fall with August)</td>
+<td style="text-align: right;">0.744</td>
+<td style="text-align: right;">0.142</td>
+<td style="text-align: right;">0.117</td>
+<td style="text-align: right;">0.757</td>
+<td style="text-align: right;">0.494</td>
+<td style="text-align: right;">1.013</td>
+<td style="text-align: right;">0.117</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">MGTA 455 Customer Analytics (Winter with Nijs)</td>
+<td style="text-align: right;">0.656</td>
+<td style="text-align: right;">0.142</td>
+<td style="text-align: right;">0.107</td>
+<td style="text-align: right;">0.672</td>
+<td style="text-align: right;">0.423</td>
+<td style="text-align: right;">0.969</td>
+<td style="text-align: right;">0.108</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">MGTA 452 Large Data (Fall with Hansen)</td>
+<td style="text-align: right;">0.555</td>
+<td style="text-align: right;">0.140</td>
+<td style="text-align: right;">0.097</td>
+<td style="text-align: right;">0.560</td>
+<td style="text-align: right;">0.292</td>
+<td style="text-align: right;">0.822</td>
+<td style="text-align: right;">0.096</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">MGTA 454 Capstone Project (Spring with Advisor)</td>
+<td style="text-align: right;">0.443</td>
+<td style="text-align: right;">0.140</td>
+<td style="text-align: right;">0.087</td>
+<td style="text-align: right;">0.452</td>
+<td style="text-align: right;">0.189</td>
+<td style="text-align: right;">0.732</td>
+<td style="text-align: right;">0.087</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">MGTA 464 SQL (Summer with Nijs)</td>
+<td style="text-align: right;">0.438</td>
+<td style="text-align: right;">0.137</td>
+<td style="text-align: right;">0.086</td>
+<td style="text-align: right;">0.452</td>
+<td style="text-align: right;">0.195</td>
+<td style="text-align: right;">0.719</td>
+<td style="text-align: right;">0.087</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">MGTA 457 Biz. Intelligence Systems (Fall with Schibler)</td>
+<td style="text-align: right;">0.236</td>
+<td style="text-align: right;">0.137</td>
+<td style="text-align: right;">0.070</td>
+<td style="text-align: right;">0.255</td>
+<td style="text-align: right;">0.014</td>
+<td style="text-align: right;">0.520</td>
+<td style="text-align: right;">0.071</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">MGTA 403 AI Math, Prog., &amp; Analytics (Summer with Nijs)</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">0.056</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.055</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">MGTA 451 Marketing/Finance/Operations (Summer with Wilbur/Buti/Shin)</td>
+<td style="text-align: right;">-0.067</td>
+<td style="text-align: right;">0.139</td>
+<td style="text-align: right;">0.052</td>
+<td style="text-align: right;">-0.070</td>
+<td style="text-align: right;">-0.339</td>
+<td style="text-align: right;">0.192</td>
+<td style="text-align: right;">0.051</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">MGTA 444 Analytics Consulting (Winter with Peterson)</td>
+<td style="text-align: right;">-0.239</td>
+<td style="text-align: right;">0.141</td>
+<td style="text-align: right;">0.044</td>
+<td style="text-align: right;">-0.231</td>
+<td style="text-align: right;">-0.542</td>
+<td style="text-align: right;">0.032</td>
+<td style="text-align: right;">0.044</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>The Bayesian results should be very close to the maximum likelihood results because both methods are estimating the same underlying MNL model. The main difference is that the Bayesian version produces a full distribution of possible values for each (), rather than only a point estimate and standard error.</p>
+<p>In my interpretation, the posterior mean betas should line up closely with the MLE beta estimates. The credible intervals should also tell a similar story to the MLE standard errors. If some estimates differ slightly, that is likely due to the weakly informative prior and the randomness of the MCMC sampler. The prior gently pulls extreme estimates toward zero, while the MCMC sampler introduces simulation noise because it approximates the posterior using draws rather than solving for one exact optimum.</p>
+<p>Overall, the Bayesian MNL model gives a similar ranking of classes as the MLE model, but it makes uncertainty more visible. I found the posterior shares especially helpful because they are easier to interpret than raw utility coefficients and they show how much preference each class receives relative to the others.</p>
+</section>
+<section id="comparing-the-three-methods" class="level2">
+<h2 class="anchored" data-anchor-id="comparing-the-three-methods">Comparing the Three Methods</h2>
+<p>After estimating preferences using the counts analysis, the MLE MNL model, and the Bayesian MNL model, I combined all three approaches into a single comparison table. This makes it easier to see where the methods agree and where small differences appear in the rankings.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine all three methods</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>comparison_all <span class="ot">&lt;-</span> counts_results <span class="sc">%&gt;%</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>    Item,</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>    item_label,</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">counts_score =</span> score,</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">counts_rank =</span> rank</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(</span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>    mle_results <span class="sc">%&gt;%</span></span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a>      <span class="fu">select</span>(</span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a>        Item,</span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>        <span class="at">mle_share =</span> share,</span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a>        <span class="at">mle_rank =</span> rank_mle</span>
+<span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a>      ),</span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="st">"Item"</span></span>
+<span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb20-21"><a href="#cb20-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(</span>
+<span id="cb20-22"><a href="#cb20-22" aria-hidden="true" tabindex="-1"></a>    bayes_results <span class="sc">%&gt;%</span></span>
+<span id="cb20-23"><a href="#cb20-23" aria-hidden="true" tabindex="-1"></a>      <span class="fu">select</span>(</span>
+<span id="cb20-24"><a href="#cb20-24" aria-hidden="true" tabindex="-1"></a>        Item,</span>
+<span id="cb20-25"><a href="#cb20-25" aria-hidden="true" tabindex="-1"></a>        <span class="at">bayes_share =</span> post_mean_share,</span>
+<span id="cb20-26"><a href="#cb20-26" aria-hidden="true" tabindex="-1"></a>        <span class="at">bayes_rank =</span> rank_bayes</span>
+<span id="cb20-27"><a href="#cb20-27" aria-hidden="true" tabindex="-1"></a>      ),</span>
+<span id="cb20-28"><a href="#cb20-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="st">"Item"</span></span>
+<span id="cb20-29"><a href="#cb20-29" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb20-30"><a href="#cb20-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(mle_rank)</span>
+<span id="cb20-31"><a href="#cb20-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-32"><a href="#cb20-32" aria-hidden="true" tabindex="-1"></a>comparison_all <span class="sc">%&gt;%</span></span>
+<span id="cb20-33"><a href="#cb20-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb20-34"><a href="#cb20-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">counts_score =</span> <span class="fu">round</span>(counts_score, <span class="dv">3</span>),</span>
+<span id="cb20-35"><a href="#cb20-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">mle_share =</span> <span class="fu">round</span>(mle_share, <span class="dv">3</span>),</span>
+<span id="cb20-36"><a href="#cb20-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">bayes_share =</span> <span class="fu">round</span>(bayes_share, <span class="dv">3</span>)</span>
+<span id="cb20-37"><a href="#cb20-37" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb20-38"><a href="#cb20-38" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(</span>
+<span id="cb20-39"><a href="#cb20-39" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"Comparison of Counts, MLE, and Bayesian Rankings"</span>,</span>
+<span id="cb20-40"><a href="#cb20-40" aria-hidden="true" tabindex="-1"></a>    <span class="at">col.names =</span> <span class="fu">c</span>(</span>
+<span id="cb20-41"><a href="#cb20-41" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Item"</span>,</span>
+<span id="cb20-42"><a href="#cb20-42" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Class"</span>,</span>
+<span id="cb20-43"><a href="#cb20-43" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Counts Score"</span>,</span>
+<span id="cb20-44"><a href="#cb20-44" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Counts Rank"</span>,</span>
+<span id="cb20-45"><a href="#cb20-45" aria-hidden="true" tabindex="-1"></a>      <span class="st">"MLE Share"</span>,</span>
+<span id="cb20-46"><a href="#cb20-46" aria-hidden="true" tabindex="-1"></a>      <span class="st">"MLE Rank"</span>,</span>
+<span id="cb20-47"><a href="#cb20-47" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Bayes Share"</span>,</span>
+<span id="cb20-48"><a href="#cb20-48" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Bayes Rank"</span></span>
+<span id="cb20-49"><a href="#cb20-49" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb20-50"><a href="#cb20-50" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Comparison of Counts, MLE, and Bayesian Rankings</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 48%">
+<col style="width: 9%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 6%">
+<col style="width: 8%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Item</th>
+<th style="text-align: left;">Class</th>
+<th style="text-align: right;">Counts Score</th>
+<th style="text-align: right;">Counts Rank</th>
+<th style="text-align: right;">MLE Share</th>
+<th style="text-align: right;">MLE Rank</th>
+<th style="text-align: right;">Bayes Share</th>
+<th style="text-align: right;">Bayes Rank</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">MGTA 495 Marketing Analytics (Spring with Yavorsky)</td>
+<td style="text-align: right;">0.493</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.284</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.284</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">MGTA 453 Business Analytics (Fall with August)</td>
+<td style="text-align: right;">0.141</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.117</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.117</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">MGTA 455 Customer Analytics (Winter with Nijs)</td>
+<td style="text-align: right;">0.120</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0.107</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0.108</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">MGTA 452 Large Data (Fall with Hansen)</td>
+<td style="text-align: right;">0.062</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.097</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.096</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">MGTA 454 Capstone Project (Spring with Advisor)</td>
+<td style="text-align: right;">0.011</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0.087</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0.087</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">MGTA 464 SQL (Summer with Nijs)</td>
+<td style="text-align: right;">-0.004</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0.086</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0.087</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">MGTA 457 Biz. Intelligence Systems (Fall with Schibler)</td>
+<td style="text-align: right;">-0.120</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.070</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.071</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">MGTA 403 AI Math, Prog., &amp; Analytics (Summer with Nijs)</td>
+<td style="text-align: right;">-0.209</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.056</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.055</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">MGTA 451 Marketing/Finance/Operations (Summer with Wilbur/Buti/Shin)</td>
+<td style="text-align: right;">-0.213</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0.052</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0.051</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">MGTA 444 Analytics Consulting (Winter with Peterson)</td>
+<td style="text-align: right;">-0.292</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0.044</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0.044</td>
+<td style="text-align: right;">10</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Create long-format comparison data</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>plot_data <span class="ot">&lt;-</span> comparison_all <span class="sc">%&gt;%</span></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>    item_label,</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>    counts_score,</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>    mle_share,</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>    bayes_share</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">cols =</span> <span class="fu">c</span>(counts_score, mle_share, bayes_share),</span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">"method"</span>,</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">"value"</span></span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Side-by-side comparison plots</span></span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a><span class="co"># -------------------------------------------------</span></span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(</span>
+<span id="cb21-23"><a href="#cb21-23" aria-hidden="true" tabindex="-1"></a>  plot_data,</span>
+<span id="cb21-24"><a href="#cb21-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(</span>
+<span id="cb21-25"><a href="#cb21-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> value,</span>
+<span id="cb21-26"><a href="#cb21-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="fu">reorder</span>(item_label, value),</span>
+<span id="cb21-27"><a href="#cb21-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill =</span> item_label</span>
+<span id="cb21-28"><a href="#cb21-28" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb21-29"><a href="#cb21-29" aria-hidden="true" tabindex="-1"></a>) <span class="sc">+</span></span>
+<span id="cb21-30"><a href="#cb21-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-31"><a href="#cb21-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">show.legend =</span> <span class="cn">FALSE</span>) <span class="sc">+</span></span>
+<span id="cb21-32"><a href="#cb21-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-33"><a href="#cb21-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> method, <span class="at">scales =</span> <span class="st">"free_x"</span>) <span class="sc">+</span></span>
+<span id="cb21-34"><a href="#cb21-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-35"><a href="#cb21-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb21-36"><a href="#cb21-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Comparison of Preference Estimates Across Methods"</span>,</span>
+<span id="cb21-37"><a href="#cb21-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Counts analysis vs MLE MNL vs Bayesian MNL"</span>,</span>
+<span id="cb21-38"><a href="#cb21-38" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Score / Share"</span>,</span>
+<span id="cb21-39"><a href="#cb21-39" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Class"</span></span>
+<span id="cb21-40"><a href="#cb21-40" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb21-41"><a href="#cb21-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-42"><a href="#cb21-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/comparison-visuals-1.png" class="img-fluid figure-img" width="1440"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Overall, the three methods produce very similar rankings of the MSBA classes, especially for the classes at the very top and bottom of the list. Classes like MGTA 495 and MGTA 453 consistently appear near the top across all methods, while classes such as MGTA 444 and MGTA 403 tend to remain near the bottom. This consistency is reassuring because it suggests that the underlying preference signal in the data is fairly strong.</p>
+<p>Most of the differences between methods appear in the middle of the rankings, where several classes have relatively similar utility levels. In these cases, small amounts of statistical noise or modeling differences can easily flip the order of two nearby classes. The counts analysis is the most direct and descriptive approach, while the MNL models estimate preferences through the full probabilistic choice process.</p>
+<p>One major advantage of the MNL approach over the counts analysis is that it uses more information from each task. In the counts analysis, only the best and worst selections matter directly. In contrast, the MNL model also learns from the items that were <em>shown but not selected</em>. Every item on the screen contributes information about relative preference, which generally leads to more statistically efficient estimates.</p>
+<p>The Bayesian model adds another layer by making uncertainty easier to interpret. Instead of producing only a point estimate and standard error, the Bayesian approach gives a full posterior distribution for every parameter and every derived quantity. For example, obtaining credible intervals for the shares of preference is straightforward: each MCMC draw can be transformed through the soft-max function, and the resulting distribution of shares can be summarized directly with percentiles. Doing this with MLE estimates is possible, but typically requires extra approximation methods such as the delta method.</p>
+<p>Overall, all three approaches tell a very similar story about student preferences, but they differ in complexity, interpretation, and how they represent uncertainty.</p>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<p>Overall, the analysis suggests that students in the MSBA program tend to prefer classes that feel more directly connected to practical analytics and business applications. Across all three methods, classes such as MGTA 495 (Marketing Analytics) and MGTA 453 (Business Analytics) consistently ranked near the top, while classes like MGTA 444 (Analytics Consulting) and MGTA 403 (AI Math, Programming, &amp; Analytics) tended to rank lower. One interesting takeaway is that technically intensive classes did not always receive the strongest preference scores, even though they are important parts of the curriculum. This could reflect differences in student interests, career goals, confidence with technical material, or simply which courses students believe will be most useful immediately after graduation.</p>
+<p>From a methodological perspective, each of the three approaches serves a different purpose. The counts analysis is the easiest to explain and compute, making it useful for quick descriptive summaries or executive dashboards. It provides a fast way to see which classes stand out positively or negatively without needing a full statistical model.</p>
+<p>The MLE multinomial logit model adds a more rigorous statistical framework by explicitly modeling the choice process. Instead of only counting which classes were picked as best or worst, the MNL model also uses information from the items that were shown but not selected. This produces utility estimates and classical standard errors, which are useful when a single point estimate is needed for reporting or comparison purposes.</p>
+<p>The Bayesian MNL approach goes one step further by estimating a full posterior distribution over the utility parameters. This makes uncertainty much easier to interpret, especially for derived quantities like shares of preference. Bayesian methods are also more flexible for future extensions, such as hierarchical models that estimate respondent-level preferences or simulation-based “what-if” scenarios, like predicting how preferences might change if a new class were added to the curriculum.</p>
+<p>There are also several limitations to keep in mind. The survey responses come from a self-selected group of MSBA students, so the results may not generalize to other students, programs, or universities. Preferences may also be influenced by factors outside the survey itself, such as prior coursework, current standing in the program, workload expectations, or even where a class appeared in the survey design. In addition, stated preferences in a survey may not perfectly match the courses students would actually choose in practice.</p>
+<p>If I had more time, I would be interested in extending the Bayesian model to estimate individual-level preferences instead of only aggregate averages. It would also be interesting to segment students by background or career interests to see whether different groups value the classes differently. Another possible extension would be testing alternative MaxDiff model specifications to compare how sensitive the rankings are to different modeling assumptions.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
