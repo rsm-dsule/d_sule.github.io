@@ -14,16 +14,6 @@ execute:
   warning: false
   message: false
 ---
-## Quick Intro to MaxDiff
-
-Before getting into the analysis, this short video gives a quick overview of how MaxDiff (Best-Worst Scaling) works and why it is often preferred over traditional rating scales.
-
-<iframe width="700" height="400"
-src="https://www.youtube.com/embed/5hQkQx8pG2A"
-title="MaxDiff Overview"
-frameborder="0"
-allowfullscreen>
-</iframe>
 
 ## Introduction
 
