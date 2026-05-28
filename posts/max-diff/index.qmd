@@ -3,7 +3,27 @@ title: "MaxDiff Analysis of MSBA Class Preferences"
 subtitle: "Counts, MLE, and Bayesian estimation of the MNL model"
 author: "Damilola Sule"
 date: May 28, 2026
+format:
+  html:
+    toc: true
+    code-fold: false
+    theme: cosmo
+
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
+## Quick Intro to MaxDiff
+
+Before getting into the analysis, this short video gives a quick overview of how MaxDiff (Best-Worst Scaling) works and why it is often preferred over traditional rating scales.
+
+<iframe width="700" height="400"
+src="https://www.youtube.com/embed/5hQkQx8pG2A"
+title="MaxDiff Overview"
+frameborder="0"
+allowfullscreen>
+</iframe>
 
 ## Introduction
 
@@ -794,14 +814,12 @@ Overall, all three approaches tell a very similar story about student preference
 
 ## Discussion
 
-Overall, the analysis suggests that students in the MSBA program tend to prefer classes that feel more directly connected to practical analytics and business applications. Across all three methods, classes such as MGTA 495 (Marketing Analytics) and MGTA 453 (Business Analytics) consistently ranked near the top, while classes like MGTA 444 (Analytics Consulting) and MGTA 403 (AI Math, Programming, & Analytics) tended to rank lower. One interesting takeaway is that technically intensive classes did not always receive the strongest preference scores, even though they are important parts of the curriculum. This could reflect differences in student interests, career goals, confidence with technical material, or simply which courses students believe will be most useful immediately after graduation.
+Overall, all three methods told a pretty similar story about which MSBA classes students preferred most. Classes like MGTA 495 (Marketing Analytics) and MGTA 453 (Business Analytics) consistently ranked near the top across the counts analysis, MLE model, and Bayesian model. Meanwhile, classes like MGTA 444 and MGTA 403 tended to rank lower. One thing I found interesting was that some of the more technical courses were not necessarily the most preferred, even though they are probably some of the most useful long-term.
 
-From a methodological perspective, each of the three approaches serves a different purpose. The counts analysis is the easiest to explain and compute, making it useful for quick descriptive summaries or executive dashboards. It provides a fast way to see which classes stand out positively or negatively without needing a full statistical model.
+The three methods mainly differed in how much statistical detail they provided. The counts analysis was the easiest to understand and gave a quick summary of which classes students liked or disliked most. I could see this being useful for a dashboard or fast overview. The MLE multinomial logit model felt more statistically rigorous because it explicitly modeled the choice process instead of just counting selections. It also used information from the items that were shown but not picked.
 
-The MLE multinomial logit model adds a more rigorous statistical framework by explicitly modeling the choice process. Instead of only counting which classes were picked as best or worst, the MNL model also uses information from the items that were shown but not selected. This produces utility estimates and classical standard errors, which are useful when a single point estimate is needed for reporting or comparison purposes.
+The Bayesian model ended up being the most interesting to me because it made uncertainty easier to visualize. Instead of getting only one estimate, the Bayesian approach gave a full distribution for each parameter and the preference shares. I also thought it was cool seeing how the Metropolis-Hastings sampler gradually stabilized once the step size was tuned reasonably well.
 
-The Bayesian MNL approach goes one step further by estimating a full posterior distribution over the utility parameters. This makes uncertainty much easier to interpret, especially for derived quantities like shares of preference. Bayesian methods are also more flexible for future extensions, such as hierarchical models that estimate respondent-level preferences or simulation-based “what-if” scenarios, like predicting how preferences might change if a new class were added to the curriculum.
+There are definitely some limitations to the analysis. The responses come from a self-selected group of MSBA students, so the results may not generalize beyond this program. Preferences could also depend on things like students’ backgrounds, career goals, current workload, or whether they had already heard good or bad things about a class before taking the survey.
 
-There are also several limitations to keep in mind. The survey responses come from a self-selected group of MSBA students, so the results may not generalize to other students, programs, or universities. Preferences may also be influenced by factors outside the survey itself, such as prior coursework, current standing in the program, workload expectations, or even where a class appeared in the survey design. In addition, stated preferences in a survey may not perfectly match the courses students would actually choose in practice.
-
-If I had more time, I would be interested in extending the Bayesian model to estimate individual-level preferences instead of only aggregate averages. It would also be interesting to segment students by background or career interests to see whether different groups value the classes differently. Another possible extension would be testing alternative MaxDiff model specifications to compare how sensitive the rankings are to different modeling assumptions.
+If I had more time, I would probably explore individual-level preference differences instead of only estimating one average preference for everyone. It would also be interesting to compare preferences across students interested in different career paths, like marketing analytics versus data science or consulting.

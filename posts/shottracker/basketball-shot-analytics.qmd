@@ -8,7 +8,6 @@ format:
     transition: fade
     incremental: true
     embed-resources: true
-
 ---
 
 ## The Game Has Changed
