@@ -1,0 +1,71 @@
+---
+title: "How Basketball Analysts Track and Visualize Shots"
+author: "Your Name"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+    incremental: true
+    embed-resources: true
+---
+
+## The Game Has Changed
+
+![](images/game-changed.png){width=85%}
+
+::: notes
+Basketball analytics has changed modern shot selection. Teams now emphasize shots near the rim and three-pointers because those shots are usually more efficient than long midrange attempts.
+
+But in order to identify these patterns, teams first needed a way to track every shot on the court.
+:::
+
+---
+
+## How Teams Track Every Shot
+
+![](images/shottracker-balls.png){width=70%}
+
+Systems like **ShotTracker** collect shot-location data, player movement, and real-time court coordinates.
+
+::: notes
+ It uses sensors and tracking systems around the court to collect movement and shot data in real time. It is especially used in college basketball and team analytics settings.
+:::
+
+---
+
+## Turning Coordinates Into Shot Charts
+
+![](images/maxey-shot-chart.png){width=88%}
+
+Analysts transform tracking data into shot charts, heat maps, efficiency zones, and player tendency models.
+
+::: notes
+Once the data is collected, analysts can visualize where players are most efficient and how different lineups affect shot quality.
+
+These visuals help teams identify offensive strengths, weaknesses, and patterns.
+:::
+
+---
+
+## From Visualization to Strategy
+
+![](images/sga-shot-chart.png){width=78%}
+
+Shot analytics helps teams build defensive game plans, optimize lineups, and improve offensive spacing.
+
+::: notes
+Teams use these visualizations to decide how to defend star players, which lineups create efficient shots, and where players should attack.
+
+So the charts are not just visuals. They influence actual strategy.
+:::
+
+---
+
+## Main Takeaway
+
+> Basketball analytics is not just about counting shots — tracking systems transform movement and shot data into strategy, lineup decisions, and winning basketball.
+
+::: notes
+Modern basketball analytics connects technology, visualization, and strategic decision-making.
+:::

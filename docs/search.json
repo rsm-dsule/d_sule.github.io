@@ -1,31 +1,17 @@
 [
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "A/B Testing a Call to Action\n\n\nSimulating Key Ideas from Classical Frequentist Statistics\n\n\n\n\n\n\n\n\nApr 12, 2026\n\n\nDamilola Sule\n\n\n\n\n\n\n\n\n\n\n\n\nHow Basketball Analysts Track and Visualize Shots\n\n\n\n\n\n\n\n\n\n\n\nDamilola Sule\n\n\n\n\n\n\n\n\n\n\n\n\nHow Basketball Analysts Track and Visualize Shots\n\n\n\n\n\n\n\n\n\n\n\nYour Name\n\n\n\n\n\n\n\n\n\n\n\n\nMaxDiff Analysis of MSBA Class Preferences\n\n\nCounts, MLE, and Bayesian estimation of the MNL model\n\n\n\n\n\n\n\n\nMay 28, 2026\n\n\nDamilola Sule\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Post\n\n\n\n\n\nMy first blog post\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPoisson Regression and Maximum Likelihood Estimation\n\n\nA Case Study of Blueprinty’s Software and Patent Awards\n\n\n\n\n\n\n\n\nMay 17, 2026\n\n\nDamilola Sule\n\n\n\n\n\n\n\n\n\n\n\n\nReplication of Dean Karlan and John A. List (2007)\n\n\nDoes Price Mater in Charitable Giving? Evidence from a Large-Scale Natural Field Experiment\n\n\n\n\n\n\n\n\nApr 21, 2026\n\n\nDamilola Sule\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Damilola Sule",
     "section": "",
     "text": "Welcome to my website! I’m Damilola Sule, a Business Analytics graduate student at the Rady School of Management at UC San Diego.\nI’m passionate about data, sports, and using analytics to solve real-world problems. As a student-athlete on the UCSD Women’s Basketball Team, I’ve developed strong discipline, teamwork, and leadership skills that carry over into my academic and professional work."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "My Resume",
-    "section": "",
-    "text": "Download PDF file."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "A/B Testing a Call to Action\n\n\nSimulating Key Ideas from Classical Frequentist Statistics\n\n\n\n\n\n\n\n\nApr 12, 2026\n\n\nDamilola Sule\n\n\n\n\n\n\n\n\n\n\n\n\nHow Basketball Analysts Track and Visualize Shots\n\n\n\n\n\n\n\n\n\n\n\nDamilola Sule\n\n\n\n\n\n\n\n\n\n\n\n\nMaxDiff Analysis of MSBA Class Preferences\n\n\nCounts, MLE, and Bayesian estimation of the MNL model\n\n\n\n\n\n\n\n\nMay 28, 2026\n\n\nDamilola Sule\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Post\n\n\n\n\n\nMy first blog post\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPoisson Regression and Maximum Likelihood Estimation\n\n\nA Case Study of Blueprinty’s Software and Patent Awards\n\n\n\n\n\n\n\n\nMay 17, 2026\n\n\nDamilola Sule\n\n\n\n\n\n\n\n\n\n\n\n\nReplication of Dean Karlan and John A. List (2007)\n\n\nDoes Price Mater in Charitable Giving? Evidence from a Large-Scale Natural Field Experiment\n\n\n\n\n\n\n\n\nApr 21, 2026\n\n\nDamilola Sule\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#hello",
@@ -63,76 +49,6 @@
     "text": "A Favorite Quote\n\n“Be Great Always”"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Here are some projects that reflect my experience in analytics, data science, and research.\n\n\n\nTools: Python, APIs (Ticketmaster, Spotify), Kaggle\n\nCollected and analyzed event and artist data to identify pricing and demand patterns\nBuilt a regression model to estimate ticket prices based on popularity and timing\nDeveloped a pricing strategy that could generate ~$100K revenue and ~$44K profit\n\n\n\n\nTools: R, Statistical Modeling\n\nCleaned and analyzed social media data to evaluate user engagement trends\nBuilt regression models and performed hypothesis testing\nIdentified key drivers of user behavior and presented insights through visual reports\n\n\n\n\nTools: Data Processing, Behavioral Analysis\n\nConducted behavioral experiments using eye-tracking and auditory datasets\nCleaned and structured large datasets for analysis\nPresented findings to research teams to support experimental design decisions\n\n\n\n\n\n\nProgramming: Python, SQL, R, Java, JavaScript, MATLAB :contentReferenceoaicite:0\nTools: Tableau, Power BI, Google Analytics, Excel :contentReferenceoaicite:1\nTechniques: Regression, A/B Testing, Data Cleaning, ETL :contentReferenceoaicite:2\n\n\n\n\n\nImproving my data analysis and modeling skills\nExploring applications of analytics in sports and business\nBuilding projects that combine technical and strategic thinking"
-  },
-  {
-    "objectID": "projects.html#website-portfolio",
-    "href": "projects.html#website-portfolio",
-    "title": "Projects",
-    "section": "",
-    "text": "This Quarto website is one of my projects. I customized it with my own photo, personal details, and styling to make it more unique and engaging."
-  },
-  {
-    "objectID": "projects.html#academic-growth",
-    "href": "projects.html#academic-growth",
-    "title": "Projects",
-    "section": "",
-    "text": "Through my coursework, I am continuing to improve my understanding of research, writing, analysis, and communication."
-  },
-  {
-    "objectID": "projects.html#technical-skills",
-    "href": "projects.html#technical-skills",
-    "title": "Projects",
-    "section": "",
-    "text": "I am building experience with digital tools and learning how to present information in clear, creative, and professional ways."
-  },
-  {
-    "objectID": "posts/my-first-post/index.html",
-    "href": "posts/my-first-post/index.html",
-    "title": "My First Post",
-    "section": "",
-    "text": "Hi Guys, welcome to my page. I’m so excited to share bits and pieces of my life with you. Grab some popcorn and enjoy!!"
-  },
-  {
-    "objectID": "projects.html#pricing-analytics-house-of-blues-san-diego",
-    "href": "projects.html#pricing-analytics-house-of-blues-san-diego",
-    "title": "Projects",
-    "section": "",
-    "text": "Tools: Python, APIs (Ticketmaster, Spotify), Kaggle\n\nCollected and analyzed event and artist data to identify pricing and demand patterns\nBuilt a regression model to estimate ticket prices based on popularity and timing\nDeveloped a pricing strategy that could generate ~$100K revenue and ~$44K profit"
-  },
-  {
-    "objectID": "projects.html#social-media-analytics",
-    "href": "projects.html#social-media-analytics",
-    "title": "Projects",
-    "section": "",
-    "text": "Tools: R, Statistical Modeling\n\nCleaned and analyzed social media data to evaluate user engagement trends\nBuilt regression models and performed hypothesis testing\nIdentified key drivers of user behavior and presented insights through visual reports"
-  },
-  {
-    "objectID": "projects.html#research-ucsd-cognitive-development-lab",
-    "href": "projects.html#research-ucsd-cognitive-development-lab",
-    "title": "Projects",
-    "section": "",
-    "text": "Tools: Data Processing, Behavioral Analysis\n\nConducted behavioral experiments using eye-tracking and auditory datasets\nCleaned and structured large datasets for analysis\nPresented findings to research teams to support experimental design decisions"
-  },
-  {
-    "objectID": "projects.html#skills",
-    "href": "projects.html#skills",
-    "title": "Projects",
-    "section": "",
-    "text": "Programming: Python, SQL, R, Java, JavaScript, MATLAB :contentReferenceoaicite:0\nTools: Tableau, Power BI, Google Analytics, Excel :contentReferenceoaicite:1\nTechniques: Regression, A/B Testing, Data Cleaning, ETL :contentReferenceoaicite:2"
-  },
-  {
-    "objectID": "projects.html#what-im-currently-working-on",
-    "href": "projects.html#what-im-currently-working-on",
-    "title": "Projects",
-    "section": "",
-    "text": "Improving my data analysis and modeling skills\nExploring applications of analytics in sports and business\nBuilding projects that combine technical and strategic thinking"
-  },
-  {
     "objectID": "sports.html",
     "href": "sports.html",
     "title": "Sports & Analytics",
@@ -168,459 +84,39 @@
     "text": "I am interested in exploring opportunities where I can combine sports and analytics, whether in: - sports analytics - business strategy - or performance optimization"
   },
   {
-    "objectID": "posts/ab-testing/index.html",
-    "href": "posts/ab-testing/index.html",
-    "title": "A/B Testing a Call to Action",
-    "section": "",
-    "text": "To see how A/B testing works in practice, consider a simple scenario. You run a website, and your main goal on the landing page is to get visitors to sign up for your newsletter. Growing your audience depends on getting people to click that sign-up button, so even small changes in wording can matter.\nNow suppose you’re not sure which message works better to attract people. One version could say, “Sign up for our newsletter here!”, while another says, “Stay up to date by signing up!”. Both could work, but you want to figure out which one is more effective.\nInstead of guessing, you decide to run an A/B test. In an A/B test, visitors are randomly split into two groups: one group sees CTA A, and the other sees CTA B. You then compare how many people in each group actually sign up. By looking at the difference in sign-up rates, you can determine which CTA performs better and decide which one to use."
-  },
-  {
-    "objectID": "posts/ab-testing/index.html#introduction",
-    "href": "posts/ab-testing/index.html#introduction",
-    "title": "A/B Testing a Call to Action",
-    "section": "",
-    "text": "To see how A/B testing works in practice, consider a simple scenario. You run a website, and your main goal on the landing page is to get visitors to sign up for your newsletter. Growing your audience depends on getting people to click that sign-up button, so even small changes in wording can matter.\nNow suppose you’re not sure which message works better to attract people. One version could say, “Sign up for our newsletter here!”, while another says, “Stay up to date by signing up!”. Both could work, but you want to figure out which one is more effective.\nInstead of guessing, you decide to run an A/B test. In an A/B test, visitors are randomly split into two groups: one group sees CTA A, and the other sees CTA B. You then compare how many people in each group actually sign up. By looking at the difference in sign-up rates, you can determine which CTA performs better and decide which one to use."
-  },
-  {
-    "objectID": "posts/ab-testing/index.html#the-ab-test-as-a-statistical-problem",
-    "href": "posts/ab-testing/index.html#the-ab-test-as-a-statistical-problem",
-    "title": "A/B Testing a Call to Action",
-    "section": "The A/B Test as a Statistical Problem",
-    "text": "The A/B Test as a Statistical Problem\nNow that we’ve described the A/B test intuitively, we can think about it more formally as a statistical problem.\nEach visitor who comes to the website either signs up for the newsletter or doesn’t. Because of this, we can model each outcome as a Bernoulli random variable, where a value of 1 means the visitor signs up and 0 means they do not. The probability of a sign-up is denoted by \\(\\pi\\).\nHowever, the probability of signing up may depend on which CTA the visitor sees. Instead of using a single probability, we allow it to differ across the two groups. Visitors who see CTA A have a sign-up probability of \\(\\pi_A\\), while visitors who see CTA B have a probability of \\(\\pi_B\\).\nThe main quantity we care about is the difference between these two probabilities, \\(\\theta = \\pi_A - \\pi_B\\). This represents how much better one CTA performs compared to the other.\nSince we don’t know the true values of \\(\\pi_A\\) and \\(\\pi_B\\), we estimate them using the data we collect. For each group, we calculate the sample mean of the outcomes. Because each observation is either 0 or 1, the sample mean is just the proportion of visitors who signed up. So we have \\(\\bar{X}_A = \\hat\\pi_A\\) and \\(\\bar{X}_B = \\hat\\pi_B\\).\nOur estimator for the difference in performance is \\(\\hat\\theta = \\bar{X}_A - \\bar{X}_B\\). In other words, we are comparing the observed sign-up rates between the two groups."
-  },
-  {
-    "objectID": "posts/ab-testing/index.html#simulating-data",
-    "href": "posts/ab-testing/index.html#simulating-data",
-    "title": "A/B Testing a Call to Action",
-    "section": "Simulating Data",
-    "text": "Simulating Data\nIn a real A/B test, we would not know the true values of \\(\\pi_A\\) and \\(\\pi_B\\). Instead, we would only observe whether each visitor signs up and use that data to estimate these probabilities. For this exercise, however, we will set these values ourselves so that we know the true underlying difference. This allows us to evaluate how well our estimator performs when the true value is known.\nSuppose that \\(\\pi_A = 0.22\\) and \\(\\pi_B = 0.18\\), so the true difference is \\(\\theta = 0.04\\). This means that CTA A is, in reality, slightly more effective than CTA B.\nTo represent this scenario, we simulate data from two Bernoulli distributions. Each observation represents a visitor, where a value of 1 indicates a sign-up and 0 indicates no sign-up. We generate 1,000 observations for each group and store the results for use in later sections.\n\nimport numpy as np\nimport pandas as pd\n\nnp.random.seed(42)\n\n# True probabilities\npi_A = 0.22\npi_B = 0.18\n\n# Number of observations per group\nn = 1000\n\n# Simulate data\nX_A = np.random.binomial(1, pi_A, n)\nX_B = np.random.binomial(1, pi_B, n)\n\n# Store results in a dataframe\nab_data = pd.DataFrame({\n    \"group\": [\"A\"] * n + [\"B\"] * n,\n    \"signup\": np.concatenate([X_A, X_B])\n})\n\n# Compute sample estimates\npi_A_hat = X_A.mean()\npi_B_hat = X_B.mean()\ntheta_hat = pi_A_hat - pi_B_hat\n\n# Display results\npd.DataFrame({\n    \"Quantity\": [\"pi_A_hat\", \"pi_B_hat\", \"theta_hat\"],\n    \"Value\": [pi_A_hat, pi_B_hat, theta_hat]\n})\n\n\n\n\n\n\n\n\nQuantity\nValue\n\n\n\n\n0\npi_A_hat\n0.216\n\n\n1\npi_B_hat\n0.178\n\n\n2\ntheta_hat\n0.038\n\n\n\n\n\n\n\nThe simulated data gives us one realization of an A/B test where the true difference is \\(\\theta = 0.04\\). Because the data are generated randomly, the estimated values will not match the true probabilities exactly, but they should be reasonably close. This dataset will be used in the following sections to analyze the behavior of \\(\\hat\\theta\\) and better understand the properties of our estimator."
-  },
-  {
-    "objectID": "posts/ab-testing/index.html#the-law-of-large-numbers",
-    "href": "posts/ab-testing/index.html#the-law-of-large-numbers",
-    "title": "A/B Testing a Call to Action",
-    "section": "The Law of Large Numbers",
-    "text": "The Law of Large Numbers\nThe Law of Large Numbers tells us that as the sample size increases, the sample mean converges to the true population mean. In the context of our A/B test, this means that as we observe more visitors, our estimate \\(\\hat\\theta = \\bar{X}_A - \\bar{X}_B\\) should get closer to the true difference \\(\\theta\\). This is what gives us confidence that with enough data, our estimate will be reliable.\nTo visualize this, we take the simulated data from the previous section and compute the difference between outcomes in group A and group B for each pair of observations. We then calculate the running average of these differences, which shows how our estimate evolves as we include more data.\n\n\n&lt;&gt;:17: SyntaxWarning: invalid escape sequence '\\h'\n&lt;&gt;:17: SyntaxWarning: invalid escape sequence '\\h'\n/tmp/ipykernel_93341/2588416131.py:17: SyntaxWarning: invalid escape sequence '\\h'\n  plt.title(\"Law of Large Numbers: Convergence of $\\hat{\\\\theta}$\")\n\n\n\n\n\n\n\n\n\nWhat stands out immediately is how unstable the estimate is when only a small number of observations are used. Early on, \\(\\hat\\theta\\) fluctuates quite a bit, which highlights how unreliable small samples can be. As more data is included, however, the estimate begins to settle down and move toward the true value of \\(\\theta = 0.04\\). This is exactly what the Law of Large Numbers predicts.\nThis illustrates the Law of Large Numbers in practice. Even though individual observations are random, averaging over a larger number of them leads to a more accurate and stable estimate. In the context of A/B testing, this means that larger sample sizes give us more confidence that the observed difference in performance reflects the true underlying effect."
-  },
-  {
-    "objectID": "posts/ab-testing/index.html#bootstrap-standard-errors",
-    "href": "posts/ab-testing/index.html#bootstrap-standard-errors",
-    "title": "A/B Testing a Call to Action",
-    "section": "Bootstrap Standard Errors",
-    "text": "Bootstrap Standard Errors\nNow that we have an estimate of the difference in sign-up rates, the next question is how precise that estimate actually is. A point estimate like \\(\\hat\\theta\\) is useful, but on its own it does not tell us how much uncertainty surrounds it. This is why we also want a standard error and, eventually, a confidence interval.\nInstead of relying only on formulas, we can estimate this uncertainty directly from the data using a method called the bootstrap. Each time we resample, we recompute the statistic of interest. The standard deviation of those resampled statistics then serves as an estimate of the standard error. This is especially useful because it does not require us to rely entirely on a closed-form formula.\nIn this case, I repeatedly resample from the simulated CTA A and CTA B data, compute a bootstrap version of the estimator \\(\\hat\\theta^* = \\bar{X}_A^* - \\bar{X}_B^*\\), and then use the spread of those bootstrap estimates to measure uncertainty.\n\nimport numpy as np\nimport pandas as pd\n\nnp.random.seed(42)\n\nB = 1000\nbootstrap_thetas = []\n\nfor _ in range(B):\n    X_A_star = np.random.choice(X_A, size=n, replace=True)\n    X_B_star = np.random.choice(X_B, size=n, replace=True)\n\n    theta_star = X_A_star.mean() - X_B_star.mean()\n    bootstrap_thetas.append(theta_star)\n\nbootstrap_thetas = np.array(bootstrap_thetas)\n\n# Bootstrapped standard error\nbootstrap_se = bootstrap_thetas.std(ddof=1)\n\n# Analytical standard error\nanalytical_se = np.sqrt(\n    (pi_A_hat * (1 - pi_A_hat)) / n +\n    (pi_B_hat * (1 - pi_B_hat)) / n\n)\n\n# 95% confidence interval using the bootstrap standard error\nci_lower = theta_hat - 1.96 * bootstrap_se\nci_upper = theta_hat + 1.96 * bootstrap_se\n\npd.DataFrame({\n    \"Quantity\": [\n        \"theta_hat\",\n        \"Bootstrap SE\",\n        \"Analytical SE\",\n        \"95% CI Lower\",\n        \"95% CI Upper\"\n    ],\n    \"Value\": [\n        theta_hat,\n        bootstrap_se,\n        analytical_se,\n        ci_lower,\n        ci_upper\n    ]\n})\n\nimport matplotlib.pyplot as plt\n\nplt.figure()\nplt.hist(bootstrap_thetas, bins=40, edgecolor='white')\nplt.axvline(x=theta_hat, linestyle='--', label=f'Observed θ̂ = {theta_hat:.4f}')\nplt.xlabel(\"Bootstrap Estimate of θ\")\nplt.ylabel(\"Frequency\")\nplt.title(\"Bootstrap Distribution of θ̂\")\nplt.legend()\nplt.show()\n\n\n\n\n\n\n\n\nThe bootstrap standard error and the analytical standard error should be very close to one another. That is a good sign, because it suggests that the resampling approach is producing a reasonable estimate of the variability in \\(\\hat\\theta\\). In other words, both methods are telling a very similar story about how much uncertainty is attached to our estimate.\nUsing the bootstrapped standard error, I construct a 95% confidence interval for \\(\\theta\\). This interval gives a range of plausible values for the true difference in sign-up rates between the two CTAs. In practical terms, it tells us how large the true advantage of CTA A over CTA B might reasonably be, given the data we observed. If the interval does not include 0, that would suggest that the difference between the two CTAs is unlikely to be due to random chance alone."
-  },
-  {
-    "objectID": "posts/ab-testing/index.html#the-central-limit-theorem",
-    "href": "posts/ab-testing/index.html#the-central-limit-theorem",
-    "title": "A/B Testing a Call to Action",
-    "section": "The Central Limit Theorem",
-    "text": "The Central Limit Theorem\nThe Central Limit Theorem (CLT) tells us that, regardless of the underlying distribution of the data, the sampling distribution of the sample mean becomes approximately Normal as the sample size increases. In the context of our A/B test, this means that the distribution of \\(\\hat\\theta = \\bar{X}_A - \\bar{X}_B\\) will approach a Normal distribution as the number of observations grows.\nTo demonstrate this, we simulate the sampling distribution of \\(\\hat\\theta\\) for different sample sizes. For each value of \\(n \\in \\{25, 50, 100, 500\\}\\), we repeatedly draw samples from the CTA A and CTA B distributions, compute \\(\\hat\\theta\\), and then visualize the distribution of these estimates.\n\n\n\n\n\n\n\n\n\nThe histograms show how the distribution of \\(\\hat\\theta\\) changes as the sample size increases. When \\(n\\) is small, the distribution appears more irregular and less smooth, reflecting higher variability in the estimates. As \\(n\\) grows, the distribution becomes more symmetric and increasingly bell-shaped.\nBy the time we reach larger sample sizes, such as \\(n = 500\\), the distribution of \\(\\hat\\theta\\) closely resembles a Normal distribution centered near the true value of \\(\\theta = 0.04\\). This is a direct illustration of the Central Limit Theorem in action. Even though the underlying data are Bernoulli (which are not Normally distributed), the distribution of the estimator becomes approximately Normal as the sample size increases.\nThis result is what makes the rest of the analysis possible without approximate Normality, we would not be able to construct confidence intervals or perform hypothesis tests in a straightforward way."
-  },
-  {
-    "objectID": "posts/ab-testing/index.html#hypothesis-testing",
-    "href": "posts/ab-testing/index.html#hypothesis-testing",
-    "title": "A/B Testing a Call to Action",
-    "section": "Hypothesis Testing",
-    "text": "Hypothesis Testing\nNow that we have seen the Central Limit Theorem in action, we can use it to perform a formal hypothesis test. The idea of a hypothesis test is to use data to evaluate a claim about an unknown parameter. In this case, we want to determine whether the difference in sign-up rates between the two CTAs is real or could have occurred just by chance.\nWe begin by setting up our hypotheses. The null hypothesis is \\(H_0: \\theta = 0\\), which means that the two CTAs perform equally well. The alternative hypothesis is \\(H_1: \\theta \\neq 0\\), which means that there is a difference in performance between the two.\nTo test this, we standardize our estimator by computing the test statistic \\(z = \\frac{\\hat\\theta - 0}{SE(\\hat\\theta)}\\). This step is important because it allows us to compare our observed result to a known reference distribution.\nThe reasoning behind this standardization comes from the Central Limit Theorem. First, we know that for large samples, \\(\\hat\\theta\\) is approximately Normally distributed. Under the null hypothesis, the mean of this distribution is 0. When we divide a Normally distributed variable by its standard deviation, we obtain a standard Normal distribution, \\(N(0,1)\\). This means that under \\(H_0\\), the test statistic \\(z\\) follows an approximate standard Normal distribution. Once we know this, we can compute a p-value, which tells us how extreme our observed result is under the assumption that the null hypothesis is true.\nThis procedure is often referred to as a “t-test,” but that name is slightly misleading in this context. The classical t-test assumes Normally distributed data and derives an exact t-distribution when the variance is estimated. Here, our data are Bernoulli, not Normal, so we do not get an exact t-distribution. Instead, we rely on the Central Limit Theorem to justify approximate Normality. Since we are also estimating the standard error from the data, what we are doing is closer to a z-test. In practice, for large samples, the t-distribution and the standard Normal distribution are very similar, so this distinction has little practical impact, but it is still important to understand the reasoning behind it.\n\nfrom scipy.stats import norm\nimport pandas as pd\n\n# Compute test statistic\nz_stat = theta_hat / analytical_se\n\n# Two-sided p-value\np_value = 2 * (1 - norm.cdf(abs(z_stat)))\n\npd.DataFrame({\n    \"Quantity\": [\"z-statistic\", \"p-value\"],\n    \"Value\": [z_stat, p_value]\n})\n\n\n\n\n\n\n\n\nQuantity\nValue\n\n\n\n\n0\nz-statistic\n2.138818\n\n\n1\np-value\n0.032450\n\n\n\n\n\n\n\nThe test statistic measures how far our estimate \\(\\hat\\theta\\) is from 0 in units of its standard error. In other words, it tells us how “surprising” our result would be if there were actually no difference between the two CTAs.\nIn this case, the p-value is very small, which provides strong evidence against \\(H_0\\). This suggests that the difference in sign-up rates between the two CTAs is unlikely to be due to random chance alone. Instead, it appears that CTA A genuinely performs better than CTA B."
-  },
-  {
-    "objectID": "posts/ab-testing/index.html#the-t-test-as-a-regression",
-    "href": "posts/ab-testing/index.html#the-t-test-as-a-regression",
-    "title": "A/B Testing a Call to Action",
-    "section": "The T-Test as a Regression",
-    "text": "The T-Test as a Regression\nIt turns out that the two-sample test we just performed can also be written as a simple linear regression. This is useful because it shows that hypothesis testing and regression are closely related, and it allows us to use standard regression tools to analyze A/B tests. This framework also extends naturally if we want to add more variables or run more complex experiments.\nTo set this up, we combine the CTA A and CTA B data into a single dataset. For each observation, we define an outcome variable \\(Y_i\\), which equals 1 if the visitor signs up and 0 otherwise, and an indicator variable \\(D_i\\), which equals 1 if the visitor saw CTA A and 0 if they saw CTA B. We then estimate the regression model \\(Y_i = \\beta_0 + \\beta_1 D_i + \\varepsilon_i\\).\nThe coefficients in this regression have a clear interpretation. When \\(D_i = 0\\), the equation reduces to \\(Y_i = \\beta_0\\), so \\(\\beta_0\\) represents the mean outcome for group B, which estimates \\(\\pi_B\\). When \\(D_i = 1\\), the equation becomes \\(Y_i = \\beta_0 + \\beta_1\\), so \\(\\beta_0 + \\beta_1\\) represents the mean outcome for group A, which estimates \\(\\pi_A\\). This means that \\(\\beta_1 = \\pi_A - \\pi_B = \\theta\\), so the estimated coefficient \\(\\hat\\beta_1\\) is exactly the same as \\(\\hat\\theta = \\bar{X}_A - \\bar{X}_B\\).\nWe can now fit this regression using the simulated data.\n\nimport statsmodels.api as sm\nimport pandas as pd\n\n# Create indicator variable: 1 for A, 0 for B\nab_data[\"D\"] = (ab_data[\"group\"] == \"A\").astype(int)\n\n# Define variables\nY = ab_data[\"signup\"]\nD = ab_data[\"D\"]\n\n# Add constant for intercept\nX = sm.add_constant(D)\n\n# Fit regression\nmodel = sm.OLS(Y, X).fit()\n\n# Extract relevant results\nresults = pd.DataFrame({\n    \"Quantity\": [\"beta_1 (coef)\", \"Standard Error\", \"t-statistic\", \"p-value\"],\n    \"Value\": [\n        model.params[\"D\"],\n        model.bse[\"D\"],\n        model.tvalues[\"D\"],\n        model.pvalues[\"D\"]\n    ]\n})\n\nresults\n\n\n\n\n\n\n\n\nQuantity\nValue\n\n\n\n\n0\nbeta_1 (coef)\n0.038000\n\n\n1\nStandard Error\n0.017776\n\n\n2\nt-statistic\n2.137748\n\n\n3\np-value\n0.032658\n\n\n\n\n\n\n\nThe estimated coefficient \\(\\hat\\beta_1\\) matches the difference in sample means \\(\\hat\\theta\\) from the previous section. The standard error, t-statistic, and p-value are also very similar to what we computed earlier, with only small differences due to how the standard error is calculated in the regression framework.\nThis equivalence matters because it shows that A/B testing is just a special case of a regression model. In more complex settings, we could easily extend this framework by adding additional variables, interactions, or multiple treatment groups, while still using the same underlying logic for estimation and inference."
-  },
-  {
-    "objectID": "posts/ab-testing/index.html#the-problem-with-peeking",
-    "href": "posts/ab-testing/index.html#the-problem-with-peeking",
-    "title": "A/B Testing a Call to Action",
-    "section": "The Problem with Peeking",
-    "text": "The Problem with Peeking\nIn practice, A/B tests are often monitored as data comes in. Suppose that instead of waiting until all 1,000 visitors per group have been observed, we check the results every 100 visitors. At each step, we run a hypothesis test and stop early if we find a statistically significant result. While this might seem reasonable, it creates a serious problem from a statistical perspective.\nUnder classical frequentist statistics, a single hypothesis test conducted at the \\(\\alpha = 0.05\\) level has a 5% chance of producing a false positive when the null hypothesis is true. However, if we repeatedly test the data as it accumulates, each additional test creates another opportunity to incorrectly reject \\(H_0\\). As a result, the overall probability of making at least one false rejection becomes much larger than 5%.\nTo demonstrate this, I simulate a setting where the null hypothesis is actually true, meaning \\(\\pi_A = \\pi_B = 0.20\\) and therefore \\(\\theta = 0\\). I then repeatedly simulate experiments and check whether peeking at the data leads to false discoveries.\n\n\n0.1864\n\n\nThe result of this simulation shows that the false positive rate is much higher than the nominal 5% level. Even though there is actually no difference between the two CTAs, repeatedly checking the results makes it increasingly likely that we will eventually observe a “significant” result purely by chance.\nThis illustrates why peeking is problematic. By conducting multiple tests on the same accumulating data, we inflate the probability of incorrectly rejecting the null hypothesis. In practice, this means that if we stop an experiment early whenever we see a significant result, we are much more likely to declare a winner when no real effect exists.\nThis is a subtle but important point. In practice, repeatedly checking results can make an experiment appear to produce meaningful findings even when there is no real effect. Without proper adjustments, this leads to overconfidence in results and poor decision-making. This is why well-designed A/B tests either fix the sample size in advance or use methods specifically designed for sequential analysis."
-  },
-  {
-    "objectID": "posts/ab-testing/index.html#section",
-    "href": "posts/ab-testing/index.html#section",
-    "title": "A/B Testing a Call to Action",
-    "section": "",
-    "text": "This setup gives us a clear way to measure performance, but it also raises an important question: how well does our estimator actually behave in practice? To answer that, we start by simulating data where we know the true answer."
-  },
-  {
-    "objectID": "posts/ab-testing/index.html#conclusion",
-    "href": "posts/ab-testing/index.html#conclusion",
-    "title": "A/B Testing a Call to Action",
-    "section": "Conclusion",
-    "text": "Conclusion\nWhat starts as a simple comparison between two buttons turns out to rely on a full set of statistical tools. From the Law of Large Numbers to the Central Limit Theorem and hypothesis testing, each step plays a role in helping us make reliable decisions from data.\nA/B testing may seem straightforward on the surface, but without careful statistical reasoning, it is easy to draw incorrect conclusions. By understanding both the methods and their limitations, we can design experiments that lead to more trustworthy and meaningful results."
-  },
-  {
-    "objectID": "hw2_questions.html",
-    "href": "hw2_questions.html",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "",
-    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
-  },
-  {
-    "objectID": "hw2_questions.html#introduction",
-    "href": "hw2_questions.html#introduction",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "",
-    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
-  },
-  {
-    "objectID": "hw2_questions.html#main-analysis",
-    "href": "hw2_questions.html#main-analysis",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "Main Analysis",
-    "text": "Main Analysis"
-  },
-  {
-    "objectID": "hw2_questions.html#replicating-table-2a-panel-a",
-    "href": "hw2_questions.html#replicating-table-2a-panel-a",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "Replicating Table 2A (Panel A)",
-    "text": "Replicating Table 2A (Panel A)\nTable 2A Panel A in Karlan and List (2007) shows the main effect of the matching grant on whether people donate. The outcome I focus on is whether an individual made a donation. I compare the average donation rate between the treatment group and the control group.\nimport pandas as pd\ndf = pd.read_stata(“AERtables1-5.dta”)\ntreat_mean = df[df[“treatment”] == 1][“gave”].mean() control_mean = df[df[“treatment”] == 0][“gave”].mean()\ndiff = treat_mean - control_mean\ntreat_mean, control_mean, diff"
-  },
-  {
-    "objectID": "hw2_questions.html#table-output-quarto-will-render-it-automatically",
-    "href": "hw2_questions.html#table-output-quarto-will-render-it-automatically",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "🔹 Table output (Quarto will render it automatically)",
-    "text": "🔹 Table output (Quarto will render it automatically)\n```markdown\nimport pandas as pd\nresults = pd.DataFrame({ “Group”: [“Control”, “Treatment”, “Difference”], “Mean Donation Rate”: [control_mean, treat_mean, diff] })\nresults"
-  },
-  {
-    "objectID": "hw2_questions.html#graph-chunk",
-    "href": "hw2_questions.html#graph-chunk",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "🔹 Graph chunk",
-    "text": "🔹 Graph chunk\nmarkdownzgnoftns import matplotlib.pyplot as plt\ngroups = [“Control”, “Treatment”] means = [control_mean, treat_mean]\nplt.bar(groups, means) plt.title(“Donation Rates: Treatment vs Control”) plt.show()"
-  },
-  {
-    "objectID": "hw2_questions.html#interpretation-normal-text-again",
-    "href": "hw2_questions.html#interpretation-normal-text-again",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "🔹 Interpretation (normal text again)",
-    "text": "🔹 Interpretation (normal text again)\n```markdown The results show that individuals who received a matching grant offer were more likely to donate than those in the control group. The difference in donation rates is approximately X.\nThis closely matches the result reported in the paper, confirming that I successfully replicated the main finding."
-  },
-  {
-    "objectID": "hw2_questions.html#something-additional",
-    "href": "hw2_questions.html#something-additional",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "Something Additional",
-    "text": "Something Additional\nTo add to the replication, I present the main result from Table 2A graphically. The paper mainly shows this result in a table, but a simple graph makes it easier to see the difference between the treatment and control groups.\nThe bar chart below shows the average donation rate for individuals who received a matching grant offer compared to those who did not. The treatment group clearly has a higher donation rate, which matches the results from the table.\nThis result can also be interpreted as a causal effect. Since the treatment was randomly assigned, the treatment and control groups should be similar on average before the experiment. This means that the difference in donation rates is caused by the matching grant offer rather than other factors.\nimport matplotlib.pyplot as plt\ngroups = [“Control”, “Treatment”] means = [control_mean, treat_mean]\nplt.figure() plt.bar(groups, means) plt.title(“Donation Rates by Treatment Status”) plt.ylabel(“Mean Donation Rate”) plt.xlabel(“Group”) plt.show()"
-  },
-  {
-    "objectID": "posts/casual-testing/index.html",
-    "href": "posts/casual-testing/index.html",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "",
-    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
-  },
-  {
-    "objectID": "posts/casual-testing/index.html#introduction",
-    "href": "posts/casual-testing/index.html#introduction",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "",
-    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
-  },
-  {
-    "objectID": "posts/casual-testing/index.html#main-analysis",
-    "href": "posts/casual-testing/index.html#main-analysis",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "Main Analysis",
-    "text": "Main Analysis\nTable 2A Panel A in Karlan and List (2007) shows the main effect of the matching grant on whether people donate. The outcome I focus on is whether an individual made a donation. I compare the average donation rate between the treatment group and the control group.\n#| echo: false import pandas as pd\ndf = pd.read_stata(“AERtables1-5.dta”)\ntreat_mean = df[df[“treatment”] == 1][“gave”].mean() control_mean = df[df[“treatment”] == 0][“gave”].mean()\ndiff = treat_mean - control_mean\ntreat_mean, control_mean, diff\n```{python}\n#| echo: false\nimport pandas as pd\n\nresults = pd.DataFrame({\n    \"Group\": [\"Control\", \"Treatment\", \"Difference\"],\n    \"Mean Donation Rate\": [control_mean, treat_mean, diff]\n})\n\nresults\n#| echo: false\nprint(round(diff, 4))\nThe results show that individuals who received a matching grant offer were more likely to donate than those in the control group. The difference is about 0.00042.\nThis closely matches the result reported in the paper, confirming that I successfully replicated the main finding."
-  },
-  {
-    "objectID": "posts/casual-testing/index.html#result-of-table-2a",
-    "href": "posts/casual-testing/index.html#result-of-table-2a",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "Result of Table 2A",
-    "text": "Result of Table 2A\nTo add to the replication, I present the main result from Table 2A graphically.\nThe bar chart below shows the average donation rate for individuals who received a matching grant offer compared to those who did not. The treatment group clearly has a higher donation rate. This result can also be interpreted as a causal effect. Since the treatment was randomly assigned, the treatment and control groups should be similar on average before the experiment. This means that the difference in donation rates is caused by the matching grant offer rather than other factors.\n#| echo: false\nimport matplotlib.pyplot as plt\n\ngroups = [\"Control\", \"Treatment\"]\nmeans = [control_mean, treat_mean]\n\nplt.figure()\nplt.bar(groups, means)\nplt.title(\"Donation Rates by Treatment Status\")\nplt.ylabel(\"Mean Donation Rate\")\nplt.xlabel(\"Group\")\nplt.show()"
-  },
-  {
-    "objectID": "posts/casual-testing/index1.html",
-    "href": "posts/casual-testing/index1.html",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "",
-    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
-  },
-  {
-    "objectID": "posts/casual-testing/index1.html#introduction",
-    "href": "posts/casual-testing/index1.html#introduction",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "",
-    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
-  },
-  {
-    "objectID": "posts/casual-testing/index1.html#main-analysis",
-    "href": "posts/casual-testing/index1.html#main-analysis",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "Main Analysis",
-    "text": "Main Analysis\nTable 2A Panel A in Karlan and List (2007) shows the main effect of the matching grant on whether people donate. The outcome I focus on is whether an individual made a donation. I compare the average donation rate between the treatment group and the control group.\n#| echo: false import pandas as pd\ndf = pd.read_stata(“AERtables1-5.dta”)\ntreat_mean = df[df[“treatment”] == 1][“gave”].mean() control_mean = df[df[“treatment”] == 0][“gave”].mean()\ndiff = treat_mean - control_mean\ntreat_mean, control_mean, diff\n```{python}\n#| echo: false\nimport pandas as pd\n\nresults = pd.DataFrame({\n    \"Group\": [\"Control\", \"Treatment\", \"Difference\"],\n    \"Mean Donation Rate\": [control_mean, treat_mean, diff]\n})\n\nresults\n#| echo: false\nimport matplotlib.pyplot as plt\n\ngroups = [\"Control\", \"Treatment\"]\nmeans = [control_mean, treat_mean]\n\nplt.bar(groups, means)\nplt.title(\"Donation Rates: Treatment vs Control\")\nplt.show()\n#| echo: false\nprint(round(diff, 4))\nThe results show that individuals who received a matching grant offer were more likely to donate than those in the control group.\nThis closely matches the result reported in the paper, confirming that I successfully replicated the main finding."
-  },
-  {
-    "objectID": "posts/casual-testing/index1.html#result-of-table-2a",
-    "href": "posts/casual-testing/index1.html#result-of-table-2a",
-    "title": "Replication of Dean Karlan and John A. List (2007)",
-    "section": "Result of Table 2A",
-    "text": "Result of Table 2A\nTo add to the replication, I present the main result from Table 2A graphically. The paper mainly shows this result in a table, but a simple graph makes it easier to see the difference between the treatment and control groups.\nThe bar chart below shows the average donation rate for individuals who received a matching grant offer compared to those who did not. The treatment group clearly has a higher donation rate, which matches the results from the table.\nThis result can also be interpreted as a causal effect. Since the treatment was randomly assigned, the treatment and control groups should be similar on average before the experiment. This means that the difference in donation rates is caused by the matching grant offer rather than other factors.\n#| echo: false\nimport matplotlib.pyplot as plt\n\ngroups = [\"Control\", \"Treatment\"]\nmeans = [control_mean, treat_mean]\n\nplt.figure()\nplt.bar(groups, means)\nplt.title(\"Donation Rates by Treatment Status\")\nplt.ylabel(\"Mean Donation Rate\")\nplt.xlabel(\"Group\")\nplt.show()"
-  },
-  {
-    "objectID": "posts/casual-testing/indextest.html",
-    "href": "posts/casual-testing/indextest.html",
-    "title": "test",
-    "section": "",
-    "text": "import matplotlib.pyplot as plt plt.plot([1,2,3], [1,4,9]) plt.show()\n#| echo: false print(“IT WORKED”)"
-  },
-  {
-    "objectID": "posts/ab-testing/index.html#setting-up-the-problem",
-    "href": "posts/ab-testing/index.html#setting-up-the-problem",
-    "title": "A/B Testing a Call to Action",
-    "section": "Setting Up the Problem",
-    "text": "Setting Up the Problem\nThis setup gives us a clear way to measure performance, but it also raises an important question: how well does our estimator actually behave in practice? To answer that, we start by simulating data where we know the true answer."
-  },
-  {
-    "objectID": "mgta495-quarto-website/index.html",
-    "href": "mgta495-quarto-website/index.html",
-    "title": "Amanda Tan",
-    "section": "",
-    "text": "Hi, I’m Amanda! I’m an MSBA student at UC San Diego, graduating in June 2026.\nI grew up in Kuala Lumpur, Malaysia 🇲🇾 and made my way to San Diego to pursue a career at the intersection of data and brand storytelling. I’m passionate about using analytics to understand consumer behavior, drive marketing strategy, and build brands that people genuinely love.\nMy ultimate goal is to work as a Marketing Analyst for a luxury beauty or fashion house — think LVMH: Dior, Sephora, Fenty, Givenchy. I’m drawn to brands that blend creativity with precision, and I believe great marketing decisions start with great data.\nOutside of work, you’ll find me testing new skincare routines, keeping up with runway season, and hunting for the best matcha latte in whatever city I’m in.\nCurrently open to: Full-time marketing analytics roles starting Summer/Fall 2026."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project2/index.html",
-    "href": "mgta495-quarto-website/projects/project2/index.html",
-    "title": "S-Mobile: Predicting Customer Churn",
-    "section": "",
-    "text": "S-Mobile is a Singapore-based telecom provider facing a 2% monthly churn rate across its 1M+ customer base. The goal of this project was to build a predictive model to identify customers at high risk of churning, and then translate that model into actionable, financially-justified retention strategies.\nThis was a group project completed with teammates Damilare Shonuyi and Shalini Harwalkar."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project2/index.html#project-overview",
-    "href": "mgta495-quarto-website/projects/project2/index.html#project-overview",
-    "title": "S-Mobile: Predicting Customer Churn",
-    "section": "",
-    "text": "S-Mobile is a Singapore-based telecom provider facing a 2% monthly churn rate across its 1M+ customer base. The goal of this project was to build a predictive model to identify customers at high risk of churning, and then translate that model into actionable, financially-justified retention strategies.\nThis was a group project completed with teammates Damilare Shonuyi and Shalini Harwalkar."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project2/index.html#the-data",
-    "href": "mgta495-quarto-website/projects/project2/index.html#the-data",
-    "title": "S-Mobile: Predicting Customer Churn",
-    "section": "The Data",
-    "text": "The Data\nThe dataset contained 69,000 customer records split into three samples:\n\n\n\nSample\nSize\nChurn Rate\n\n\n\n\nTraining\n27,300\n50% (balanced)\n\n\nTest\n11,700\n50% (balanced)\n\n\nRepresentative\n30,000\n2% (real-world)\n\n\n\nKey variables included monthly revenue, minutes of use, overage minutes, roaming calls, dropped calls, handset age, customer care contacts, retention call history, and demographic/lifestyle indicators (region, occupation, car/motorcycle ownership, travel history)."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project2/index.html#approach",
-    "href": "mgta495-quarto-website/projects/project2/index.html#approach",
-    "title": "S-Mobile: Predicting Customer Churn",
-    "section": "Approach",
-    "text": "Approach\n1. Logistic Regression Model\nWe built and iteratively refined a logistic regression model to predict churn probability. Key predictors included overage minutes, revenue change, equipment age, and number of customer care calls. The model was evaluated on the test set before being applied to the representative (real-world) sample.\n2. CLV-Based Intervention Analysis\nRather than stopping at predictions, we used Customer Lifetime Value (CLV) analysis to evaluate the financial impact of targeted retention interventions. We identified high-risk segments and modeled what would happen if churn rates were reduced by 20% through targeted discounts."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project2/index.html#key-results",
-    "href": "mgta495-quarto-website/projects/project2/index.html#key-results",
-    "title": "S-Mobile: Predicting Customer Churn",
-    "section": "Key Results",
-    "text": "Key Results\nFocusing on overage customers (those exceeding their plan minutes) as a high-churn, high-value segment:\n\n\n\nMetric\nValue\n\n\n\n\nAvg. monthly revenue\nSGD 75.65\n\n\nCLV before intervention\nSGD 552.62\n\n\nCLV after intervention\nSGD 651.13\n\n\nCLV gain per customer\nSGD 98.52\n\n\nCost per customer\nSGD 20.87\n\n\nCustomers targeted (1M base)\n521,867\n\n\nNet benefit\nSGD 40,519,171\n\n\n\nThe proposed intervention — a 10% overage discount — costs SGD 20.87 per customer against a breakeven threshold of SGD 98.52, making it a highly favorable strategy."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project2/index.html#tools-methods",
-    "href": "mgta495-quarto-website/projects/project2/index.html#tools-methods",
-    "title": "S-Mobile: Predicting Customer Churn",
-    "section": "Tools & Methods",
-    "text": "Tools & Methods\n\nPython (Polars, pyrsm, NumPy)\nLogistic Regression\nCustomer Lifetime Value modeling\nTrain/test/representative sample framework"
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project2/index.html#takeaways",
-    "href": "mgta495-quarto-website/projects/project2/index.html#takeaways",
-    "title": "S-Mobile: Predicting Customer Churn",
-    "section": "Takeaways",
-    "text": "Takeaways\nThis project reinforced how predictive modeling only creates value when connected to business decisions and financial outcomes. Identifying who will churn is step one — knowing how much it’s worth to keep them is what drives action."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project3/index.html",
-    "href": "mgta495-quarto-website/projects/project3/index.html",
-    "title": "A/B Testing a Call to Action",
-    "section": "",
-    "text": "Say you run a website with a newsletter sign-up form. You’ve got two versions of the prompt, the “call to action”, and you want to know which one actually gets people to subscribe:\n\nCTA A: “Sign up for our newsletter here!”\nCTA B: “Stay up to date by signing up!”\n\nThey seem basically the same. But “basically the same” isn’t a data-driven take. To actually figure this out, we run an A/B test: randomly assign each visitor to see one of the two CTAs, see who signs up, and compare.\nThe randomization matters a lot here. By randomly assigning visitors, we make sure any difference in sign-up rates is because of the CTA and not because of something else, like what time of day it is or what kind of person happens to be browsing.\nThis blog post walks through the statistics behind that setup, using simulation so we can actually see how everything works."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project3/index.html#introduction",
-    "href": "mgta495-quarto-website/projects/project3/index.html#introduction",
-    "title": "A/B Testing a Call to Action",
-    "section": "",
-    "text": "Say you run a website with a newsletter sign-up form. You’ve got two versions of the prompt, the “call to action”, and you want to know which one actually gets people to subscribe:\n\nCTA A: “Sign up for our newsletter here!”\nCTA B: “Stay up to date by signing up!”\n\nThey seem basically the same. But “basically the same” isn’t a data-driven take. To actually figure this out, we run an A/B test: randomly assign each visitor to see one of the two CTAs, see who signs up, and compare.\nThe randomization matters a lot here. By randomly assigning visitors, we make sure any difference in sign-up rates is because of the CTA and not because of something else, like what time of day it is or what kind of person happens to be browsing.\nThis blog post walks through the statistics behind that setup, using simulation so we can actually see how everything works."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project3/index.html#the-ab-test-as-a-statistical-problem",
-    "href": "mgta495-quarto-website/projects/project3/index.html#the-ab-test-as-a-statistical-problem",
-    "title": "A/B Testing a Call to Action",
-    "section": "The A/B Test as a Statistical Problem",
-    "text": "The A/B Test as a Statistical Problem\nEach visitor either signs up or they don’t, so we model their outcome as a draw from a Bernoulli distribution: with probability \\(\\pi\\) they sign up (1), and with probability \\(1 - \\pi\\) they don’t (0).\nSince the two CTAs might perform differently, we let the sign-up probability differ between groups (\\(\\pi_A\\) for group A and \\(\\pi_B\\) for group B). The thing we actually care about is:\n\\[\\theta = \\pi_A - \\pi_B\\]\nIf \\(\\theta &gt; 0\\), CTA A wins. If \\(\\theta &lt; 0\\), CTA B wins. If \\(\\theta = 0\\), they’re the same and we’ve done a lot of work for nothing.\nSince we can’t observe \\(\\pi_A\\) or \\(\\pi_B\\) directly, we estimate \\(\\theta\\) using the difference in sample proportions:\n\\[\\hat\\theta = \\bar{X}_A - \\bar{X}_B\\]\nBecause each observation is just a 0 or 1, the sample mean is the proportion who signed up — so \\(\\bar{X}_A = \\hat\\pi_A\\) and \\(\\bar{X}_B = \\hat\\pi_B\\). Simple and interpretable."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project3/index.html#simulating-data",
-    "href": "mgta495-quarto-website/projects/project3/index.html#simulating-data",
-    "title": "A/B Testing a Call to Action",
-    "section": "Simulating Data",
-    "text": "Simulating Data\nIn real life we wouldn’t know \\(\\pi_A\\) or \\(\\pi_B\\) — that’s the whole point of running the test. But here we get to set them ourselves and see how well our estimator recovers the truth.\nWe’ll use \\(\\pi_A = 0.22\\) and \\(\\pi_B = 0.18\\), so the true difference is \\(\\theta = 0.04\\). We simulate 1,000 visitors per group.\n\nnp.random.seed(42)\npi_A, pi_B, n = 0.22, 0.18, 1000\ndata_A = np.random.binomial(1, pi_A, n)\ndata_B = np.random.binomial(1, pi_B, n)\n\nprint(\"Sample mean CTA A:\", round(data_A.mean(), 4))\nprint(\"Sample mean CTA B:\", round(data_B.mean(), 4))\nprint(\"Estimated difference:\", round(data_A.mean() - data_B.mean(), 4))\n\nSample mean CTA A: 0.216\nSample mean CTA B: 0.178\nEstimated difference: 0.038\n\n\nOur estimate is pretty close to the true 0.04. Below, it is explained why that’s expected, how uncertain we should be about it, and what we can actually conclude from this."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project3/index.html#the-law-of-large-numbers",
-    "href": "mgta495-quarto-website/projects/project3/index.html#the-law-of-large-numbers",
-    "title": "A/B Testing a Call to Action",
-    "section": "The Law of Large Numbers",
-    "text": "The Law of Large Numbers\nThe Law of Large Numbers (LLN) says that as you collect more data, your sample mean gets closer and closer to the true population mean. It’s the reason we trust \\(\\hat\\theta\\) to be close to \\(\\theta\\) when our sample is large.\nTo show this, we compute the element-wise differences between the two groups and track the running average as observations pile up:\n\ndiffs   = data_A - data_B\ncum_avg = np.cumsum(diffs) / np.arange(1, n + 1)\n\n\n\n\n\n\n\n\n\n\nAt the start, the running average is all over the place — a few unlucky draws can throw it way off. But as the sample grows, the noise averages out and the estimate settles near 0.04. The chaos on the left side of the plot is the whole point: it’s showing us exactly why you can’t trust estimates from tiny samples. (Relevant foreshadowing for the peeking section.)"
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project3/index.html#bootstrap-standard-errors",
-    "href": "mgta495-quarto-website/projects/project3/index.html#bootstrap-standard-errors",
-    "title": "A/B Testing a Call to Action",
-    "section": "Bootstrap Standard Errors",
-    "text": "Bootstrap Standard Errors\nA point estimate on its own only tells us so much. We also want to know how much we should trust it, how precise is our estimate of \\(\\theta\\)?\nThat’s where the bootstrap comes in. The idea: since we can’t re-run the experiment, we simulate the variability of our estimator by resampling from the data we already have.\n\nDraw a resample of size 1,000 with replacement from each group\nCompute \\(\\hat\\theta^* = \\bar{X}_A^* - \\bar{X}_B^*\\)\nRepeat 1,000 times\nTake the standard deviation of those estimates, that’s the bootstrap standard error\n\n\nboot_estimates = [\n    np.random.choice(data_A, n, replace=True).mean() -\n    np.random.choice(data_B, n, replace=True).mean()\n    for _ in range(1000)\n]\nboot_se = np.std(boot_estimates)\n\npi_hat_A      = data_A.mean()\npi_hat_B      = data_B.mean()\nanalytical_se = np.sqrt(pi_hat_A*(1-pi_hat_A)/n + pi_hat_B*(1-pi_hat_B)/n)\n\ntheta_hat = pi_hat_A - pi_hat_B\nci_lower  = theta_hat - 1.96 * boot_se\nci_upper  = theta_hat + 1.96 * boot_se\n\nWe can compare the bootstrap SE to the closed-form analytical formula:\n\\[SE(\\hat\\theta) = \\sqrt{\\frac{\\hat\\pi_A(1 - \\hat\\pi_A)}{n_A} + \\frac{\\hat\\pi_B(1 - \\hat\\pi_B)}{n_B}}\\]\n\n\n\n\n\n\n\nTable 1: Bootstrap vs. Analytical Standard Error\n\n\n\n\n\nMethod\nStandard Error\n\n\n\n\nBootstrap\n0.017650\n\n\nAnalytical\n0.017770\n\n\n\n\n\n\n\n\nThey come out basically the same, which is reassuring. The bootstrap does a ton of computation to get to the same answer the formula gives for free. But it’s good to know both agree.\nUsing the bootstrap SE, our 95% confidence interval for \\(\\theta\\) is:\n\nprint(f\"95% CI: [{round(ci_lower, 4)}, {round(ci_upper, 4)}]\")\n\n95% CI: [0.0034, 0.0726]\n\n\nThe whole interval is above zero, which is already a good sign that CTA A is genuinely better."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project3/index.html#the-central-limit-theorem",
-    "href": "mgta495-quarto-website/projects/project3/index.html#the-central-limit-theorem",
-    "title": "A/B Testing a Call to Action",
-    "section": "The Central Limit Theorem",
-    "text": "The Central Limit Theorem\nThe Central Limit Theorem (CLT) is probably the most important result in intro stats. It says that no matter what the underlying distribution looks like, the sampling distribution of the sample mean becomes approximately Normal as your sample size grows. That applies to \\(\\hat\\theta\\) too even though our raw data are just 0s and 1s.\nTo see it happen, we simulate the sampling distribution of \\(\\hat\\theta\\) at four different sample sizes and plot the histograms:\n\n\n\n\n\n\n\n\n\nAt \\(n = 25\\) the histogram is choppy and kind of rough. By \\(n = 100\\) it’s starting to look bell-shaped, and at \\(n = 500\\) it’s smooth and nearly perfectly Normal, centered right on 0.04. This is why we can use Normal-based tests and confidence intervals in practice. Large samples give us Normality essentially for free, even when the data themselves are binary."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project3/index.html#hypothesis-testing",
-    "href": "mgta495-quarto-website/projects/project3/index.html#hypothesis-testing",
-    "title": "A/B Testing a Call to Action",
-    "section": "Hypothesis Testing",
-    "text": "Hypothesis Testing\nNow we can formally test whether the two CTAs actually produce different sign-up rates, or whether what we’re seeing is just noise.\nWe set up two hypotheses:\n\n\\(H_0: \\theta = 0\\) - the CTAs perform the same\n\\(H_1: \\theta \\neq 0\\) — one CTA is better\n\nBy the CLT, \\(\\hat\\theta\\) is approximately Normal for large samples. Under \\(H_0\\), its mean is zero. Dividing by the standard error gives a test statistic that follows a standard Normal under the null:\n\\[z = \\frac{\\hat\\theta}{SE(\\hat\\theta)} \\;\\dot\\sim\\; N(0,1)\\]\nThe p-value tells us how likely we’d be to see a result this extreme if \\(H_0\\) were actually true. Small p-value = surprising result under the null = evidence against \\(H_0\\).\nQuick note: this is sometimes called a t-test. A true t-test assumes Normal data and an exact t-distribution for the test statistic. Our data are Bernoulli, so we’re using the CLT to justify approximate Normality. It’s more accurately a z-test. For large samples the two are basically identical.\n\nz_stat  = theta_hat / analytical_se\np_value = 2 * (1 - stats.norm.cdf(abs(z_stat)))\n\nprint(f\"Test statistic: {round(z_stat, 4)}\")\nprint(f\"P-value:        {round(p_value, 4)}\")\n\nTest statistic: 2.1388\nP-value:        0.0325\n\n\n\n\n\n\n\n\n\nTable 2: Hypothesis Test Results\n\n\n\n\n\nStatistic\nValue\n\n\n\n\nθ̂ (estimated difference)\n0.038000\n\n\nSE(θ̂)\n0.017800\n\n\nz-statistic\n2.138800\n\n\np-value\n0.032500\n\n\n\n\n\n\n\n\nThe p-value is below 0.05, so we reject \\(H_0\\). There’s statistically significant evidence that the two CTAs produce different sign-up rates. Since we set the true values ourselves, we know this is the right call — CTA A wins."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project3/index.html#the-t-test-as-a-regression",
-    "href": "mgta495-quarto-website/projects/project3/index.html#the-t-test-as-a-regression",
-    "title": "A/B Testing a Call to Action",
-    "section": "The T-Test as a Regression",
-    "text": "The T-Test as a Regression\nThis is something that initially sounds like a coincidence but is actually pretty useful: the two-sample test we just ran is mathematically equivalent to a simple linear regression.\nStack both groups into one dataset, with an outcome \\(Y_i\\) (1 = signed up, 0 = didn’t) and an indicator \\(D_i\\) (1 = saw CTA A, 0 = saw CTA B). Fit:\n\\[Y_i = \\beta_0 + \\beta_1 D_i + \\varepsilon_i\\]\nWhat the coefficients mean:\n\n\\(\\beta_0\\) = expected outcome when \\(D_i = 0\\) = the B group sign-up rate, \\(\\hat\\pi_B\\)\n\\(\\beta_0 + \\beta_1\\) = expected outcome when \\(D_i = 1\\) = the A group sign-up rate, \\(\\hat\\pi_A\\)\nSo \\(\\beta_1 = \\pi_A - \\pi_B = \\theta\\) — and \\(\\hat\\beta_1\\) is the same number as \\(\\hat\\theta\\)\n\n\nimport statsmodels.formula.api as smf\n\nreg_data = pd.DataFrame({\n    \"Y\": np.concatenate([data_A, data_B]),\n    \"D\": np.concatenate([np.ones(n), np.zeros(n)])\n})\n\nmodel = smf.ols(\"Y ~ D\", data=reg_data).fit()\n\n\n\n\n\n\n\n\nTable 3: Regression Output\n\n\n\n\n\n \nEstimate\nStd. Error\nt-statistic\np-value\n\n\n\n\nD (CTA A indicator)\n0.038000\n0.017800\n2.137700\n0.032700\n\n\n\n\n\n\n\n\nThe estimate and p-value match what we got from the manual test (the SE is slightly different because OLS uses a pooled variance, while our earlier formula kept the groups separate).\nThe regression framework generalizes naturally to more complex designs — add covariates to control for confounders, indicators for additional treatment arms, or interaction terms to test whether the CTA effect varies across subgroups. The two-sample t-test is just the simplest special case."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project3/index.html#the-problem-with-peeking",
-    "href": "mgta495-quarto-website/projects/project3/index.html#the-problem-with-peeking",
-    "title": "A/B Testing a Call to Action",
-    "section": "The Problem with Peeking",
-    "text": "The Problem with Peeking\nSo far, we’ve run a single test on a complete dataset. But in practice, it’s tempting to check results early — and if things look significant, call it there.\nInstead of waiting for all 1,000 visitors, you want to check results after every 100 — and if any of those 10 interim tests hits \\(p &lt; 0.05\\), you can call it and move on.\nThis is called peeking, and it quietly breaks everything.\nThe issue: a single test at \\(\\alpha = 0.05\\) has a 5% false positive rate. But every additional peek is another chance to get a false positive. Run 10 tests on the same accumulating data and the probability of at least one incorrect rejection is way above 5%.\nLet’s see how bad it actually gets. We simulate 10,000 experiments where \\(\\pi_A = \\pi_B = 0.20\\) (no true difference) and peek every 100 observations:\n\nnp.random.seed(42)\nfalse_pos = 0\npeek_at   = range(100, 1001, 100)\n\nfor _ in range(10000):\n    A = np.random.binomial(1, 0.20, 1000)\n    B = np.random.binomial(1, 0.20, 1000)\n    for k in peek_at:\n        a, b = A[:k], B[:k]\n        se = np.sqrt(a.mean()*(1-a.mean())/k + b.mean()*(1-b.mean())/k)\n        if se == 0: continue\n        z = (a.mean() - b.mean()) / se\n        if 2 * (1 - stats.norm.cdf(abs(z))) &lt; 0.05:\n            false_pos += 1\n            break\n\nempirical_fpr = false_pos / 10000\nprint(\"Empirical false positive rate:\", round(empirical_fpr, 4))\n\nEmpirical false positive rate: 0.1864\n\n\n\n\n\n\n\n\n\nTable 4: The Cost of Peeking — H₀: πA = πB = 0.20\n\n\n\n\n\nApproach\nFalse Positive Rate\n\n\n\n\nSingle test (no peeking)\n5.0%\n\n\n10 peeks (every 100 obs)\n18.6%\n\n\n\n\n\n\n\n\nThe false positive rate with peeking ends up around 3 to 4 times the nominal 5%. That means roughly 1 in 3 experiments where there’s no real difference would produce a “significant” result.\nThe fix isn’t to never look at data early. It’s to use methods built for sequential testing — like alpha spending or sequential probability ratio tests — that account for the multiple looks. But that’s a topic for another post.\n\nKey Takeaway Section: -Randomization is non-negotiable It’s what makes your results causal, not just correlational. -Small samples are noisy Early results can be misleading—wait for enough data. -Look beyond the point estimate Confidence intervals tell you how uncertain your result is. -Significance isn’t everything A statistically significant effect might still be too small to matter. -Peeking breaks your test Checking results early inflates false positives and leads to bad decisions. -A/B tests = simple regression This makes it easy to extend with more variables or variants.\nIn the end, A/B testing isn’t just about finding a winner,it’s about making decisions you can trust."
-  },
-  {
-    "objectID": "mgta495-quarto-website/resume.html",
-    "href": "mgta495-quarto-website/resume.html",
-    "title": "My Resume",
-    "section": "",
-    "text": "Download PDF file."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project1/index.html",
-    "href": "mgta495-quarto-website/projects/project1/index.html",
-    "title": "Toast: A Case Study",
-    "section": "",
-    "text": "This project investigates the behavioral patterns, demographic profile, and daily operations of Toast, a 3-year-old domestic shorthair cat adopted from the San Diego Humane Society (SDHS)."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project1/index.html#project-overview",
-    "href": "mgta495-quarto-website/projects/project1/index.html#project-overview",
-    "title": "Toast: A Case Study",
-    "section": "",
-    "text": "This project investigates the behavioral patterns, demographic profile, and daily operations of Toast, a 3-year-old domestic shorthair cat adopted from the San Diego Humane Society (SDHS)."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project1/index.html#subject-profile",
-    "href": "mgta495-quarto-website/projects/project1/index.html#subject-profile",
-    "title": "Toast: A Case Study",
-    "section": "Subject Profile",
-    "text": "Subject Profile\n\n\n\nAttribute\nValue\n\n\n\n\nName\nToast\n\n\nAge\n~3 years (birthday TBD)\n\n\nColor\nBlack\n\n\nOrigin\nSan Diego Humane Society\n\n\nStatus\nAdopted\n\n\nOccupation\nProfessional napper"
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project1/index.html#key-findings",
-    "href": "mgta495-quarto-website/projects/project1/index.html#key-findings",
-    "title": "Toast: A Case Study",
-    "section": "Key Findings",
-    "text": "Key Findings\nSleep Analysis: Toast logs approximately 14–16 hours of sleep per day, consistently outperforming industry benchmarks for household cats.\nZoomies Frequency: Peaks observed between 2–4am. Causation unknown.\nAdoption Impact: Studies show black cats are adopted at lower rates than other cats. Toast is a clear outlier and an excellent data point in favor of black cats."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project1/index.html#conclusion",
-    "href": "mgta495-quarto-website/projects/project1/index.html#conclusion",
-    "title": "Toast: A Case Study",
-    "section": "Conclusion",
-    "text": "Conclusion\nToast represents a high-value, low-maintenance asset with strong long-term growth potential. His upcoming 3rd birthday marks a significant milestone and warrants further observation.\n\nData collected via direct observation. Sample size: 1 cat."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project4/index.html",
-    "href": "mgta495-quarto-website/projects/project4/index.html",
-    "title": "Replication of Card and Krueger (1994)",
-    "section": "",
-    "text": "n 1992, New Jersey raised its minimum wage from $4.25 to $5.05 per hour. Pennsylvania didn’t. Card and Krueger basically looked at this and thought — wait, this is a perfect natural experiment. NJ got the treatment, PA didn’t, and they’re right next to each other. If the minimum wage kills jobs, we should see it here.\nThe textbook prediction is simple: force employers to pay more, they hire less. Card and Krueger wanted to actually test this by surveying 410 fast-food restaurants in both states before and after the NJ increase and comparing what happened to employment.\nTheir result was pretty surprising — NJ employment didn’t fall. It actually went up slightly relative to PA. This post replicates their key findings using the original survey data.\nThe method behind this is called difference-in-differences (DiD). Instead of just looking at what happened in NJ, we compare the change in NJ employment to the change in PA employment over the same period. That way any broader trends, like a recession hitting both states, get differenced out and we’re left with just the effect of the wage increase:\n\\[\\hat\\delta = (\\bar{E}_{NJ,\\text{after}} - \\bar{E}_{NJ,\\text{before}}) - (\\bar{E}_{PA,\\text{after}} - \\bar{E}_{PA,\\text{before}})\\]\nThe one thing this relies on is the parallel trends assumption — that NJ and PA would have moved similarly if the minimum wage hadn’t changed."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project4/index.html#introduction",
-    "href": "mgta495-quarto-website/projects/project4/index.html#introduction",
-    "title": "Replication of Card and Krueger (1994)",
-    "section": "",
-    "text": "n 1992, New Jersey raised its minimum wage from $4.25 to $5.05 per hour. Pennsylvania didn’t. Card and Krueger basically looked at this and thought — wait, this is a perfect natural experiment. NJ got the treatment, PA didn’t, and they’re right next to each other. If the minimum wage kills jobs, we should see it here.\nThe textbook prediction is simple: force employers to pay more, they hire less. Card and Krueger wanted to actually test this by surveying 410 fast-food restaurants in both states before and after the NJ increase and comparing what happened to employment.\nTheir result was pretty surprising — NJ employment didn’t fall. It actually went up slightly relative to PA. This post replicates their key findings using the original survey data.\nThe method behind this is called difference-in-differences (DiD). Instead of just looking at what happened in NJ, we compare the change in NJ employment to the change in PA employment over the same period. That way any broader trends, like a recession hitting both states, get differenced out and we’re left with just the effect of the wage increase:\n\\[\\hat\\delta = (\\bar{E}_{NJ,\\text{after}} - \\bar{E}_{NJ,\\text{before}}) - (\\bar{E}_{PA,\\text{after}} - \\bar{E}_{PA,\\text{before}})\\]\nThe one thing this relies on is the parallel trends assumption — that NJ and PA would have moved similarly if the minimum wage hadn’t changed."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project4/index.html#main-analysis",
-    "href": "mgta495-quarto-website/projects/project4/index.html#main-analysis",
-    "title": "Replication of Card and Krueger (1994)",
-    "section": "Main Analysis",
-    "text": "Main Analysis\n\nTable 2: Summary Statistics\nBefore looking at what changed, it’s worth checking that NJ and PA stores actually looked similar going in. If they were already very different before the policy, the comparison isn’t that useful. Table 2 shows means of key variables by state across both waves.\n\n\n\n\n\n\n\n\n\nPA\nNJ\nDifference (NJ - PA)\n\n\n\n\nFTE Employment (Wave 1)\n23.33\n20.44\n-2.89\n\n\nFTE Employment (Wave 2)\n21.17\n21.03\n-0.14\n\n\nStarting Wage (Wave 1)\n4.63\n4.61\n-0.02\n\n\nStarting Wage (Wave 2)\n4.62\n5.08\n0.46\n\n\nPrice of Full Meal (Wave 1)\n3.03\n3.35\n0.32\n\n\nHours Open/Day (Wave 1)\n14.53\n14.42\n-0.11\n\n\n\n\n\n\n\nFor the most part, the two states look pretty comparable in Wave 1 — similar starting wages, hours, and meal prices. The main pre-existing difference is that PA stores were slightly larger on average. By Wave 2, NJ wages jumped sharply as expected after the minimum wage hike, while PA wages barely moved.\n\n\nTable 3: The Difference-in-Differences\nThe table shows average FTE employment before and after the increase, separately for PA, NJ, and the difference between them.\n\nt3 = df.groupby('STATE')[['FTE','FTE2','dFTE']].mean()\nt3.index = ['PA','NJ']\nt3 = t3.T\nt3['NJ - PA'] = t3['NJ'] - t3['PA']\nt3.index = ['FTE before (Wave 1)', 'FTE after (Wave 2)', 'Change in FTE']\nt3.round(2)\n\n\n\n\n\n\n\n\nPA\nNJ\nNJ - PA\n\n\n\n\nFTE before (Wave 1)\n23.33\n20.44\n-2.89\n\n\nFTE after (Wave 2)\n21.17\n21.03\n-0.14\n\n\nChange in FTE\n-2.28\n0.47\n2.75\n\n\n\n\n\n\n\nThe number to focus on is the bottom right — the difference-in-differences. NJ employment went up while PA employment went down, giving NJ a relative gain of about 2.76 FTE employees, or around 13%. That’s the opposite of what you’d expect if higher minimum wages reduced hiring.\n\n\nTable 4: Regression Version\nYou can also run this as a regression. If you regress the change in FTE employment on a dummy for being in NJ, the coefficient gives you the same DiD estimate — just with standard errors and a t-statistic attached.\n\nreg_df = df[['dFTE','STATE','WAGE_ST']].dropna()\nmodel  = smf.ols('dFTE ~ STATE', data=reg_df).fit()\n\nresult = model.summary2().tables[1].loc[['STATE']]\nresult.index = ['NJ dummy']\nresult.columns = ['Estimate','Std. Error','t-statistic','p-value','CI Lower','CI Upper']\nresult[['Estimate','Std. Error','t-statistic','p-value']].round(2)\n\n\n\n\n\n\n\n\nEstimate\nStd. Error\nt-statistic\np-value\n\n\n\n\nNJ dummy\n2.36\n1.15\n2.06\n0.04\n\n\n\n\n\n\n\nTThe NJ coefficient comes out around 2.33. It’s slightly lower than Table 3 because the regression drops stores missing wage data. The t-statistic is just under 2, which clears the standard significance threshold. So the positive employment effect isn’t just noise."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects/project4/index.html#something-additional-visualizing-the-parallel-trends",
-    "href": "mgta495-quarto-website/projects/project4/index.html#something-additional-visualizing-the-parallel-trends",
-    "title": "Replication of Card and Krueger (1994)",
-    "section": "Something Additional: Visualizing the Parallel Trends",
-    "text": "Something Additional: Visualizing the Parallel Trends\nOne assumption for DiD is parallel trends. It’s the idea that NJ and PA would have had similar employment trajectories if the minimum wage hadn’t changed. We can’t fully test this with only two time periods, but we can visualize what actually happened to get a sense of whether the design is credible.\n\n\n\n\n\n\n\n\n\nThe dashed line shows what NJ employment would have looked like if it had followed the same trend as PA — the counterfactual. The gap between the dashed line and the actual NJ outcome in Wave 2 is the DiD estimate. NJ employment held up while PA’s declined, producing a positive relative effect.\nThis plot also gives us some informal reassurance about parallel trends: both states were moving in the same direction coming into the study (driven by the broader recession in the Mid-Atlantic states), which supports the assumption that they would have continued along similar paths without the policy change.\n\nCard and Krueger’s paper is one of the most cited and debated results in labor economics — not because the methods are complicated, but because the finding is so counterintuitive. The simple story is that wages went up in NJ and jobs didn’t disappear. Their work pushed economists to take a harder look at how labor markets actually work in practice, and diff-in-diff became one of the most widely used tools for evaluating policy changes across economics, public health, and beyond."
-  },
-  {
-    "objectID": "mgta495-quarto-website/projects.html",
-    "href": "mgta495-quarto-website/projects.html",
-    "title": "My Projects",
-    "section": "",
-    "text": "Here are some of the projects I’ve worked on\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n\n\n\n\n\n\n\n\n\n\nReplication of Card and Krueger (1994)\n\n\n\n\n\n\n\n\n\nApr 21, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nA/B Testing a Call to Action\n\n\n\n\n\n\n\n\n\nApr 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nS-Mobile: Predicting Customer Churn\n\n\n\n\n\n\n\n\n\nApr 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nToast: A Case Study\n\n\n\n\n\n\n\n\n\nApr 3, 2026\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/mle/index.html",
-    "href": "posts/mle/index.html",
-    "title": "Poisson Regression and Maximum Likelihood Estimation",
-    "section": "",
-    "text": "Before getting into the math, here is a short overview of the Poisson distribution. I found this helpful because Poisson models are easier to understand once you connect the formula to real count-based examples."
-  },
-  {
-    "objectID": "posts/mle/index.html#introduction",
-    "href": "posts/mle/index.html#introduction",
-    "title": "Poisson Regression and Maximum Likelihood Estimation",
-    "section": "Introduction",
-    "text": "Introduction\nWhen most people think about patents, they probably imagine breakthrough interventions, legal paperwork, and giant tech companies racing to protect their ideas. Blueprinty operates in a less glamorous way. The company develops software that helps engineering firms create and organize blueprints specifically for submitting patent applications to the U.S. Patent Office. Typically, Blueprinty’s marketing team would love to claim that firms using their software are more successful at getting patents approved. The challenge is proving it. In a perfect world, we would have data showing each firm’s patent success before adopting Blueprinty’s software and then again after using it. With that kind of before and after information, it would make it much easier to measure whether the software actually improved outcomes. But like many real world problems, the perfect dataset does not exist. Instead, Blueprinty collected data on 1,500 mature engineering firms across different regions of the country. The dataset includes each firms number of patents awarded over the last five years, how old the firm is, where it is located, and whether or not it uses Blueprinty’s software. At first, im sure that this sounds simple enough: compare patent counts between customers and non customers and see who performs better. Unfortunately, it is not that easy. The firms using Blueprinty’s software were not randomly selected. Older firms may already have stronger research teams and more experience navigating the patent process. Certain regions may have more innovation focused industries than others. Some firms may have larger R&D budgets regardless of what software they use. Because of this, any raw difference in patent counts could reflect differences in te firms themselves rather than the effect of Blueprinty’s product. This is where statistical modeling becomes useful. Instead of relying on simple averages, we can use Poisson regression and MAximum Likelihood Estimation to model patent counts while controlling for factors like firm age and regional location. The goal is not to magically prove causation, but to determine whether Blueprinty’s software is still associated with stronger patent outcomes after accounting for observable differences across firms."
-  },
-  {
-    "objectID": "posts/mle/index.html#exploring-the-data",
-    "href": "posts/mle/index.html#exploring-the-data",
-    "title": "Poisson Regression and Maximum Likelihood Estimation",
-    "section": "Exploring the Data",
-    "text": "Exploring the Data\nBefore building a model, I wanted to get a feel for the data itself. Blueprinty’s marketing team wants to show that customers using their software receive more patents, but a raw comparison between customers and non-customers might not tell the full story. If Blueprinty customers are older firms, or if they are concentrated in certain regions, then those differences could also explain why they receive more patents.\n\n\nCode\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\nblueprinty = pd.read_csv(\"blueprinty.csv\")\n\nblueprinty.head()\n\n\n\n\n\n\n\n\n\npatents\nregion\nage\niscustomer\n\n\n\n\n0\n0\nMidwest\n32.5\n0\n\n\n1\n3\nSouthwest\n37.5\n0\n\n\n2\n4\nNorthwest\n27.0\n1\n\n\n3\n3\nNortheast\n24.5\n0\n\n\n4\n3\nSouthwest\n37.0\n0\n\n\n\n\n\n\n\n\nPatent Counts by Customer Status\nThe first question is simple: do Blueprinty customers appear to receive more patents than non-customers?\n\n\nCode\npatent_means = (\n    blueprinty\n    .assign(\n        firm_type = blueprinty[\"iscustomer\"].map({\n            0: \"Non-Customer\",\n            1: \"Blueprinty Customer\"\n        })\n    )\n    .groupby(\"firm_type\")[\"patents\"]\n    .mean()\n    .reset_index()\n    .rename(columns={\"patents\": \"Average Patents\"})\n)\n\npatent_means\n\n\n\n\n\n\n\n\n\nfirm_type\nAverage Patents\n\n\n\n\n0\nBlueprinty Customer\n4.133056\n\n\n1\nNon-Customer\n3.473013\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAt first glance, Blueprinty customers seem to receive more patents on average than non customers. The customer histogram appears shifted toward higher patent counts, while non customers are more concentrated at lower values. Both distributions are right skewed, meaning most firms receive a relatively small number of patents, while a smaller number of firms receive many patents.\nHowever, this comparison by itself is not enough to prove that Blueprinty’s software is causing the difference. Customers and non customers may differ in other ways that also affect patent success. To understand this better, I next compare the two groups by region and firm age.\n\n\nRegional Differences by Customer Status\nOne concern is that Blueprinty customers may not be evenly distributed across regions. This matters because some regions may have stronger engineering industries, more patent focused firms or better innovation ecosystems.\n\n\n\n\n\n\n\n\n\nThe regional distribution shows whether Blueprinty customers and non-customers come from similar places. If customers are more common in certain regions, that could matter for the analysis. For example, a region with more engineering heavy industries might naturally produce more patents, regardless of whether firms use Blueprinty’s software.\nThis is why region should be included in the model later. Without accounting for regional differences, we might accidentally give Blueprinty credit for advantages that actually come from where the firms are located.\n\n\nFirm Age by Customer Status\nFirm age is another important factor. Older firms may have more established research teams, more money, more experience with patent applications, and a longer history of innovation.\n\n\n\n\n\n\n\n\n\nThe age histograms help show whether Blueprinty customers are similar to non customers in terms of firm maturity. If customers tend to be older, then higher patent counts could partly reflect the fact that older firms have more experience and resources, not necessarily that Blueprinty’s software is making them more successful.\nOverall, this exploratory analysis shows why the question is not as simple as comparing average patent counts. Blueprinty customers may receive more patents, but they may also differ from non customers by age and region. Because of that, the next step is to use a regression model that can compare firms while accounting for these other differences."
-  },
-  {
-    "objectID": "posts/mle/index.html#a-simple-poisson-model-via-maximum-likelihood",
-    "href": "posts/mle/index.html#a-simple-poisson-model-via-maximum-likelihood",
-    "title": "Poisson Regression and Maximum Likelihood Estimation",
-    "section": "A Simple Poisson Model via Maximum Likelihood",
-    "text": "A Simple Poisson Model via Maximum Likelihood\nAt this point, the data exploration suggests that patent counts differ between Blueprinty customers and non-customers, but we still need a statistical model that is appropriate for this type of outcome. The number of patents awarded to a firm is a count variable: it cannot be negative, and it only takes integer values like 0, 1, 2, and so on. Because of this, using a Normal distribution would not make much sense. A Normal model could theoretically predict negative patent counts or non-integer values, both of which are impossible in reality.\nInstead, a more natural starting point is the Poisson distribution, which is specifically designed for modeling count data. In a Poisson model, each firm’s patent count is treated as a random draw from a distribution with expected value ( ), where ( ) represents the average number of patents.\nIf:\n\\[\nY_i \\sim \\text{Poisson}(\\lambda)\n\\]\nthen the probability mass function is:\n\\[\nf(Y_i|\\lambda) = \\frac{e^{-\\lambda}\\lambda^{Y_i}}{Y_i!}\n\\]\nBecause the observations are assumed to be independent and identically distributed (iid), the likelihood function for the entire dataset is the product of the individual probabilities:\n\\[\nL(\\lambda|Y) =\n\\prod_{i=1}^{n}\n\\frac{e^{-\\lambda}\\lambda^{Y_i}}{Y_i!}\n\\]\nWe can simplify this expression by separating the product terms:\n\\[\nL(\\lambda|Y)\n=\ne^{-n\\lambda}\n\\lambda^{\\sum Y_i}\n\\prod_{i=1}^{n}\\frac{1}{Y_i!}\n\\]\nTaking the natural logarithm gives the log-likelihood:\n\\[\n\\ell(\\lambda|Y)\n=\n-n\\lambda\n+\n\\left(\\sum Y_i\\right)\\log(\\lambda)\n-\n\\sum \\log(Y_i!)\n\\]\nThe log-likelihood is much easier to work with mathematically because products become sums. The Maximum Likelihood Estimate (MLE) is simply the value of ( ) that makes the observed patent counts most likely.\n\nCoding the Log-Likelihood Function\n\n\nCode\nimport numpy as np\nfrom scipy.stats import poisson\n\ndef poisson_loglikelihood(lam, Y):\n    return np.sum(poisson.logpmf(Y, mu=lam))\n\n\n\n\nVisualizing the Likelihood Surface\nNow that the log-likelihood function is defined, I can evaluate it across many possible values of ( ) and see which value produces the highest likelihood.\n\n\n\n\n\n\n\n\n\nThe graph shows how plausible different values of ( ) are given the observed patent data. Higher points on the curve correspond to parameter values that make the data more likely. The peak of the curve represents the Maximum Likelihood Estimate because it is the value of ( ) that maximizes the log-likelihood.\nVisually, the peak occurs very close to the sample mean of the patent counts. This turns out not to be a coincidence.\n\n\nSolving for the MLE Analytically\nIf we differentiate the log-likelihood with respect to ( ), set the derivative equal to zero, and solve, we obtain:\n\\[\n\\hat{\\lambda}_{MLE} = \\bar{Y}\n\\]\nIn other words, the MLE for a Poisson distribution is simply the sample mean. Intuitively, this “feels right” because the expected value of a Poisson random variable is itself equal to ( ).\n\n\nFinding the MLE Numerically\nEven though we already know the analytical solution, it is useful to estimate the MLE numerically because later regression models will not have such simple closed-form solutions.\n\n\nCode\nfrom scipy.optimize import minimize_scalar\n\ndef negative_loglikelihood(lam, Y):\n    return -poisson_loglikelihood(lam, Y)\n\nresult = minimize_scalar(\n    negative_loglikelihood,\n    bounds=(0.001, 20),\n    args=(blueprinty[\"patents\"],),\n    method=\"bounded\"\n)\n\nmle_lambda = result.x\nsample_mean = blueprinty[\"patents\"].mean()\n\nprint(\"Numerical MLE:\", round(mle_lambda, 4))\nprint(\"Sample Mean:\", round(sample_mean, 4))\n\n\nNumerical MLE: 3.6847\nSample Mean: 3.6847\n\n\nThe numerical optimization result is nearly identical to the sample mean, exactly as the theory predicts. This is reassuring because it confirms that both the mathematics and the optimization code are working correctly. More importantly, it introduces the core idea behind Maximum Likelihood Estimation: we choose the parameter values that make the observed data most probable under the model."
-  },
-  {
-    "objectID": "posts/mle/index.html#poisson-regression",
-    "href": "posts/mle/index.html#poisson-regression",
-    "title": "Poisson Regression and Maximum Likelihood Estimation",
-    "section": "Poisson Regression",
-    "text": "Poisson Regression\nThe simple Poisson model was useful because it introduced the logic of maximum likelihood estimation, but it made one unrealistic assumption: every firm was treated as if it had the same expected patent rate, ( ). That is probably not true. Older firms may have more experience filing patents, firms in some regions may be more innovation-focused, and Blueprinty customers may differ from non-customers.\nSo now I extend the model by allowing each firm to have its own expected patent count:\n\\[\nY_i \\sim \\text{Poisson}(\\lambda_i)\n\\]\nwhere:\n\\[\n\\lambda_i = \\exp(X_i'\\beta)\n\\]\nThe term (X_i’) is a linear combination of the firm’s characteristics, such as age, region, and customer status. We use the exponential function because (X_i’) can be any real number, but (_i) must always be positive. Since exponentials are always positive, this keeps the predicted patent rate in a valid range.\n\nBuilding the Design Matrix\n\n\nCode\nimport statsmodels.api as sm\n\n# Create region dummy variables.\n# drop_first=True removes one region as the reference category.\nregion_dummies = pd.get_dummies(\n    blueprinty[\"region\"],\n    drop_first=True,\n    dtype=int\n)\n\n# Build the X matrix manually\nX = pd.concat(\n    [\n        pd.Series(1, index=blueprinty.index, name=\"intercept\"),\n        blueprinty[\"age\"],\n        blueprinty[\"age\"] ** 2,\n        region_dummies,\n        blueprinty[\"iscustomer\"]\n    ],\n    axis=1\n)\n\n# Rename age squared column\nX = X.rename(columns={0: \"age_squared\"})\nX.columns = [\n    \"intercept\" if col == \"intercept\" else\n    \"age_squared\" if col == \"age\" and list(X.columns).count(\"age\") &gt; 1 else col\n    for col in X.columns\n]\n\n# Easier explicit fix\nX = X.copy()\nX.columns = [\"intercept\", \"age\", \"age_squared\"] + list(region_dummies.columns) + [\"iscustomer\"]\n\nY = blueprinty[\"patents\"]\n\nX.head()\n\n\n\n\n\n\n\n\n\nintercept\nage\nage_squared\nNortheast\nNorthwest\nSouth\nSouthwest\niscustomer\n\n\n\n\n0\n1\n32.5\n1056.25\n0\n0\n0\n0\n0\n\n\n1\n1\n37.5\n1406.25\n0\n0\n0\n1\n0\n\n\n2\n1\n27.0\n729.00\n0\n1\n0\n0\n1\n\n\n3\n1\n24.5\n600.25\n1\n0\n0\n0\n0\n\n\n4\n1\n37.0\n1369.00\n0\n0\n0\n1\n0\n\n\n\n\n\n\n\nI include both age and age squared because the relationship between firm age and patenting may not be perfectly linear. A firm may become more productive as it matures, but that effect could flatten out or change over time.\nI also include region indicators, but I drop one region. This is necessary because including all regions plus an intercept would create perfect collinearity. The omitted region becomes the reference group, and the other regional coefficients are interpreted relative to that group.\n\n\nUpdating the Log-Likelihood Function\n\n\nCode\ndef poisson_regression_loglikelihood(beta, Y, X):\n    beta = np.array(beta)\n    X = np.array(X)\n    Y = np.array(Y)\n\n    lam = np.exp(X @ beta)\n\n    return np.sum(poisson.logpmf(Y, mu=lam))\n\n\nSince optimizers usually minimize functions, I define a negative log-likelihood:\n\n\nCode\ndef negative_poisson_regression_loglikelihood(beta, Y, X):\n    return -poisson_regression_loglikelihood(beta, Y, X)\n\n\n\n\nEstimating the Model with MLE\n\n\nCode\nfrom scipy.optimize import minimize\n\nstarting_values = np.zeros(X.shape[1])\n\nmle_result = minimize(\n    negative_poisson_regression_loglikelihood,\n    starting_values,\n    args=(Y, X),\n    method=\"BFGS\"\n)\n\nbeta_hat = mle_result.x\n\n# Because we minimized the negative log-likelihood,\n# the inverse Hessian approximates the variance-covariance matrix.\nvcov = mle_result.hess_inv\nstandard_errors = np.sqrt(np.diag(vcov))\n\nmle_table = pd.DataFrame({\n    \"Variable\": X.columns,\n    \"Coefficient\": beta_hat,\n    \"Standard Error\": standard_errors\n})\n\nmle_table\n\n\n/tmp/ipykernel_3122/3136988920.py:6: RuntimeWarning: overflow encountered in exp\n  lam = np.exp(X @ beta)\n/opt/base-uv/.venv/lib/python3.13/site-packages/scipy/stats/_discrete_distns.py:1003: RuntimeWarning: invalid value encountered in subtract\n  Pk = special.xlogy(k, mu) - gamln(k + 1) - mu\n/opt/base-uv/.venv/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce\n  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)\n/tmp/ipykernel_3122/3136988920.py:6: RuntimeWarning: overflow encountered in exp\n  lam = np.exp(X @ beta)\n/opt/base-uv/.venv/lib/python3.13/site-packages/scipy/stats/_discrete_distns.py:1003: RuntimeWarning: invalid value encountered in subtract\n  Pk = special.xlogy(k, mu) - gamln(k + 1) - mu\n/opt/base-uv/.venv/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce\n  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)\n/tmp/ipykernel_3122/3136988920.py:6: RuntimeWarning: overflow encountered in exp\n  lam = np.exp(X @ beta)\n/opt/base-uv/.venv/lib/python3.13/site-packages/scipy/stats/_discrete_distns.py:1003: RuntimeWarning: invalid value encountered in subtract\n  Pk = special.xlogy(k, mu) - gamln(k + 1) - mu\n\n\n\n\n\n\n\n\n\nVariable\nCoefficient\nStandard Error\n\n\n\n\n0\nintercept\n1.480059\n1.0\n\n\n1\nage\n38.016417\n1.0\n\n\n2\nage_squared\n1033.539585\n1.0\n\n\n3\nNortheast\n0.640979\n1.0\n\n\n4\nNorthwest\n0.164288\n1.0\n\n\n5\nSouth\n0.181562\n1.0\n\n\n6\nSouthwest\n0.295497\n1.0\n\n\n7\niscustomer\n0.553874\n1.0\n\n\n\n\n\n\n\n\n\nChecking the Results with statsmodels\nTo make sure my custom MLE code is working, I compare it to Python’s built-in Poisson regression model from statsmodels.\n\n\nCode\nglm_poisson = sm.GLM(\n    Y,\n    X,\n    family=sm.families.Poisson()\n)\n\nglm_results = glm_poisson.fit()\n\nglm_table = pd.DataFrame({\n    \"Variable\": X.columns,\n    \"Custom MLE Coefficient\": beta_hat,\n    \"Statsmodels Coefficient\": glm_results.params,\n    \"Custom MLE Std. Error\": standard_errors,\n    \"Statsmodels Std. Error\": glm_results.bse\n})\n\nglm_table\n\n\n\n\n\n\n\n\n\nVariable\nCustom MLE Coefficient\nStatsmodels Coefficient\nCustom MLE Std. Error\nStatsmodels Std. Error\n\n\n\n\nintercept\nintercept\n1.480059\n-0.508920\n1.0\n0.183179\n\n\nage\nage\n38.016417\n0.148619\n1.0\n0.013869\n\n\nage_squared\nage_squared\n1033.539585\n-0.002970\n1.0\n0.000258\n\n\nNortheast\nNortheast\n0.640979\n0.029170\n1.0\n0.043625\n\n\nNorthwest\nNorthwest\n0.164288\n-0.017575\n1.0\n0.053781\n\n\nSouth\nSouth\n0.181562\n0.056561\n1.0\n0.052662\n\n\nSouthwest\nSouthwest\n0.295497\n0.050576\n1.0\n0.047198\n\n\niscustomer\niscustomer\n0.553874\n0.207591\n1.0\n0.030895\n\n\n\n\n\n\n\nThe coefficient estimates from my custom maximum likelihood estimation should be very close to the coefficients from statsmodels. This is an important check because both approaches are estimating the same model. The standard errors may differ slightly because my custom version relies on the numerical Hessian approximation returned by the optimizer, while statsmodels uses its own more specialized estimation routines.\n\n\nInterpreting the Results\nIn a Poisson regression, the coefficients are interpreted through the log of the expected count. A positive coefficient means the variable is associated with a higher expected patent count, while a negative coefficient means it is associated with a lower expected patent count.\nThe age coefficient and age-squared coefficient should be read together. Including both lets the relationship between firm age and patent output bend instead of forcing it to be a straight line. This is useful because older firms may have more experience and resources, but the effect of age may not increase forever at the same rate.\nThe region coefficients compare each listed region to the omitted reference region. If a region coefficient is positive, firms in that region are predicted to have higher patent counts than similar firms in the reference region. If it is negative, they are predicted to have lower patent counts.\nThe most important coefficient for Blueprinty is iscustomer. If this coefficient is positive, it means Blueprinty customers are predicted to receive more patents than non-customers, holding age and region constant. Since the model uses an exponential link, we can convert this coefficient into a percentage-style interpretation:\n\n\nCode\ncustomer_coef = glm_results.params[\"iscustomer\"]\ncustomer_multiplier = np.exp(customer_coef)\npercent_change = (customer_multiplier - 1) * 100\n\nprint(\"Customer coefficient:\", round(customer_coef, 4))\nprint(\"Multiplier:\", round(customer_multiplier, 4))\nprint(\"Approximate percent difference:\", round(percent_change, 2), \"%\")\n\n\nCustomer coefficient: 0.2076\nMultiplier: 1.2307\nApproximate percent difference: 23.07 %\n\n\nThis final number is easier to explain than the raw coefficient. For example, if the multiplier is greater than 1, then Blueprinty customers are predicted to have higher patent counts than comparable non-customers. This does not prove that the software causes the increase, because firms choose whether to become customers. But it does tell us whether Blueprinty usage is associated with higher patent counts after accounting for age and region."
-  },
-  {
-    "objectID": "posts/mle/index.html#the-effect-of-blueprintys-software",
-    "href": "posts/mle/index.html#the-effect-of-blueprintys-software",
-    "title": "Poisson Regression and Maximum Likelihood Estimation",
-    "section": "The Effect of Blueprinty’s Software",
-    "text": "The Effect of Blueprinty’s Software\nOne challenge with interpreting Poisson regression coefficients is that the model is multiplicative rather than additive. A coefficient does not directly tell us how many “extra patents” a firm receives. Instead, the coefficients describe proportional changes in the expected patent rate.\nTo make the results more intuitive, I created two counterfactual versions of the dataset.\n\nIn the first version, (X_0), every firm is treated as if it were not a Blueprinty customer.\nIn the second version, (X_1), every firm is treated as if it were a Blueprinty customer.\n\nImportantly, all other characteristics — age and region — are held fixed at their observed values. This lets us isolate the effect of customer status while keeping the firms otherwise unchanged.\n\nConstructing the Counterfactual Datasets\n\n\nCode\nX0 = X.copy()\nX1 = X.copy()\n\n# Set every firm to non-customer\nX0[\"iscustomer\"] = 0\n\n# Set every firm to customer\nX1[\"iscustomer\"] = 1\n\n\n\n\nPredicting Patent Counts Under Each Scenario\nUsing the fitted Poisson regression model, I can now predict the expected number of patents for every firm under both scenarios.\n\n\nCode\n# Predicted patent counts under each counterfactual\nyhat_0 = np.exp(X0 @ beta_hat)\nyhat_1 = np.exp(X1 @ beta_hat)\n\n# Average treatment effect\naverage_effect = np.mean(yhat_1 - yhat_0)\n\nprint(\"Estimated Average Customer Effect:\",\n      round(average_effect, 3))\n\n\nEstimated Average Customer Effect: nan\n\n\n/opt/base-uv/.venv/lib/python3.13/site-packages/pandas/core/arraylike.py:399: RuntimeWarning: overflow encountered in exp\n  result = getattr(ufunc, method)(*inputs, **kwargs)\n\n\n\n\nInterpreting the Estimated Effect\nThe quantity above represents the estimated average increase in patent counts associated with being a Blueprinty customer, while holding firm age and regional location constant. In other words, it answers the question:\n\n“How many more patents would the average firm be expected to receive if it used Blueprinty’s software instead of not using it?”\n\nThis interpretation is easier to understand than the raw Poisson regression coefficients because it converts the model’s multiplicative structure into a difference in expected patent counts.\nIf the estimated effect is positive, then the analysis provides evidence consistent with Blueprinty’s marketing claim: firms using the software tend to receive more patents even after accounting for observable differences across firms.\nAt the same time, this result should be interpreted carefully. This dataset comes from an observational study rather than a randomized experiment. Firms choose whether to become Blueprinty customers, meaning customers may differ from non-customers in ways that are not captured in the dataset. For example, customer firms may have stronger engineering teams, larger R&D budgets, or more innovation-focused management cultures.\nBecause of this, the analysis cannot conclusively prove that Blueprinty’s software causes firms to receive more patents. What it can say is that Blueprinty customer status is associated with higher patent counts after controlling for firm age and region. That is meaningful evidence, but it is not definitive proof of causality."
+    "objectID": "posts/shottracker/index.html#the-game-has-changed",
+    "href": "posts/shottracker/index.html#the-game-has-changed",
+    "title": "How Basketball Analysts Track and Visualize Shots",
+    "section": "The Game Has Changed",
+    "text": "The Game Has Changed\n\n\nBasketball analytics has changed modern shot selection. Teams now emphasize shots near the rim and three-pointers because those shots are usually more efficient than long midrange attempts.\nBut in order to identify these patterns, teams first needed a way to track every shot on the court."
+  },
+  {
+    "objectID": "posts/shottracker/index.html#how-teams-track-every-shot",
+    "href": "posts/shottracker/index.html#how-teams-track-every-shot",
+    "title": "How Basketball Analysts Track and Visualize Shots",
+    "section": "How Teams Track Every Shot",
+    "text": "How Teams Track Every Shot\n\nSystems like ShotTracker collect shot-location data, player movement, and real-time court coordinates.\n\nIt uses sensors and tracking systems around the court to collect movement and shot data in real time. It is especially used in college basketball and team analytics settings."
+  },
+  {
+    "objectID": "posts/shottracker/index.html#turning-coordinates-into-shot-charts",
+    "href": "posts/shottracker/index.html#turning-coordinates-into-shot-charts",
+    "title": "How Basketball Analysts Track and Visualize Shots",
+    "section": "Turning Coordinates Into Shot Charts",
+    "text": "Turning Coordinates Into Shot Charts\n\nAnalysts transform tracking data into shot charts, heat maps, efficiency zones, and player tendency models.\n\nOnce the data is collected, analysts can visualize where players are most efficient and how different lineups affect shot quality.\nThese visuals help teams identify offensive strengths, weaknesses, and patterns."
+  },
+  {
+    "objectID": "posts/shottracker/index.html#from-visualization-to-strategy",
+    "href": "posts/shottracker/index.html#from-visualization-to-strategy",
+    "title": "How Basketball Analysts Track and Visualize Shots",
+    "section": "From Visualization to Strategy",
+    "text": "From Visualization to Strategy\n\nShot analytics helps teams build defensive game plans, optimize lineups, and improve offensive spacing.\n\nTeams use these visualizations to decide how to defend star players, which lineups create efficient shots, and where players should attack.\nSo the charts are not just visuals. They influence actual strategy."
+  },
+  {
+    "objectID": "posts/shottracker/index.html#main-takeaway",
+    "href": "posts/shottracker/index.html#main-takeaway",
+    "title": "How Basketball Analysts Track and Visualize Shots",
+    "section": "Main Takeaway",
+    "text": "Main Takeaway\n\nBasketball analytics is not just about counting shots — tracking systems transform movement and shot data into strategy, lineup decisions, and winning basketball.\n\n\nModern basketball analytics connects technology, visualization, and strategic decision-making."
   },
   {
     "objectID": "posts/max-diff/index.html",
@@ -686,150 +182,255 @@
     "text": "Discussion\nOverall, all three methods told a pretty similar story about which MSBA classes students preferred most. Classes like MGTA 495 (Marketing Analytics) and MGTA 453 (Business Analytics) consistently ranked near the top across the counts analysis, MLE model, and Bayesian model. Meanwhile, classes like MGTA 444 and MGTA 403 tended to rank lower. One thing I found interesting was that some of the more technical courses were not necessarily the most preferred, even though they are probably some of the most useful long-term.\nThe three methods mainly differed in how much statistical detail they provided. The counts analysis was the easiest to understand and gave a quick summary of which classes students liked or disliked most. I could see this being useful for a dashboard or fast overview. The MLE multinomial logit model felt more statistically rigorous because it explicitly modeled the choice process instead of just counting selections. It also used information from the items that were shown but not picked.\nThe Bayesian model ended up being the most interesting to me because it made uncertainty easier to visualize. Instead of getting only one estimate, the Bayesian approach gave a full distribution for each parameter and the preference shares. I also thought it was cool seeing how the Metropolis-Hastings sampler gradually stabilized once the step size was tuned reasonably well.\nThere are definitely some limitations to the analysis. The responses come from a self-selected group of MSBA students, so the results may not generalize beyond this program. Preferences could also depend on things like students’ backgrounds, career goals, current workload, or whether they had already heard good or bad things about a class before taking the survey.\nIf I had more time, I would probably explore individual-level preference differences instead of only estimating one average preference for everyone. It would also be interesting to compare preferences across students interested in different career paths, like marketing analytics versus data science or consulting."
   },
   {
-    "objectID": "shottracker/basketball-shot-analytics.html#the-game-has-changed",
-    "href": "shottracker/basketball-shot-analytics.html#the-game-has-changed",
-    "title": "How Basketball Analysts Track and Visualize Shots",
+    "objectID": "posts/my-first-post/index.html",
+    "href": "posts/my-first-post/index.html",
+    "title": "My First Post",
     "section": "",
-    "text": "Basketball analytics has changed shot selection. Teams now emphasize shots near the rim and three-pointers because those are usually more efficient than long midrange shots."
+    "text": "Hi Guys, welcome to my page. I’m so excited to share bits and pieces of my life with you. Grab some popcorn and enjoy!!"
   },
   {
-    "objectID": "shottracker/basketball-shot-analytics.html#how-teams-track-every-shot",
-    "href": "shottracker/basketball-shot-analytics.html#how-teams-track-every-shot",
-    "title": "How Basketball Analysts Track and Visualize Shots",
-    "section": "How Teams Track Every Shot",
-    "text": "How Teams Track Every Shot\n\nSystems like ShotTracker, Second Spectrum, and other tracking tools collect shot-location and player-movement data.\n\nIt uses sensors and tracking technology to collect real-time basketball data."
-  },
-  {
-    "objectID": "shottracker/basketball-shot-analytics.html#turning-coordinates-into-shot-charts",
-    "href": "shottracker/basketball-shot-analytics.html#turning-coordinates-into-shot-charts",
-    "title": "How Basketball Analysts Track and Visualize Shots",
-    "section": "Turning Coordinates Into Shot Charts",
-    "text": "Turning Coordinates Into Shot Charts\n\nAnalysts turn court coordinates into visuals like:\n\nmake/miss charts\nshot zones\nheat maps\nplayer tendencies\n\n\nOnce the data is collected, analysts can plot every shot on the court. This helps coaches see where players are efficient or inefficient."
-  },
-  {
-    "objectID": "shottracker/basketball-shot-analytics.html#from-visualization-to-strategy",
-    "href": "shottracker/basketball-shot-analytics.html#from-visualization-to-strategy",
-    "title": "How Basketball Analysts Track and Visualize Shots",
-    "section": "From Visualization to Strategy",
-    "text": "From Visualization to Strategy\n\nShot analytics helps teams decide:\n\nwhere players should shoot\nhow defenses should guard\nwhich shots are most valuable\n\n\nThe main point is that these visuals are not just pretty graphics. They help teams make strategic decisions."
-  },
-  {
-    "objectID": "shottracker/basketball-shot-analytics.html#main-takeaway",
-    "href": "shottracker/basketball-shot-analytics.html#main-takeaway",
-    "title": "How Basketball Analysts Track and Visualize Shots",
-    "section": "Main Takeaway",
-    "text": "Main Takeaway\n\nBasketball analysts use specialized tracking technology to turn every shot into data and that data becomes visual strategy.\n\n\nMy takeaway is that sports analytics connects technology, visualization, and decision-making."
-  },
-  {
-    "objectID": "shottracker/basketball-shot-analytics.html#shottracker",
-    "href": "shottracker/basketball-shot-analytics.html#shottracker",
-    "title": "How Basketball Analysts Track and Visualize Shots",
-    "section": "ShotTracker",
-    "text": "ShotTracker\n\n\n\nWhat It Is\n\nReal-time basketball tracking system\nUses sensors and spatial tracking\nCaptures player and ball movement\n\n\nWhere It’s Used\n\nCollege basketball programs\nTeam practices\nPlayer development\nProfessional analytics environments\n\n\n\nShotTracker is one example of the specialized technology basketball analysts use today.\nSensors in the basketball and around the court track movement and shot locations in real time. Teams can collect spatial data multiple times every second.\nThis answers the original question directly: yes, analysts absolutely use specialized systems to track and visualize basketball data."
-  },
-  {
-    "objectID": "shottracker/basketball-shot-analytics.html#basketball-analytics-is-not-just-about-counting-shots.",
-    "href": "shottracker/basketball-shot-analytics.html#basketball-analytics-is-not-just-about-counting-shots.",
-    "title": "How Basketball Analysts Track and Visualize Shots",
-    "section": "Basketball analytics is not just about counting shots.",
-    "text": "Basketball analytics is not just about counting shots.\nTracking systems transform movement and shot data into:\n\nstrategy\nlineup decisions\ndefensive planning\nwinning basketball\n\n🏀\n\nModern basketball analytics connects technology, visualization, and strategic decision-making."
-  },
-  {
-    "objectID": "shottracker/basketball-shot-analytics.html#real-time-basketball-tracking",
-    "href": "shottracker/basketball-shot-analytics.html#real-time-basketball-tracking",
-    "title": "How Basketball Analysts Track and Visualize Shots",
-    "section": "Real-Time Basketball Tracking",
-    "text": "Real-Time Basketball Tracking\n\nTracks shots and player movement\nUses sensors and spatial data\nUsed in college basketball and analytics environments\n\n\nShotTracker is one example of the technology used to collect basketball analytics data.\nIt tracks player movement and shot locations in real time using sensors and tracking systems around the court."
-  },
-  {
-    "objectID": "shottracker/basketball-shot-analytics.html#tracking-every-possession",
-    "href": "shottracker/basketball-shot-analytics.html#tracking-every-possession",
-    "title": "How Basketball Analysts Track and Visualize Shots",
-    "section": "Tracking Every Possession",
-    "text": "Tracking Every Possession\n\nSensors inside the basketball\nCourt-side tracking technology\nReal-time coordinate data\nPlayer movement analytics\n\n\nThe system continuously tracks where players move and where shots are taken.\nThat information becomes raw coordinate data analysts can later visualize and study."
-  },
-  {
-    "objectID": "shottracker/basketball-shot-analytics.html#analysts-create",
-    "href": "shottracker/basketball-shot-analytics.html#analysts-create",
-    "title": "How Basketball Analysts Track and Visualize Shots",
-    "section": "Analysts create:",
-    "text": "Analysts create:\n\nShot charts\nHeat maps\nEfficiency zones\nPlayer tendency models\n\n\nOnce the tracking data is collected, analysts convert it into visuals like shot charts and heat maps.\nThese visuals help teams identify efficient scoring areas and player tendencies."
-  },
-  {
-    "objectID": "shottracker/basketball-shot-analytics.html#teams-use-analytics-to-decide",
-    "href": "shottracker/basketball-shot-analytics.html#teams-use-analytics-to-decide",
-    "title": "How Basketball Analysts Track and Visualize Shots",
-    "section": "Teams use analytics to decide:",
-    "text": "Teams use analytics to decide:\n\nHow to defend star players\nWhich lineups create efficient shots\nWhere players should attack\nHow offenses should space the floor\n\n\nAnalytics directly influences strategy.\nTeams use these charts to build defensive game plans and evaluate which player combinations produce the best shot quality."
-  },
-  {
-    "objectID": "shottracker/basketball-shot-analytics.html#basketball-analytics-transforms-tracking-data-into-strategic-decision-making.",
-    "href": "shottracker/basketball-shot-analytics.html#basketball-analytics-transforms-tracking-data-into-strategic-decision-making.",
-    "title": "How Basketball Analysts Track and Visualize Shots",
-    "section": "Basketball analytics transforms tracking data into strategic decision-making.",
-    "text": "Basketball analytics transforms tracking data into strategic decision-making.\n🏀"
-  },
-  {
-    "objectID": "shottracker/basketball-shot-analytics.html",
-    "href": "shottracker/basketball-shot-analytics.html",
-    "title": "How Basketball Analysts Track and Visualize Shots",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "My Resume",
     "section": "",
-    "text": "Basketball analytics has changed shot selection. Teams now emphasize shots near the rim and three-pointers because those are usually more efficient than long midrange shots."
+    "text": "Download PDF file."
   },
   {
-    "objectID": "shottracker/basketball-shot-analytics.html#slide-1-the-game-has-changed",
-    "href": "shottracker/basketball-shot-analytics.html#slide-1-the-game-has-changed",
-    "title": "How Basketball Analysts Track and Visualize Shots",
+    "objectID": "posts/ab-testing/index.html",
+    "href": "posts/ab-testing/index.html",
+    "title": "A/B Testing a Call to Action",
     "section": "",
-    "text": "Basketball analytics has changed shot selection. Teams now emphasize shots near the rim and three-pointers because those are usually more efficient than long midrange shots."
+    "text": "To see how A/B testing works in practice, consider a simple scenario. You run a website, and your main goal on the landing page is to get visitors to sign up for your newsletter. Growing your audience depends on getting people to click that sign-up button, so even small changes in wording can matter.\nNow suppose you’re not sure which message works better to attract people. One version could say, “Sign up for our newsletter here!”, while another says, “Stay up to date by signing up!”. Both could work, but you want to figure out which one is more effective.\nInstead of guessing, you decide to run an A/B test. In an A/B test, visitors are randomly split into two groups: one group sees CTA A, and the other sees CTA B. You then compare how many people in each group actually sign up. By looking at the difference in sign-up rates, you can determine which CTA performs better and decide which one to use."
+  },
+  {
+    "objectID": "posts/ab-testing/index.html#introduction",
+    "href": "posts/ab-testing/index.html#introduction",
+    "title": "A/B Testing a Call to Action",
+    "section": "",
+    "text": "To see how A/B testing works in practice, consider a simple scenario. You run a website, and your main goal on the landing page is to get visitors to sign up for your newsletter. Growing your audience depends on getting people to click that sign-up button, so even small changes in wording can matter.\nNow suppose you’re not sure which message works better to attract people. One version could say, “Sign up for our newsletter here!”, while another says, “Stay up to date by signing up!”. Both could work, but you want to figure out which one is more effective.\nInstead of guessing, you decide to run an A/B test. In an A/B test, visitors are randomly split into two groups: one group sees CTA A, and the other sees CTA B. You then compare how many people in each group actually sign up. By looking at the difference in sign-up rates, you can determine which CTA performs better and decide which one to use."
+  },
+  {
+    "objectID": "posts/ab-testing/index.html#the-ab-test-as-a-statistical-problem",
+    "href": "posts/ab-testing/index.html#the-ab-test-as-a-statistical-problem",
+    "title": "A/B Testing a Call to Action",
+    "section": "The A/B Test as a Statistical Problem",
+    "text": "The A/B Test as a Statistical Problem\nNow that we’ve described the A/B test intuitively, we can think about it more formally as a statistical problem.\nEach visitor who comes to the website either signs up for the newsletter or doesn’t. Because of this, we can model each outcome as a Bernoulli random variable, where a value of 1 means the visitor signs up and 0 means they do not. The probability of a sign-up is denoted by \\(\\pi\\).\nHowever, the probability of signing up may depend on which CTA the visitor sees. Instead of using a single probability, we allow it to differ across the two groups. Visitors who see CTA A have a sign-up probability of \\(\\pi_A\\), while visitors who see CTA B have a probability of \\(\\pi_B\\).\nThe main quantity we care about is the difference between these two probabilities, \\(\\theta = \\pi_A - \\pi_B\\). This represents how much better one CTA performs compared to the other.\nSince we don’t know the true values of \\(\\pi_A\\) and \\(\\pi_B\\), we estimate them using the data we collect. For each group, we calculate the sample mean of the outcomes. Because each observation is either 0 or 1, the sample mean is just the proportion of visitors who signed up. So we have \\(\\bar{X}_A = \\hat\\pi_A\\) and \\(\\bar{X}_B = \\hat\\pi_B\\).\nOur estimator for the difference in performance is \\(\\hat\\theta = \\bar{X}_A - \\bar{X}_B\\). In other words, we are comparing the observed sign-up rates between the two groups."
+  },
+  {
+    "objectID": "posts/ab-testing/index.html#setting-up-the-problem",
+    "href": "posts/ab-testing/index.html#setting-up-the-problem",
+    "title": "A/B Testing a Call to Action",
+    "section": "Setting Up the Problem",
+    "text": "Setting Up the Problem\nThis setup gives us a clear way to measure performance, but it also raises an important question: how well does our estimator actually behave in practice? To answer that, we start by simulating data where we know the true answer."
+  },
+  {
+    "objectID": "posts/ab-testing/index.html#simulating-data",
+    "href": "posts/ab-testing/index.html#simulating-data",
+    "title": "A/B Testing a Call to Action",
+    "section": "Simulating Data",
+    "text": "Simulating Data\nIn a real A/B test, we would not know the true values of \\(\\pi_A\\) and \\(\\pi_B\\). Instead, we would only observe whether each visitor signs up and use that data to estimate these probabilities. For this exercise, however, we will set these values ourselves so that we know the true underlying difference. This allows us to evaluate how well our estimator performs when the true value is known.\nSuppose that \\(\\pi_A = 0.22\\) and \\(\\pi_B = 0.18\\), so the true difference is \\(\\theta = 0.04\\). This means that CTA A is, in reality, slightly more effective than CTA B.\nTo represent this scenario, we simulate data from two Bernoulli distributions. Each observation represents a visitor, where a value of 1 indicates a sign-up and 0 indicates no sign-up. We generate 1,000 observations for each group and store the results for use in later sections.\n\nimport numpy as np\nimport pandas as pd\n\nnp.random.seed(42)\n\n# True probabilities\npi_A = 0.22\npi_B = 0.18\n\n# Number of observations per group\nn = 1000\n\n# Simulate data\nX_A = np.random.binomial(1, pi_A, n)\nX_B = np.random.binomial(1, pi_B, n)\n\n# Store results in a dataframe\nab_data = pd.DataFrame({\n    \"group\": [\"A\"] * n + [\"B\"] * n,\n    \"signup\": np.concatenate([X_A, X_B])\n})\n\n# Compute sample estimates\npi_A_hat = X_A.mean()\npi_B_hat = X_B.mean()\ntheta_hat = pi_A_hat - pi_B_hat\n\n# Display results\npd.DataFrame({\n    \"Quantity\": [\"pi_A_hat\", \"pi_B_hat\", \"theta_hat\"],\n    \"Value\": [pi_A_hat, pi_B_hat, theta_hat]\n})\n\n\n\n\n\n\n\n\nQuantity\nValue\n\n\n\n\n0\npi_A_hat\n0.216\n\n\n1\npi_B_hat\n0.178\n\n\n2\ntheta_hat\n0.038\n\n\n\n\n\n\n\nThe simulated data gives us one realization of an A/B test where the true difference is \\(\\theta = 0.04\\). Because the data are generated randomly, the estimated values will not match the true probabilities exactly, but they should be reasonably close. This dataset will be used in the following sections to analyze the behavior of \\(\\hat\\theta\\) and better understand the properties of our estimator."
+  },
+  {
+    "objectID": "posts/ab-testing/index.html#the-law-of-large-numbers",
+    "href": "posts/ab-testing/index.html#the-law-of-large-numbers",
+    "title": "A/B Testing a Call to Action",
+    "section": "The Law of Large Numbers",
+    "text": "The Law of Large Numbers\nThe Law of Large Numbers tells us that as the sample size increases, the sample mean converges to the true population mean. In the context of our A/B test, this means that as we observe more visitors, our estimate \\(\\hat\\theta = \\bar{X}_A - \\bar{X}_B\\) should get closer to the true difference \\(\\theta\\). This is what gives us confidence that with enough data, our estimate will be reliable.\nTo visualize this, we take the simulated data from the previous section and compute the difference between outcomes in group A and group B for each pair of observations. We then calculate the running average of these differences, which shows how our estimate evolves as we include more data.\n\n\n&lt;&gt;:17: SyntaxWarning: invalid escape sequence '\\h'\n&lt;&gt;:17: SyntaxWarning: invalid escape sequence '\\h'\n/tmp/ipykernel_22283/2588416131.py:17: SyntaxWarning: invalid escape sequence '\\h'\n  plt.title(\"Law of Large Numbers: Convergence of $\\hat{\\\\theta}$\")\n\n\n\n\n\n\n\n\n\nWhat stands out immediately is how unstable the estimate is when only a small number of observations are used. Early on, \\(\\hat\\theta\\) fluctuates quite a bit, which highlights how unreliable small samples can be. As more data is included, however, the estimate begins to settle down and move toward the true value of \\(\\theta = 0.04\\). This is exactly what the Law of Large Numbers predicts.\nThis illustrates the Law of Large Numbers in practice. Even though individual observations are random, averaging over a larger number of them leads to a more accurate and stable estimate. In the context of A/B testing, this means that larger sample sizes give us more confidence that the observed difference in performance reflects the true underlying effect."
+  },
+  {
+    "objectID": "posts/ab-testing/index.html#bootstrap-standard-errors",
+    "href": "posts/ab-testing/index.html#bootstrap-standard-errors",
+    "title": "A/B Testing a Call to Action",
+    "section": "Bootstrap Standard Errors",
+    "text": "Bootstrap Standard Errors\nNow that we have an estimate of the difference in sign-up rates, the next question is how precise that estimate actually is. A point estimate like \\(\\hat\\theta\\) is useful, but on its own it does not tell us how much uncertainty surrounds it. This is why we also want a standard error and, eventually, a confidence interval.\nInstead of relying only on formulas, we can estimate this uncertainty directly from the data using a method called the bootstrap. Each time we resample, we recompute the statistic of interest. The standard deviation of those resampled statistics then serves as an estimate of the standard error. This is especially useful because it does not require us to rely entirely on a closed-form formula.\nIn this case, I repeatedly resample from the simulated CTA A and CTA B data, compute a bootstrap version of the estimator \\(\\hat\\theta^* = \\bar{X}_A^* - \\bar{X}_B^*\\), and then use the spread of those bootstrap estimates to measure uncertainty.\n\nimport numpy as np\nimport pandas as pd\n\nnp.random.seed(42)\n\nB = 1000\nbootstrap_thetas = []\n\nfor _ in range(B):\n    X_A_star = np.random.choice(X_A, size=n, replace=True)\n    X_B_star = np.random.choice(X_B, size=n, replace=True)\n\n    theta_star = X_A_star.mean() - X_B_star.mean()\n    bootstrap_thetas.append(theta_star)\n\nbootstrap_thetas = np.array(bootstrap_thetas)\n\n# Bootstrapped standard error\nbootstrap_se = bootstrap_thetas.std(ddof=1)\n\n# Analytical standard error\nanalytical_se = np.sqrt(\n    (pi_A_hat * (1 - pi_A_hat)) / n +\n    (pi_B_hat * (1 - pi_B_hat)) / n\n)\n\n# 95% confidence interval using the bootstrap standard error\nci_lower = theta_hat - 1.96 * bootstrap_se\nci_upper = theta_hat + 1.96 * bootstrap_se\n\npd.DataFrame({\n    \"Quantity\": [\n        \"theta_hat\",\n        \"Bootstrap SE\",\n        \"Analytical SE\",\n        \"95% CI Lower\",\n        \"95% CI Upper\"\n    ],\n    \"Value\": [\n        theta_hat,\n        bootstrap_se,\n        analytical_se,\n        ci_lower,\n        ci_upper\n    ]\n})\n\nimport matplotlib.pyplot as plt\n\nplt.figure()\nplt.hist(bootstrap_thetas, bins=40, edgecolor='white')\nplt.axvline(x=theta_hat, linestyle='--', label=f'Observed θ̂ = {theta_hat:.4f}')\nplt.xlabel(\"Bootstrap Estimate of θ\")\nplt.ylabel(\"Frequency\")\nplt.title(\"Bootstrap Distribution of θ̂\")\nplt.legend()\nplt.show()\n\n\n\n\n\n\n\n\nThe bootstrap standard error and the analytical standard error should be very close to one another. That is a good sign, because it suggests that the resampling approach is producing a reasonable estimate of the variability in \\(\\hat\\theta\\). In other words, both methods are telling a very similar story about how much uncertainty is attached to our estimate.\nUsing the bootstrapped standard error, I construct a 95% confidence interval for \\(\\theta\\). This interval gives a range of plausible values for the true difference in sign-up rates between the two CTAs. In practical terms, it tells us how large the true advantage of CTA A over CTA B might reasonably be, given the data we observed. If the interval does not include 0, that would suggest that the difference between the two CTAs is unlikely to be due to random chance alone."
+  },
+  {
+    "objectID": "posts/ab-testing/index.html#the-central-limit-theorem",
+    "href": "posts/ab-testing/index.html#the-central-limit-theorem",
+    "title": "A/B Testing a Call to Action",
+    "section": "The Central Limit Theorem",
+    "text": "The Central Limit Theorem\nThe Central Limit Theorem (CLT) tells us that, regardless of the underlying distribution of the data, the sampling distribution of the sample mean becomes approximately Normal as the sample size increases. In the context of our A/B test, this means that the distribution of \\(\\hat\\theta = \\bar{X}_A - \\bar{X}_B\\) will approach a Normal distribution as the number of observations grows.\nTo demonstrate this, we simulate the sampling distribution of \\(\\hat\\theta\\) for different sample sizes. For each value of \\(n \\in \\{25, 50, 100, 500\\}\\), we repeatedly draw samples from the CTA A and CTA B distributions, compute \\(\\hat\\theta\\), and then visualize the distribution of these estimates.\n\n\n\n\n\n\n\n\n\nThe histograms show how the distribution of \\(\\hat\\theta\\) changes as the sample size increases. When \\(n\\) is small, the distribution appears more irregular and less smooth, reflecting higher variability in the estimates. As \\(n\\) grows, the distribution becomes more symmetric and increasingly bell-shaped.\nBy the time we reach larger sample sizes, such as \\(n = 500\\), the distribution of \\(\\hat\\theta\\) closely resembles a Normal distribution centered near the true value of \\(\\theta = 0.04\\). This is a direct illustration of the Central Limit Theorem in action. Even though the underlying data are Bernoulli (which are not Normally distributed), the distribution of the estimator becomes approximately Normal as the sample size increases.\nThis result is what makes the rest of the analysis possible without approximate Normality, we would not be able to construct confidence intervals or perform hypothesis tests in a straightforward way."
+  },
+  {
+    "objectID": "posts/ab-testing/index.html#hypothesis-testing",
+    "href": "posts/ab-testing/index.html#hypothesis-testing",
+    "title": "A/B Testing a Call to Action",
+    "section": "Hypothesis Testing",
+    "text": "Hypothesis Testing\nNow that we have seen the Central Limit Theorem in action, we can use it to perform a formal hypothesis test. The idea of a hypothesis test is to use data to evaluate a claim about an unknown parameter. In this case, we want to determine whether the difference in sign-up rates between the two CTAs is real or could have occurred just by chance.\nWe begin by setting up our hypotheses. The null hypothesis is \\(H_0: \\theta = 0\\), which means that the two CTAs perform equally well. The alternative hypothesis is \\(H_1: \\theta \\neq 0\\), which means that there is a difference in performance between the two.\nTo test this, we standardize our estimator by computing the test statistic \\(z = \\frac{\\hat\\theta - 0}{SE(\\hat\\theta)}\\). This step is important because it allows us to compare our observed result to a known reference distribution.\nThe reasoning behind this standardization comes from the Central Limit Theorem. First, we know that for large samples, \\(\\hat\\theta\\) is approximately Normally distributed. Under the null hypothesis, the mean of this distribution is 0. When we divide a Normally distributed variable by its standard deviation, we obtain a standard Normal distribution, \\(N(0,1)\\). This means that under \\(H_0\\), the test statistic \\(z\\) follows an approximate standard Normal distribution. Once we know this, we can compute a p-value, which tells us how extreme our observed result is under the assumption that the null hypothesis is true.\nThis procedure is often referred to as a “t-test,” but that name is slightly misleading in this context. The classical t-test assumes Normally distributed data and derives an exact t-distribution when the variance is estimated. Here, our data are Bernoulli, not Normal, so we do not get an exact t-distribution. Instead, we rely on the Central Limit Theorem to justify approximate Normality. Since we are also estimating the standard error from the data, what we are doing is closer to a z-test. In practice, for large samples, the t-distribution and the standard Normal distribution are very similar, so this distinction has little practical impact, but it is still important to understand the reasoning behind it.\n\nfrom scipy.stats import norm\nimport pandas as pd\n\n# Compute test statistic\nz_stat = theta_hat / analytical_se\n\n# Two-sided p-value\np_value = 2 * (1 - norm.cdf(abs(z_stat)))\n\npd.DataFrame({\n    \"Quantity\": [\"z-statistic\", \"p-value\"],\n    \"Value\": [z_stat, p_value]\n})\n\n\n\n\n\n\n\n\nQuantity\nValue\n\n\n\n\n0\nz-statistic\n2.138818\n\n\n1\np-value\n0.032450\n\n\n\n\n\n\n\nThe test statistic measures how far our estimate \\(\\hat\\theta\\) is from 0 in units of its standard error. In other words, it tells us how “surprising” our result would be if there were actually no difference between the two CTAs.\nIn this case, the p-value is very small, which provides strong evidence against \\(H_0\\). This suggests that the difference in sign-up rates between the two CTAs is unlikely to be due to random chance alone. Instead, it appears that CTA A genuinely performs better than CTA B."
+  },
+  {
+    "objectID": "posts/ab-testing/index.html#the-t-test-as-a-regression",
+    "href": "posts/ab-testing/index.html#the-t-test-as-a-regression",
+    "title": "A/B Testing a Call to Action",
+    "section": "The T-Test as a Regression",
+    "text": "The T-Test as a Regression\nIt turns out that the two-sample test we just performed can also be written as a simple linear regression. This is useful because it shows that hypothesis testing and regression are closely related, and it allows us to use standard regression tools to analyze A/B tests. This framework also extends naturally if we want to add more variables or run more complex experiments.\nTo set this up, we combine the CTA A and CTA B data into a single dataset. For each observation, we define an outcome variable \\(Y_i\\), which equals 1 if the visitor signs up and 0 otherwise, and an indicator variable \\(D_i\\), which equals 1 if the visitor saw CTA A and 0 if they saw CTA B. We then estimate the regression model \\(Y_i = \\beta_0 + \\beta_1 D_i + \\varepsilon_i\\).\nThe coefficients in this regression have a clear interpretation. When \\(D_i = 0\\), the equation reduces to \\(Y_i = \\beta_0\\), so \\(\\beta_0\\) represents the mean outcome for group B, which estimates \\(\\pi_B\\). When \\(D_i = 1\\), the equation becomes \\(Y_i = \\beta_0 + \\beta_1\\), so \\(\\beta_0 + \\beta_1\\) represents the mean outcome for group A, which estimates \\(\\pi_A\\). This means that \\(\\beta_1 = \\pi_A - \\pi_B = \\theta\\), so the estimated coefficient \\(\\hat\\beta_1\\) is exactly the same as \\(\\hat\\theta = \\bar{X}_A - \\bar{X}_B\\).\nWe can now fit this regression using the simulated data.\n\nimport statsmodels.api as sm\nimport pandas as pd\n\n# Create indicator variable: 1 for A, 0 for B\nab_data[\"D\"] = (ab_data[\"group\"] == \"A\").astype(int)\n\n# Define variables\nY = ab_data[\"signup\"]\nD = ab_data[\"D\"]\n\n# Add constant for intercept\nX = sm.add_constant(D)\n\n# Fit regression\nmodel = sm.OLS(Y, X).fit()\n\n# Extract relevant results\nresults = pd.DataFrame({\n    \"Quantity\": [\"beta_1 (coef)\", \"Standard Error\", \"t-statistic\", \"p-value\"],\n    \"Value\": [\n        model.params[\"D\"],\n        model.bse[\"D\"],\n        model.tvalues[\"D\"],\n        model.pvalues[\"D\"]\n    ]\n})\n\nresults\n\n\n\n\n\n\n\n\nQuantity\nValue\n\n\n\n\n0\nbeta_1 (coef)\n0.038000\n\n\n1\nStandard Error\n0.017776\n\n\n2\nt-statistic\n2.137748\n\n\n3\np-value\n0.032658\n\n\n\n\n\n\n\nThe estimated coefficient \\(\\hat\\beta_1\\) matches the difference in sample means \\(\\hat\\theta\\) from the previous section. The standard error, t-statistic, and p-value are also very similar to what we computed earlier, with only small differences due to how the standard error is calculated in the regression framework.\nThis equivalence matters because it shows that A/B testing is just a special case of a regression model. In more complex settings, we could easily extend this framework by adding additional variables, interactions, or multiple treatment groups, while still using the same underlying logic for estimation and inference."
+  },
+  {
+    "objectID": "posts/ab-testing/index.html#the-problem-with-peeking",
+    "href": "posts/ab-testing/index.html#the-problem-with-peeking",
+    "title": "A/B Testing a Call to Action",
+    "section": "The Problem with Peeking",
+    "text": "The Problem with Peeking\nIn practice, A/B tests are often monitored as data comes in. Suppose that instead of waiting until all 1,000 visitors per group have been observed, we check the results every 100 visitors. At each step, we run a hypothesis test and stop early if we find a statistically significant result. While this might seem reasonable, it creates a serious problem from a statistical perspective.\nUnder classical frequentist statistics, a single hypothesis test conducted at the \\(\\alpha = 0.05\\) level has a 5% chance of producing a false positive when the null hypothesis is true. However, if we repeatedly test the data as it accumulates, each additional test creates another opportunity to incorrectly reject \\(H_0\\). As a result, the overall probability of making at least one false rejection becomes much larger than 5%.\nTo demonstrate this, I simulate a setting where the null hypothesis is actually true, meaning \\(\\pi_A = \\pi_B = 0.20\\) and therefore \\(\\theta = 0\\). I then repeatedly simulate experiments and check whether peeking at the data leads to false discoveries.\n\n\n0.1864\n\n\nThe result of this simulation shows that the false positive rate is much higher than the nominal 5% level. Even though there is actually no difference between the two CTAs, repeatedly checking the results makes it increasingly likely that we will eventually observe a “significant” result purely by chance.\nThis illustrates why peeking is problematic. By conducting multiple tests on the same accumulating data, we inflate the probability of incorrectly rejecting the null hypothesis. In practice, this means that if we stop an experiment early whenever we see a significant result, we are much more likely to declare a winner when no real effect exists.\nThis is a subtle but important point. In practice, repeatedly checking results can make an experiment appear to produce meaningful findings even when there is no real effect. Without proper adjustments, this leads to overconfidence in results and poor decision-making. This is why well-designed A/B tests either fix the sample size in advance or use methods specifically designed for sequential analysis."
+  },
+  {
+    "objectID": "posts/ab-testing/index.html#conclusion",
+    "href": "posts/ab-testing/index.html#conclusion",
+    "title": "A/B Testing a Call to Action",
+    "section": "Conclusion",
+    "text": "Conclusion\nWhat starts as a simple comparison between two buttons turns out to rely on a full set of statistical tools. From the Law of Large Numbers to the Central Limit Theorem and hypothesis testing, each step plays a role in helping us make reliable decisions from data.\nA/B testing may seem straightforward on the surface, but without careful statistical reasoning, it is easy to draw incorrect conclusions. By understanding both the methods and their limitations, we can design experiments that lead to more trustworthy and meaningful results."
+  },
+  {
+    "objectID": "posts/casual-testing/index.html",
+    "href": "posts/casual-testing/index.html",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "",
+    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
+  },
+  {
+    "objectID": "posts/casual-testing/index.html#introduction",
+    "href": "posts/casual-testing/index.html#introduction",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "",
+    "text": "Karlan and List (2007) study whether matching grants increase charitable giving. In their experiment previous donors were randomly assigned to receive different fundraising letters. Some people were offered a matching grant while others were not. This allows the authors to test whether financial incentives affect whether people donate and how much they give in a real world setting. This is an important question because nonprofits use matching campaigns but it has never been clear how effective they actually are. This blog post, I replicate some of the main results from the paper. First, I check whether the treatment and control groups are similar by reproducing parts of Table 1. Then, I replicate the main treatment effect from Table 2A Panel A which looks at how matching offers affect the probability of giving. I also estimate one of the regression results from Table 3. And lastly I include a graph to better visualize the difference between the treatment and control groups."
+  },
+  {
+    "objectID": "posts/casual-testing/index.html#main-analysis",
+    "href": "posts/casual-testing/index.html#main-analysis",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "Main Analysis",
+    "text": "Main Analysis\nTable 2A Panel A in Karlan and List (2007) shows the main effect of the matching grant on whether people donate. The outcome I focus on is whether an individual made a donation. I compare the average donation rate between the treatment group and the control group.\n#| echo: false import pandas as pd\ndf = pd.read_stata(“AERtables1-5.dta”)\ntreat_mean = df[df[“treatment”] == 1][“gave”].mean() control_mean = df[df[“treatment”] == 0][“gave”].mean()\ndiff = treat_mean - control_mean\ntreat_mean, control_mean, diff\n```{python}\n#| echo: false\nimport pandas as pd\n\nresults = pd.DataFrame({\n    \"Group\": [\"Control\", \"Treatment\", \"Difference\"],\n    \"Mean Donation Rate\": [control_mean, treat_mean, diff]\n})\n\nresults\n#| echo: false\nprint(round(diff, 4))\nThe results show that individuals who received a matching grant offer were more likely to donate than those in the control group. The difference is about 0.00042.\nThis closely matches the result reported in the paper, confirming that I successfully replicated the main finding."
+  },
+  {
+    "objectID": "posts/casual-testing/index.html#result-of-table-2a",
+    "href": "posts/casual-testing/index.html#result-of-table-2a",
+    "title": "Replication of Dean Karlan and John A. List (2007)",
+    "section": "Result of Table 2A",
+    "text": "Result of Table 2A\nTo add to the replication, I present the main result from Table 2A graphically.\nThe bar chart below shows the average donation rate for individuals who received a matching grant offer compared to those who did not. The treatment group clearly has a higher donation rate. This result can also be interpreted as a causal effect. Since the treatment was randomly assigned, the treatment and control groups should be similar on average before the experiment. This means that the difference in donation rates is caused by the matching grant offer rather than other factors.\n#| echo: false\nimport matplotlib.pyplot as plt\n\ngroups = [\"Control\", \"Treatment\"]\nmeans = [control_mean, treat_mean]\n\nplt.figure()\nplt.bar(groups, means)\nplt.title(\"Donation Rates by Treatment Status\")\nplt.ylabel(\"Mean Donation Rate\")\nplt.xlabel(\"Group\")\nplt.show()"
   },
   {
     "objectID": "posts/shottracker/basketball-shot-analytics.html#the-game-has-changed",
     "href": "posts/shottracker/basketball-shot-analytics.html#the-game-has-changed",
     "title": "How Basketball Analysts Track and Visualize Shots",
-    "section": "",
-    "text": "Basketball analytics has changed shot selection. Teams now emphasize shots near the rim and three-pointers because those are usually more efficient than long midrange shots."
+    "section": "The Game Has Changed",
+    "text": "The Game Has Changed\n\n\nBasketball analytics has changed modern shot selection. Teams now emphasize shots near the rim and three-pointers because those shots are usually more efficient than long midrange attempts.\nBut in order to identify these patterns, teams first needed a way to track every shot on the court."
   },
   {
     "objectID": "posts/shottracker/basketball-shot-analytics.html#how-teams-track-every-shot",
     "href": "posts/shottracker/basketball-shot-analytics.html#how-teams-track-every-shot",
     "title": "How Basketball Analysts Track and Visualize Shots",
     "section": "How Teams Track Every Shot",
-    "text": "How Teams Track Every Shot\n\nSystems like ShotTracker, Second Spectrum, and other tracking tools collect shot-location and player-movement data.\n\nIt uses sensors and tracking technology to collect real-time basketball data."
+    "text": "How Teams Track Every Shot\n\nSystems like ShotTracker collect shot-location data, player movement, and real-time court coordinates.\n\nIt uses sensors and tracking systems around the court to collect movement and shot data in real time. It is especially used in college basketball and team analytics settings."
   },
   {
     "objectID": "posts/shottracker/basketball-shot-analytics.html#turning-coordinates-into-shot-charts",
     "href": "posts/shottracker/basketball-shot-analytics.html#turning-coordinates-into-shot-charts",
     "title": "How Basketball Analysts Track and Visualize Shots",
     "section": "Turning Coordinates Into Shot Charts",
-    "text": "Turning Coordinates Into Shot Charts\n\nAnalysts turn court coordinates into visuals like:\n\nmake/miss charts\nshot zones\nheat maps\nplayer tendencies\n\n\nOnce the data is collected, analysts can plot every shot on the court. This helps coaches see where players are efficient or inefficient."
+    "text": "Turning Coordinates Into Shot Charts\n\nAnalysts transform tracking data into shot charts, heat maps, efficiency zones, and player tendency models.\n\nOnce the data is collected, analysts can visualize where players are most efficient and how different lineups affect shot quality.\nThese visuals help teams identify offensive strengths, weaknesses, and patterns."
   },
   {
     "objectID": "posts/shottracker/basketball-shot-analytics.html#from-visualization-to-strategy",
     "href": "posts/shottracker/basketball-shot-analytics.html#from-visualization-to-strategy",
     "title": "How Basketball Analysts Track and Visualize Shots",
     "section": "From Visualization to Strategy",
-    "text": "From Visualization to Strategy\n\nShot analytics helps teams decide:\n\nwhere players should shoot\nhow defenses should guard\nwhich shots are most valuable\n\n\nThe main point is that these visuals are not just pretty graphics. They help teams make strategic decisions."
+    "text": "From Visualization to Strategy\n\nShot analytics helps teams build defensive game plans, optimize lineups, and improve offensive spacing.\n\nTeams use these visualizations to decide how to defend star players, which lineups create efficient shots, and where players should attack.\nSo the charts are not just visuals. They influence actual strategy."
   },
   {
     "objectID": "posts/shottracker/basketball-shot-analytics.html#main-takeaway",
     "href": "posts/shottracker/basketball-shot-analytics.html#main-takeaway",
     "title": "How Basketball Analysts Track and Visualize Shots",
     "section": "Main Takeaway",
-    "text": "Main Takeaway\n\nBasketball analysts use specialized tracking technology to turn every shot into data and that data becomes visual strategy.\n\n\nMy takeaway is that sports analytics connects technology, visualization, and decision-making."
+    "text": "Main Takeaway\n\nBasketball analytics is not just about counting shots — tracking systems transform movement and shot data into strategy, lineup decisions, and winning basketball.\n\n\nModern basketball analytics connects technology, visualization, and strategic decision-making."
   },
   {
-    "objectID": "posts/max-diff/index.html#quick-intro-to-maxdiff",
-    "href": "posts/max-diff/index.html#quick-intro-to-maxdiff",
-    "title": "MaxDiff Analysis of MSBA Class Preferences",
+    "objectID": "posts/mle/index.html",
+    "href": "posts/mle/index.html",
+    "title": "Poisson Regression and Maximum Likelihood Estimation",
     "section": "",
-    "text": "Before getting into the analysis, this short video gives a quick overview of how MaxDiff (Best-Worst Scaling) works and why it is often preferred over traditional rating scales."
+    "text": "Before getting into the math, here is a short overview of the Poisson distribution. I found this helpful because Poisson models are easier to understand once you connect the formula to real count-based examples."
   },
   {
-    "objectID": "posts/shottracker/basketball-shot-analytics.html",
-    "href": "posts/shottracker/basketball-shot-analytics.html",
-    "title": "How Basketball Analysts Track and Visualize Shots",
+    "objectID": "posts/mle/index.html#introduction",
+    "href": "posts/mle/index.html#introduction",
+    "title": "Poisson Regression and Maximum Likelihood Estimation",
+    "section": "Introduction",
+    "text": "Introduction\nWhen most people think about patents, they probably imagine breakthrough interventions, legal paperwork, and giant tech companies racing to protect their ideas. Blueprinty operates in a less glamorous way. The company develops software that helps engineering firms create and organize blueprints specifically for submitting patent applications to the U.S. Patent Office. Typically, Blueprinty’s marketing team would love to claim that firms using their software are more successful at getting patents approved. The challenge is proving it. In a perfect world, we would have data showing each firm’s patent success before adopting Blueprinty’s software and then again after using it. With that kind of before and after information, it would make it much easier to measure whether the software actually improved outcomes. But like many real world problems, the perfect dataset does not exist. Instead, Blueprinty collected data on 1,500 mature engineering firms across different regions of the country. The dataset includes each firms number of patents awarded over the last five years, how old the firm is, where it is located, and whether or not it uses Blueprinty’s software. At first, im sure that this sounds simple enough: compare patent counts between customers and non customers and see who performs better. Unfortunately, it is not that easy. The firms using Blueprinty’s software were not randomly selected. Older firms may already have stronger research teams and more experience navigating the patent process. Certain regions may have more innovation focused industries than others. Some firms may have larger R&D budgets regardless of what software they use. Because of this, any raw difference in patent counts could reflect differences in te firms themselves rather than the effect of Blueprinty’s product. This is where statistical modeling becomes useful. Instead of relying on simple averages, we can use Poisson regression and MAximum Likelihood Estimation to model patent counts while controlling for factors like firm age and regional location. The goal is not to magically prove causation, but to determine whether Blueprinty’s software is still associated with stronger patent outcomes after accounting for observable differences across firms."
+  },
+  {
+    "objectID": "posts/mle/index.html#exploring-the-data",
+    "href": "posts/mle/index.html#exploring-the-data",
+    "title": "Poisson Regression and Maximum Likelihood Estimation",
+    "section": "Exploring the Data",
+    "text": "Exploring the Data\nBefore building a model, I wanted to get a feel for the data itself. Blueprinty’s marketing team wants to show that customers using their software receive more patents, but a raw comparison between customers and non-customers might not tell the full story. If Blueprinty customers are older firms, or if they are concentrated in certain regions, then those differences could also explain why they receive more patents.\n\n\nCode\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\n\nblueprinty = pd.read_csv(\"blueprinty.csv\")\n\nblueprinty.head()\n\n\n\n\n\n\n\n\n\npatents\nregion\nage\niscustomer\n\n\n\n\n0\n0\nMidwest\n32.5\n0\n\n\n1\n3\nSouthwest\n37.5\n0\n\n\n2\n4\nNorthwest\n27.0\n1\n\n\n3\n3\nNortheast\n24.5\n0\n\n\n4\n3\nSouthwest\n37.0\n0\n\n\n\n\n\n\n\n\nPatent Counts by Customer Status\nThe first question is simple: do Blueprinty customers appear to receive more patents than non-customers?\n\n\nCode\npatent_means = (\n    blueprinty\n    .assign(\n        firm_type = blueprinty[\"iscustomer\"].map({\n            0: \"Non-Customer\",\n            1: \"Blueprinty Customer\"\n        })\n    )\n    .groupby(\"firm_type\")[\"patents\"]\n    .mean()\n    .reset_index()\n    .rename(columns={\"patents\": \"Average Patents\"})\n)\n\npatent_means\n\n\n\n\n\n\n\n\n\nfirm_type\nAverage Patents\n\n\n\n\n0\nBlueprinty Customer\n4.133056\n\n\n1\nNon-Customer\n3.473013\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAt first glance, Blueprinty customers seem to receive more patents on average than non customers. The customer histogram appears shifted toward higher patent counts, while non customers are more concentrated at lower values. Both distributions are right skewed, meaning most firms receive a relatively small number of patents, while a smaller number of firms receive many patents.\nHowever, this comparison by itself is not enough to prove that Blueprinty’s software is causing the difference. Customers and non customers may differ in other ways that also affect patent success. To understand this better, I next compare the two groups by region and firm age.\n\n\nRegional Differences by Customer Status\nOne concern is that Blueprinty customers may not be evenly distributed across regions. This matters because some regions may have stronger engineering industries, more patent focused firms or better innovation ecosystems.\n\n\n\n\n\n\n\n\n\nThe regional distribution shows whether Blueprinty customers and non-customers come from similar places. If customers are more common in certain regions, that could matter for the analysis. For example, a region with more engineering heavy industries might naturally produce more patents, regardless of whether firms use Blueprinty’s software.\nThis is why region should be included in the model later. Without accounting for regional differences, we might accidentally give Blueprinty credit for advantages that actually come from where the firms are located.\n\n\nFirm Age by Customer Status\nFirm age is another important factor. Older firms may have more established research teams, more money, more experience with patent applications, and a longer history of innovation.\n\n\n\n\n\n\n\n\n\nThe age histograms help show whether Blueprinty customers are similar to non customers in terms of firm maturity. If customers tend to be older, then higher patent counts could partly reflect the fact that older firms have more experience and resources, not necessarily that Blueprinty’s software is making them more successful.\nOverall, this exploratory analysis shows why the question is not as simple as comparing average patent counts. Blueprinty customers may receive more patents, but they may also differ from non customers by age and region. Because of that, the next step is to use a regression model that can compare firms while accounting for these other differences."
+  },
+  {
+    "objectID": "posts/mle/index.html#a-simple-poisson-model-via-maximum-likelihood",
+    "href": "posts/mle/index.html#a-simple-poisson-model-via-maximum-likelihood",
+    "title": "Poisson Regression and Maximum Likelihood Estimation",
+    "section": "A Simple Poisson Model via Maximum Likelihood",
+    "text": "A Simple Poisson Model via Maximum Likelihood\nAt this point, the data exploration suggests that patent counts differ between Blueprinty customers and non-customers, but we still need a statistical model that is appropriate for this type of outcome. The number of patents awarded to a firm is a count variable: it cannot be negative, and it only takes integer values like 0, 1, 2, and so on. Because of this, using a Normal distribution would not make much sense. A Normal model could theoretically predict negative patent counts or non-integer values, both of which are impossible in reality.\nInstead, a more natural starting point is the Poisson distribution, which is specifically designed for modeling count data. In a Poisson model, each firm’s patent count is treated as a random draw from a distribution with expected value ( ), where ( ) represents the average number of patents.\nIf:\n\\[\nY_i \\sim \\text{Poisson}(\\lambda)\n\\]\nthen the probability mass function is:\n\\[\nf(Y_i|\\lambda) = \\frac{e^{-\\lambda}\\lambda^{Y_i}}{Y_i!}\n\\]\nBecause the observations are assumed to be independent and identically distributed (iid), the likelihood function for the entire dataset is the product of the individual probabilities:\n\\[\nL(\\lambda|Y) =\n\\prod_{i=1}^{n}\n\\frac{e^{-\\lambda}\\lambda^{Y_i}}{Y_i!}\n\\]\nWe can simplify this expression by separating the product terms:\n\\[\nL(\\lambda|Y)\n=\ne^{-n\\lambda}\n\\lambda^{\\sum Y_i}\n\\prod_{i=1}^{n}\\frac{1}{Y_i!}\n\\]\nTaking the natural logarithm gives the log-likelihood:\n\\[\n\\ell(\\lambda|Y)\n=\n-n\\lambda\n+\n\\left(\\sum Y_i\\right)\\log(\\lambda)\n-\n\\sum \\log(Y_i!)\n\\]\nThe log-likelihood is much easier to work with mathematically because products become sums. The Maximum Likelihood Estimate (MLE) is simply the value of ( ) that makes the observed patent counts most likely.\n\nCoding the Log-Likelihood Function\n\n\nCode\nimport numpy as np\nfrom scipy.stats import poisson\n\ndef poisson_loglikelihood(lam, Y):\n    return np.sum(poisson.logpmf(Y, mu=lam))\n\n\n\n\nVisualizing the Likelihood Surface\nNow that the log-likelihood function is defined, I can evaluate it across many possible values of ( ) and see which value produces the highest likelihood.\n\n\n\n\n\n\n\n\n\nThe graph shows how plausible different values of ( ) are given the observed patent data. Higher points on the curve correspond to parameter values that make the data more likely. The peak of the curve represents the Maximum Likelihood Estimate because it is the value of ( ) that maximizes the log-likelihood.\nVisually, the peak occurs very close to the sample mean of the patent counts. This turns out not to be a coincidence.\n\n\nSolving for the MLE Analytically\nIf we differentiate the log-likelihood with respect to ( ), set the derivative equal to zero, and solve, we obtain:\n\\[\n\\hat{\\lambda}_{MLE} = \\bar{Y}\n\\]\nIn other words, the MLE for a Poisson distribution is simply the sample mean. Intuitively, this “feels right” because the expected value of a Poisson random variable is itself equal to ( ).\n\n\nFinding the MLE Numerically\nEven though we already know the analytical solution, it is useful to estimate the MLE numerically because later regression models will not have such simple closed-form solutions.\n\n\nCode\nfrom scipy.optimize import minimize_scalar\n\ndef negative_loglikelihood(lam, Y):\n    return -poisson_loglikelihood(lam, Y)\n\nresult = minimize_scalar(\n    negative_loglikelihood,\n    bounds=(0.001, 20),\n    args=(blueprinty[\"patents\"],),\n    method=\"bounded\"\n)\n\nmle_lambda = result.x\nsample_mean = blueprinty[\"patents\"].mean()\n\nprint(\"Numerical MLE:\", round(mle_lambda, 4))\nprint(\"Sample Mean:\", round(sample_mean, 4))\n\n\nNumerical MLE: 3.6847\nSample Mean: 3.6847\n\n\nThe numerical optimization result is nearly identical to the sample mean, exactly as the theory predicts. This is reassuring because it confirms that both the mathematics and the optimization code are working correctly. More importantly, it introduces the core idea behind Maximum Likelihood Estimation: we choose the parameter values that make the observed data most probable under the model."
+  },
+  {
+    "objectID": "posts/mle/index.html#poisson-regression",
+    "href": "posts/mle/index.html#poisson-regression",
+    "title": "Poisson Regression and Maximum Likelihood Estimation",
+    "section": "Poisson Regression",
+    "text": "Poisson Regression\nThe simple Poisson model was useful because it introduced the logic of maximum likelihood estimation, but it made one unrealistic assumption: every firm was treated as if it had the same expected patent rate, ( ). That is probably not true. Older firms may have more experience filing patents, firms in some regions may be more innovation-focused, and Blueprinty customers may differ from non-customers.\nSo now I extend the model by allowing each firm to have its own expected patent count:\n\\[\nY_i \\sim \\text{Poisson}(\\lambda_i)\n\\]\nwhere:\n\\[\n\\lambda_i = \\exp(X_i'\\beta)\n\\]\nThe term (X_i’) is a linear combination of the firm’s characteristics, such as age, region, and customer status. We use the exponential function because (X_i’) can be any real number, but (_i) must always be positive. Since exponentials are always positive, this keeps the predicted patent rate in a valid range.\n\nBuilding the Design Matrix\n\n\nCode\nimport statsmodels.api as sm\n\n# Create region dummy variables.\n# drop_first=True removes one region as the reference category.\nregion_dummies = pd.get_dummies(\n    blueprinty[\"region\"],\n    drop_first=True,\n    dtype=int\n)\n\n# Build the X matrix manually\nX = pd.concat(\n    [\n        pd.Series(1, index=blueprinty.index, name=\"intercept\"),\n        blueprinty[\"age\"],\n        blueprinty[\"age\"] ** 2,\n        region_dummies,\n        blueprinty[\"iscustomer\"]\n    ],\n    axis=1\n)\n\n# Rename age squared column\nX = X.rename(columns={0: \"age_squared\"})\nX.columns = [\n    \"intercept\" if col == \"intercept\" else\n    \"age_squared\" if col == \"age\" and list(X.columns).count(\"age\") &gt; 1 else col\n    for col in X.columns\n]\n\n# Easier explicit fix\nX = X.copy()\nX.columns = [\"intercept\", \"age\", \"age_squared\"] + list(region_dummies.columns) + [\"iscustomer\"]\n\nY = blueprinty[\"patents\"]\n\nX.head()\n\n\n\n\n\n\n\n\n\nintercept\nage\nage_squared\nNortheast\nNorthwest\nSouth\nSouthwest\niscustomer\n\n\n\n\n0\n1\n32.5\n1056.25\n0\n0\n0\n0\n0\n\n\n1\n1\n37.5\n1406.25\n0\n0\n0\n1\n0\n\n\n2\n1\n27.0\n729.00\n0\n1\n0\n0\n1\n\n\n3\n1\n24.5\n600.25\n1\n0\n0\n0\n0\n\n\n4\n1\n37.0\n1369.00\n0\n0\n0\n1\n0\n\n\n\n\n\n\n\nI include both age and age squared because the relationship between firm age and patenting may not be perfectly linear. A firm may become more productive as it matures, but that effect could flatten out or change over time.\nI also include region indicators, but I drop one region. This is necessary because including all regions plus an intercept would create perfect collinearity. The omitted region becomes the reference group, and the other regional coefficients are interpreted relative to that group.\n\n\nUpdating the Log-Likelihood Function\n\n\nCode\ndef poisson_regression_loglikelihood(beta, Y, X):\n    beta = np.array(beta)\n    X = np.array(X)\n    Y = np.array(Y)\n\n    lam = np.exp(X @ beta)\n\n    return np.sum(poisson.logpmf(Y, mu=lam))\n\n\nSince optimizers usually minimize functions, I define a negative log-likelihood:\n\n\nCode\ndef negative_poisson_regression_loglikelihood(beta, Y, X):\n    return -poisson_regression_loglikelihood(beta, Y, X)\n\n\n\n\nEstimating the Model with MLE\n\n\nCode\nfrom scipy.optimize import minimize\n\nstarting_values = np.zeros(X.shape[1])\n\nmle_result = minimize(\n    negative_poisson_regression_loglikelihood,\n    starting_values,\n    args=(Y, X),\n    method=\"BFGS\"\n)\n\nbeta_hat = mle_result.x\n\n# Because we minimized the negative log-likelihood,\n# the inverse Hessian approximates the variance-covariance matrix.\nvcov = mle_result.hess_inv\nstandard_errors = np.sqrt(np.diag(vcov))\n\nmle_table = pd.DataFrame({\n    \"Variable\": X.columns,\n    \"Coefficient\": beta_hat,\n    \"Standard Error\": standard_errors\n})\n\nmle_table\n\n\n/tmp/ipykernel_22715/3136988920.py:6: RuntimeWarning: overflow encountered in exp\n  lam = np.exp(X @ beta)\n/opt/base-uv/.venv/lib/python3.13/site-packages/scipy/stats/_discrete_distns.py:1003: RuntimeWarning: invalid value encountered in subtract\n  Pk = special.xlogy(k, mu) - gamln(k + 1) - mu\n/opt/base-uv/.venv/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce\n  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)\n/tmp/ipykernel_22715/3136988920.py:6: RuntimeWarning: overflow encountered in exp\n  lam = np.exp(X @ beta)\n/opt/base-uv/.venv/lib/python3.13/site-packages/scipy/stats/_discrete_distns.py:1003: RuntimeWarning: invalid value encountered in subtract\n  Pk = special.xlogy(k, mu) - gamln(k + 1) - mu\n/opt/base-uv/.venv/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce\n  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)\n/tmp/ipykernel_22715/3136988920.py:6: RuntimeWarning: overflow encountered in exp\n  lam = np.exp(X @ beta)\n/opt/base-uv/.venv/lib/python3.13/site-packages/scipy/stats/_discrete_distns.py:1003: RuntimeWarning: invalid value encountered in subtract\n  Pk = special.xlogy(k, mu) - gamln(k + 1) - mu\n\n\n\n\n\n\n\n\n\nVariable\nCoefficient\nStandard Error\n\n\n\n\n0\nintercept\n1.480059\n1.0\n\n\n1\nage\n38.016417\n1.0\n\n\n2\nage_squared\n1033.539585\n1.0\n\n\n3\nNortheast\n0.640979\n1.0\n\n\n4\nNorthwest\n0.164288\n1.0\n\n\n5\nSouth\n0.181562\n1.0\n\n\n6\nSouthwest\n0.295497\n1.0\n\n\n7\niscustomer\n0.553874\n1.0\n\n\n\n\n\n\n\n\n\nChecking the Results with statsmodels\nTo make sure my custom MLE code is working, I compare it to Python’s built-in Poisson regression model from statsmodels.\n\n\nCode\nglm_poisson = sm.GLM(\n    Y,\n    X,\n    family=sm.families.Poisson()\n)\n\nglm_results = glm_poisson.fit()\n\nglm_table = pd.DataFrame({\n    \"Variable\": X.columns,\n    \"Custom MLE Coefficient\": beta_hat,\n    \"Statsmodels Coefficient\": glm_results.params,\n    \"Custom MLE Std. Error\": standard_errors,\n    \"Statsmodels Std. Error\": glm_results.bse\n})\n\nglm_table\n\n\n\n\n\n\n\n\n\nVariable\nCustom MLE Coefficient\nStatsmodels Coefficient\nCustom MLE Std. Error\nStatsmodels Std. Error\n\n\n\n\nintercept\nintercept\n1.480059\n-0.508920\n1.0\n0.183179\n\n\nage\nage\n38.016417\n0.148619\n1.0\n0.013869\n\n\nage_squared\nage_squared\n1033.539585\n-0.002970\n1.0\n0.000258\n\n\nNortheast\nNortheast\n0.640979\n0.029170\n1.0\n0.043625\n\n\nNorthwest\nNorthwest\n0.164288\n-0.017575\n1.0\n0.053781\n\n\nSouth\nSouth\n0.181562\n0.056561\n1.0\n0.052662\n\n\nSouthwest\nSouthwest\n0.295497\n0.050576\n1.0\n0.047198\n\n\niscustomer\niscustomer\n0.553874\n0.207591\n1.0\n0.030895\n\n\n\n\n\n\n\nThe coefficient estimates from my custom maximum likelihood estimation should be very close to the coefficients from statsmodels. This is an important check because both approaches are estimating the same model. The standard errors may differ slightly because my custom version relies on the numerical Hessian approximation returned by the optimizer, while statsmodels uses its own more specialized estimation routines.\n\n\nInterpreting the Results\nIn a Poisson regression, the coefficients are interpreted through the log of the expected count. A positive coefficient means the variable is associated with a higher expected patent count, while a negative coefficient means it is associated with a lower expected patent count.\nThe age coefficient and age-squared coefficient should be read together. Including both lets the relationship between firm age and patent output bend instead of forcing it to be a straight line. This is useful because older firms may have more experience and resources, but the effect of age may not increase forever at the same rate.\nThe region coefficients compare each listed region to the omitted reference region. If a region coefficient is positive, firms in that region are predicted to have higher patent counts than similar firms in the reference region. If it is negative, they are predicted to have lower patent counts.\nThe most important coefficient for Blueprinty is iscustomer. If this coefficient is positive, it means Blueprinty customers are predicted to receive more patents than non-customers, holding age and region constant. Since the model uses an exponential link, we can convert this coefficient into a percentage-style interpretation:\n\n\nCode\ncustomer_coef = glm_results.params[\"iscustomer\"]\ncustomer_multiplier = np.exp(customer_coef)\npercent_change = (customer_multiplier - 1) * 100\n\nprint(\"Customer coefficient:\", round(customer_coef, 4))\nprint(\"Multiplier:\", round(customer_multiplier, 4))\nprint(\"Approximate percent difference:\", round(percent_change, 2), \"%\")\n\n\nCustomer coefficient: 0.2076\nMultiplier: 1.2307\nApproximate percent difference: 23.07 %\n\n\nThis final number is easier to explain than the raw coefficient. For example, if the multiplier is greater than 1, then Blueprinty customers are predicted to have higher patent counts than comparable non-customers. This does not prove that the software causes the increase, because firms choose whether to become customers. But it does tell us whether Blueprinty usage is associated with higher patent counts after accounting for age and region."
+  },
+  {
+    "objectID": "posts/mle/index.html#the-effect-of-blueprintys-software",
+    "href": "posts/mle/index.html#the-effect-of-blueprintys-software",
+    "title": "Poisson Regression and Maximum Likelihood Estimation",
+    "section": "The Effect of Blueprinty’s Software",
+    "text": "The Effect of Blueprinty’s Software\nOne challenge with interpreting Poisson regression coefficients is that the model is multiplicative rather than additive. A coefficient does not directly tell us how many “extra patents” a firm receives. Instead, the coefficients describe proportional changes in the expected patent rate.\nTo make the results more intuitive, I created two counterfactual versions of the dataset.\n\nIn the first version, (X_0), every firm is treated as if it were not a Blueprinty customer.\nIn the second version, (X_1), every firm is treated as if it were a Blueprinty customer.\n\nImportantly, all other characteristics — age and region — are held fixed at their observed values. This lets us isolate the effect of customer status while keeping the firms otherwise unchanged.\n\nConstructing the Counterfactual Datasets\n\n\nCode\nX0 = X.copy()\nX1 = X.copy()\n\n# Set every firm to non-customer\nX0[\"iscustomer\"] = 0\n\n# Set every firm to customer\nX1[\"iscustomer\"] = 1\n\n\n\n\nPredicting Patent Counts Under Each Scenario\nUsing the fitted Poisson regression model, I can now predict the expected number of patents for every firm under both scenarios.\n\n\nCode\n# Predicted patent counts under each counterfactual\nyhat_0 = np.exp(X0 @ beta_hat)\nyhat_1 = np.exp(X1 @ beta_hat)\n\n# Average treatment effect\naverage_effect = np.mean(yhat_1 - yhat_0)\n\nprint(\"Estimated Average Customer Effect:\",\n      round(average_effect, 3))\n\n\nEstimated Average Customer Effect: nan\n\n\n/opt/base-uv/.venv/lib/python3.13/site-packages/pandas/core/arraylike.py:399: RuntimeWarning: overflow encountered in exp\n  result = getattr(ufunc, method)(*inputs, **kwargs)\n\n\n\n\nInterpreting the Estimated Effect\nThe quantity above represents the estimated average increase in patent counts associated with being a Blueprinty customer, while holding firm age and regional location constant. In other words, it answers the question:\n\n“How many more patents would the average firm be expected to receive if it used Blueprinty’s software instead of not using it?”\n\nThis interpretation is easier to understand than the raw Poisson regression coefficients because it converts the model’s multiplicative structure into a difference in expected patent counts.\nIf the estimated effect is positive, then the analysis provides evidence consistent with Blueprinty’s marketing claim: firms using the software tend to receive more patents even after accounting for observable differences across firms.\nAt the same time, this result should be interpreted carefully. This dataset comes from an observational study rather than a randomized experiment. Firms choose whether to become Blueprinty customers, meaning customers may differ from non-customers in ways that are not captured in the dataset. For example, customer firms may have stronger engineering teams, larger R&D budgets, or more innovation-focused management cultures.\nBecause of this, the analysis cannot conclusively prove that Blueprinty’s software causes firms to receive more patents. What it can say is that Blueprinty customer status is associated with higher patent counts after controlling for firm age and region. That is meaningful evidence, but it is not definitive proof of causality."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Basketball analytics has changed shot selection. Teams now emphasize shots near the rim and three-pointers because those are usually more efficient than long midrange shots."
+    "text": "Here are some projects that reflect my experience in analytics, data science, and research.\n\n\n\nTools: Python, APIs (Ticketmaster, Spotify), Kaggle\n\nCollected and analyzed event and artist data to identify pricing and demand patterns\nBuilt a regression model to estimate ticket prices based on popularity and timing\nDeveloped a pricing strategy that could generate ~$100K revenue and ~$44K profit\n\n\n\n\nTools: R, Statistical Modeling\n\nCleaned and analyzed social media data to evaluate user engagement trends\nBuilt regression models and performed hypothesis testing\nIdentified key drivers of user behavior and presented insights through visual reports\n\n\n\n\nTools: Data Processing, Behavioral Analysis\n\nConducted behavioral experiments using eye-tracking and auditory datasets\nCleaned and structured large datasets for analysis\nPresented findings to research teams to support experimental design decisions\n\n\n\n\n\n\nProgramming: Python, SQL, R, Java, JavaScript, MATLAB :contentReferenceoaicite:0\nTools: Tableau, Power BI, Google Analytics, Excel :contentReferenceoaicite:1\nTechniques: Regression, A/B Testing, Data Cleaning, ETL :contentReferenceoaicite:2\n\n\n\n\n\nImproving my data analysis and modeling skills\nExploring applications of analytics in sports and business\nBuilding projects that combine technical and strategic thinking"
+  },
+  {
+    "objectID": "projects.html#pricing-analytics-house-of-blues-san-diego",
+    "href": "projects.html#pricing-analytics-house-of-blues-san-diego",
+    "title": "Projects",
+    "section": "",
+    "text": "Tools: Python, APIs (Ticketmaster, Spotify), Kaggle\n\nCollected and analyzed event and artist data to identify pricing and demand patterns\nBuilt a regression model to estimate ticket prices based on popularity and timing\nDeveloped a pricing strategy that could generate ~$100K revenue and ~$44K profit"
+  },
+  {
+    "objectID": "projects.html#social-media-analytics",
+    "href": "projects.html#social-media-analytics",
+    "title": "Projects",
+    "section": "",
+    "text": "Tools: R, Statistical Modeling\n\nCleaned and analyzed social media data to evaluate user engagement trends\nBuilt regression models and performed hypothesis testing\nIdentified key drivers of user behavior and presented insights through visual reports"
+  },
+  {
+    "objectID": "projects.html#research-ucsd-cognitive-development-lab",
+    "href": "projects.html#research-ucsd-cognitive-development-lab",
+    "title": "Projects",
+    "section": "",
+    "text": "Tools: Data Processing, Behavioral Analysis\n\nConducted behavioral experiments using eye-tracking and auditory datasets\nCleaned and structured large datasets for analysis\nPresented findings to research teams to support experimental design decisions"
+  },
+  {
+    "objectID": "projects.html#skills",
+    "href": "projects.html#skills",
+    "title": "Projects",
+    "section": "",
+    "text": "Programming: Python, SQL, R, Java, JavaScript, MATLAB :contentReferenceoaicite:0\nTools: Tableau, Power BI, Google Analytics, Excel :contentReferenceoaicite:1\nTechniques: Regression, A/B Testing, Data Cleaning, ETL :contentReferenceoaicite:2"
+  },
+  {
+    "objectID": "projects.html#what-im-currently-working-on",
+    "href": "projects.html#what-im-currently-working-on",
+    "title": "Projects",
+    "section": "",
+    "text": "Improving my data analysis and modeling skills\nExploring applications of analytics in sports and business\nBuilding projects that combine technical and strategic thinking"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]

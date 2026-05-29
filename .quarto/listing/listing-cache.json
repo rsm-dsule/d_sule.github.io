@@ -2,9 +2,6 @@
   "listingMap": {
     "blog.qmd": [
       "posts"
-    ],
-    "mgta495-quarto-website/projects.qmd": [
-      "projects"
     ]
   }
 }

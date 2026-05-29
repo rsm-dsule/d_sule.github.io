@@ -12,63 +12,60 @@ format:
 
 ## The Game Has Changed
 
-![](images/game-changed.png){width=85%}
+![](images/game-changed.png){width=100%}
 
 ::: notes
-Basketball analytics has changed shot selection. Teams now emphasize shots near the rim and three-pointers because those are usually more efficient than long midrange shots.
+Basketball analytics has changed modern shot selection. Teams now emphasize shots near the rim and three-pointers because those shots are usually more efficient than long midrange attempts.
+
+But in order to identify these patterns, teams first needed a way to track every shot on the court.
 :::
 
 ---
 
 ## How Teams Track Every Shot
 
-![](images/shottracker-balls.png){width=80%}
+![](images/shottracker-balls.png){width=70%}
 
-Systems like **ShotTracker**, **Second Spectrum**, and other tracking tools collect shot-location and player-movement data.
+Systems like **ShotTracker** collect shot-location data, player movement, and real-time court coordinates.
 
 ::: notes
- It uses sensors and tracking technology to collect real-time basketball data.
+ It uses sensors and tracking systems around the court to collect movement and shot data in real time. It is especially used in college basketball and team analytics settings.
 :::
 
 ---
 
 ## Turning Coordinates Into Shot Charts
 
-![](images/maxey-shot-chart.png){width=90%}
+![](images/maxey-shot-chart.png){width=100%}
 
-Analysts turn court coordinates into visuals like:
-
-- make/miss charts
-- shot zones
-- heat maps
-- player tendencies
+Analysts transform tracking data into shot charts, heat maps, efficiency zones, and player tendency models.
 
 ::: notes
-Once the data is collected, analysts can plot every shot on the court. This helps coaches see where players are efficient or inefficient.
+Once the data is collected, analysts can visualize where players are most efficient and how different lineups affect shot quality.
+
+These visuals help teams identify offensive strengths, weaknesses, and patterns.
 :::
 
 ---
 
 ## From Visualization to Strategy
 
-![](images/sga-shot-chart.png){width=80%}
+![](images/sga-shot-chart.png){width=100%}
 
-Shot analytics helps teams decide:
-
-- where players should shoot
-- how defenses should guard
-- which shots are most valuable
+Shot analytics helps teams build defensive game plans, optimize lineups, and improve offensive spacing.
 
 ::: notes
-The main point is that these visuals are not just pretty graphics. They help teams make strategic decisions.
+Teams use these visualizations to decide how to defend star players, which lineups create efficient shots, and where players should attack.
+
+So the charts are not just visuals. They influence actual strategy.
 :::
 
 ---
 
 ## Main Takeaway
 
-> Basketball analysts use specialized tracking technology to turn every shot into data and that data becomes visual strategy.
+> Basketball analytics is not just about counting shots — tracking systems transform movement and shot data into strategy, lineup decisions, and winning basketball.
 
 ::: notes
-My takeaway is that sports analytics connects technology, visualization, and decision-making.
+Modern basketball analytics connects technology, visualization, and strategic decision-making.
 :::
