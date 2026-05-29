@@ -1,0 +1,12 @@
+{
+  "listing": "/blog.html",
+  "items": [
+    "/posts/ab-testing/index.html",
+    "/posts/shottracker/basketball-shot-analytics.html",
+    "/posts/shottracker/index.html",
+    "/posts/max-diff/index.html",
+    "/posts/my-first-post/index.html",
+    "/posts/mle/index.html",
+    "/posts/casual-testing/index.html"
+  ]
+}
